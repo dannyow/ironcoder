@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleEventCode</key>
+	<string>Usge</string>
+	<key>Classes</key>
+	<dict>
+		<key>NSApplication</key>
+		<dict>
+			<key>AppleEventCode</key>
+			<string>capp</string>
+			<key>Attributes</key>
+			<dict>
+				<key>processes</key>
+				<dict>
+					<key>AppleEventCode</key>
+					<string>pRcs</string>
+					<key>Type</key>
+					<string>NSArray</string>
+				</dict>
+			</dict>
+			<key>Superclass</key>
+			<string>NSCoreSuite.AbstractObject</string>
+		</dict>
+	</dict>
+	<key>Name</key>
+	<string>Usage</string>
+</dict>
+</plist>

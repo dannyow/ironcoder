@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {resetCurrentTimes = id; }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mainWindow = BWMouseMotionWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = BWMouseMotionWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

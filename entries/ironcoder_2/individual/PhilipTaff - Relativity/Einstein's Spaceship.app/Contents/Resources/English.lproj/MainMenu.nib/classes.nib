@@ -1,0 +1,12 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PTClock; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PTClockView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = PTPlanetView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = PTPlanetWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = PTSpaceshipView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = PTSpaceshipWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}

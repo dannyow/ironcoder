@@ -1,0 +1,48 @@
+$Id: README,v 1.2 2005/02/04 01:54:13 gie Exp gie $
+
+This file takes the place of a "configure" system which is
+far too complex for this humble peon to figure out how to use.
+
+Fortunately, the libproj4 system is easy to install and should
+be quite portable across Unin, Linux operating systems.  Typical
+sequence is to:
+
+make libproj4
+make lproj
+make install
+
+The last operation will probably require being in su mode.
+
+Please examine the beginning of the Makefile and adjust the
+names of the directories where you wish to install the compliled
+library, program and header file.  THe defaults put everything
+in the /usr/local limb of the tree.
+
+                -----  N O T I C E -----
+
+The Mayr projection requires the use of the Gnu Scientific Library
+for the general case usage where the +n= option is employed.  The
+distributed form of the Makefile excludes this option by commenting
+out the line reading "GSL=1".  When the library is compiled in
+this manner trying "+proj=mayr +n=" will cause a failure.  To enable
+the full function of the mayr remove the # from the GSL=1 line before
+compiling the library.  Note: when the library is compiled in this
+manner any program using the library will also have to link with
+the GSL library.
+
+As always, please submit any bugs to the author at:
+
+gerald.evenden@verizon.net
+
+PS: the release/version of libproj4 is based upon the date that
+forms the name of the distribution file and the name of a null
+file in this directory.  Each program/header file will have its
+own revision/date entry.
+
+$Log: README,v $
+Revision 1.2  2005/02/04 01:54:13  gie
+added PS
+
+Revision 1.1  2005/02/04 01:47:45  gie
+Initial revision
+

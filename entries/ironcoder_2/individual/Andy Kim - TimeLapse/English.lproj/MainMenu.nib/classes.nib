@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = TLBrowserView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = TLCGImageView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = TLGradientView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {saveAction = id; zoomMax = id; zoomMin = id; }; 
+            CLASS = "TimeLapse_AppDelegate"; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                oBrowserView = TLBrowserView; 
+                oImageView = TLCGImageView; 
+                oScreenshotsController = NSArrayController; 
+                oZoomWindow = NSWindow; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

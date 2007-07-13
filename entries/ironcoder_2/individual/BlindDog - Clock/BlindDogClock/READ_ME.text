@@ -1,0 +1,25 @@
+BlindDogClock
+version 1.0
+
+A desktop clock as a standalone application. 
+
+This application was inspired by Transparent Clock, a widget available 
+in the Konfabulator environment. The basic archictecture of the application 
+is taken from Gus Mueller's NewTime clock for IronCoder 0x2, made available 
+at <http://www.ironcoder.org> on July 20, 2006.
+
+The application runs in a transparent window just above the desktop backgroun.
+You can click on it to drag it around.
+
+TO DO:
+
+1) add preferences to control appearance, size, etc.
+2) add drag 'n' drop so you can drag an image to the center to make it the
+   background
+3) play tick sounds
+4) chime on hour/half hour/quarter hour, etc.
+5) integrate with an app like FlexTime to give a visual countdown timer.
+6) add date, day of week, etc.
+7) add weather.
+8) more ... go blind! (never thought there is that much fun in a clock)
+

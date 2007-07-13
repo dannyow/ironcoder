@@ -1,0 +1,13 @@
+This is a race against time game.
+
+The main thread continuously displays stuff based on variables
+shared with a background thread. The background thread updates
+variables based on whatever is happening, keys pressed,
+objects interacting, etc.
+
+Graphics are loaded in CGLayers, that are blasted on screen as
+needed.
+
+This is the first game I write. I would do it quite differently
+if I started from scratch, like making objects live a bit in the
+backend and a bit in frontend, but it was fun to do.
