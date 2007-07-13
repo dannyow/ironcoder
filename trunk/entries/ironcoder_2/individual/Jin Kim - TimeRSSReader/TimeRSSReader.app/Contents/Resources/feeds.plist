@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>feeds</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Top Stories</string>
+			<key>url</key>
+			<string>http://rss.time.com/web/time/rss/top/index.xml</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Most Viewed</string>
+			<key>url</key>
+			<string>http://rss.time.com/web/time/rss/rss_mv.xml</string>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>Most E-Mailed</string>
+			<key>url</key>
+			<string>http://rss.time.com/web/time/rss/rss_me.xml</string>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>Nation</string>
+			<key>url</key>
+			<string>http://rss.time.com/web/time/rss/nation/index.xml</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>World</string>
+			<key>url</key>
+			<string>http://rss.time.com/web/time/rss/world/index.xml</string>
+		</dict>	
+		<dict>
+			<key>name</key>
+			<string>Business &amp; Tech</string>
+			<key>url</key>
+			<string>http://rss.time.com/web/time/rss/business/index.xml</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Entertainment</string>
+			<key>url</key>
+			<string>http://rss.time.com/web/time/rss/arts/index.xml</string>
+		</dict>				
+		<dict>
+			<key>name</key>
+			<string>Science &amp; Health</string>
+			<key>url</key>
+			<string>http://rss.time.com/web/time/rss/health/index.xml</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gadget of the Week</string>
+			<key>url</key>
+			<string>http://rss.time.com/web/time/rss/gadget/index.xml</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tuned In TV Blog</string>
+			<key>url</key>
+			<string>http://rss.time.com/web/time/rss/rss_tunedin.xml</string>
+		</dict>	
+		<dict>
+			<key>name</key>
+			<string>Daily Rx</string>
+			<key>url</key>
+			<string>http://rss.time.com/web/time/rss/rss_dailyrx.xml</string>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>Global Health</string>
+			<key>url</key>
+			<string>http://rss.time.com/web/time/rss/rss_globalhealth.xml</string>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>TIME: Photo Essays</string>
+			<key>url</key>
+			<string>http://rss.time.com/web/time/rss/photoessays/index.xml</string>
+		</dict>						
+	</array>
+</dict>
+</plist>

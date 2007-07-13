@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TimeRSSReader' target in the 'TimeRSSReader' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

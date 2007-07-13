@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                changeArticle = id; 
+                changeFeed = id; 
+                chooseRandomArticle = id; 
+                readArticle = id; 
+                saveAs = id; 
+            }; 
+            CLASS = AppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                oArticlesArrayController = id; 
+                oDrawer = id; 
+                oFeedsArrayController = id; 
+                oImageView = id; 
+                oProgressIndicator = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = GrayView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

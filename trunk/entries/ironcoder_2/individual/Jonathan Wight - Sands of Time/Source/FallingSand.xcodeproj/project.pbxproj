@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45501AF80A73DD1200F6BEB7 /* CFallingSandController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45501AED0A73DD1200F6BEB7 /* CFallingSandController.m */; };
+		45501AF90A73DD1200F6BEB7 /* CFallingSandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45501AEF0A73DD1200F6BEB7 /* CFallingSandView.m */; };
+		45501AFA0A73DD1200F6BEB7 /* CFallingSandWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45501AF10A73DD1200F6BEB7 /* CFallingSandWindowController.m */; };
+		45501AFB0A73DD1200F6BEB7 /* CSandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 45501AF30A73DD1200F6BEB7 /* CSandbox.m */; };
+		45501AFC0A73DD1200F6BEB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45501AF50A73DD1200F6BEB7 /* main.m */; };
+		45501AFD0A73DD1200F6BEB7 /* Utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 45501AF60A73DD1200F6BEB7 /* Utilities.c */; };
+		45501B080A73DD1600F6BEB7 /* Hourglass_Demo.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 45501AFF0A73DD1600F6BEB7 /* Hourglass_Demo.tiff */; };
+		45501B090A73DD1600F6BEB7 /* FallingSandWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 45501B000A73DD1600F6BEB7 /* FallingSandWindow.nib */; };
+		45501B0A0A73DD1600F6BEB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45501B020A73DD1600F6BEB7 /* InfoPlist.strings */; };
+		45501B0B0A73DD1600F6BEB7 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 45501B040A73DD1600F6BEB7 /* MainMenu.nib */; };
+		45501B0C0A73DD1600F6BEB7 /* Hourglass.icns in Resources */ = {isa = PBXBuildFile; fileRef = 45501B060A73DD1600F6BEB7 /* Hourglass.icns */; };
+		45501B0D0A73DD1600F6BEB7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45501B070A73DD1600F6BEB7 /* Info.plist */; };
+		45A8A0AF0A73E8C5007DA7DC /* QTMovie_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A8A0AD0A73E8C5007DA7DC /* QTMovie_Extensions.m */; };
+		45A8A0C10A73E8E9007DA7DC /* CSandboxRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A8A0C00A73E8E9007DA7DC /* CSandboxRenderer.m */; };
+		45A8A0D50A73E9C2007DA7DC /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A8A0D40A73E9C2007DA7DC /* QTKit.framework */; };
+		45A8A1080A73EA18007DA7DC /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A8A1070A73EA18007DA7DC /* QuickTime.framework */; };
+		45A8A24D0A73EF33007DA7DC /* QTDataReference_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A8A24C0A73EF33007DA7DC /* QTDataReference_Extensions.m */; };
+		45A8A2A50A73F1A8007DA7DC /* NSImage_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A8A2A40A73F1A8007DA7DC /* NSImage_Extensions.m */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		45501AEC0A73DD1200F6BEB7 /* CFallingSandController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFallingSandController.h; sourceTree = "<group>"; };
+		45501AED0A73DD1200F6BEB7 /* CFallingSandController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CFallingSandController.m; sourceTree = "<group>"; };
+		45501AEE0A73DD1200F6BEB7 /* CFallingSandView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFallingSandView.h; sourceTree = "<group>"; };
+		45501AEF0A73DD1200F6BEB7 /* CFallingSandView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CFallingSandView.m; sourceTree = "<group>"; };
+		45501AF00A73DD1200F6BEB7 /* CFallingSandWindowController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFallingSandWindowController.h; sourceTree = "<group>"; };
+		45501AF10A73DD1200F6BEB7 /* CFallingSandWindowController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CFallingSandWindowController.m; sourceTree = "<group>"; };
+		45501AF20A73DD1200F6BEB7 /* CSandbox.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CSandbox.h; sourceTree = "<group>"; };
+		45501AF30A73DD1200F6BEB7 /* CSandbox.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CSandbox.m; sourceTree = "<group>"; };
+		45501AF40A73DD1200F6BEB7 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		45501AF50A73DD1200F6BEB7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45501AF60A73DD1200F6BEB7 /* Utilities.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = Utilities.c; sourceTree = "<group>"; };
+		45501AF70A73DD1200F6BEB7 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		45501AFF0A73DD1600F6BEB7 /* Hourglass_Demo.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Hourglass_Demo.tiff; sourceTree = "<group>"; };
+		45501B010A73DD1600F6BEB7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/FallingSandWindow.nib; sourceTree = "<group>"; };
+		45501B030A73DD1600F6BEB7 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45501B050A73DD1600F6BEB7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		45501B060A73DD1600F6BEB7 /* Hourglass.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Hourglass.icns; sourceTree = "<group>"; };
+		45501B070A73DD1600F6BEB7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A8A0AD0A73E8C5007DA7DC /* QTMovie_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = QTMovie_Extensions.m; sourceTree = "<group>"; };
+		45A8A0AE0A73E8C5007DA7DC /* QTMovie_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QTMovie_Extensions.h; sourceTree = "<group>"; };
+		45A8A0BF0A73E8E9007DA7DC /* CSandboxRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSandboxRenderer.h; sourceTree = "<group>"; };
+		45A8A0C00A73E8E9007DA7DC /* CSandboxRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSandboxRenderer.m; sourceTree = "<group>"; };
+		45A8A0D40A73E9C2007DA7DC /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		45A8A1070A73EA18007DA7DC /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		45A8A24B0A73EF33007DA7DC /* QTDataReference_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QTDataReference_Extensions.h; sourceTree = "<group>"; };
+		45A8A24C0A73EF33007DA7DC /* QTDataReference_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = QTDataReference_Extensions.m; sourceTree = "<group>"; };
+		45A8A2A30A73F1A8007DA7DC /* NSImage_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSImage_Extensions.h; sourceTree = "<group>"; };
+		45A8A2A40A73F1A8007DA7DC /* NSImage_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSImage_Extensions.m; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Sands of Time.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Sands of Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				45A8A0D50A73E9C2007DA7DC /* QTKit.framework in Frameworks */,
+				45A8A1080A73EA18007DA7DC /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45A8A1070A73EA18007DA7DC /* QuickTime.framework */,
+				45A8A0D40A73E9C2007DA7DC /* QTKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Sands of Time.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* FallingSand */ = {
+			isa = PBXGroup;
+			children = (
+				45501AEB0A73DD1200F6BEB7 /* Source */,
+				45501AFE0A73DD1600F6BEB7 /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = FallingSand;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45501AEB0A73DD1200F6BEB7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				45501AF40A73DD1200F6BEB7 /* Prefix.pch */,
+				45501AF50A73DD1200F6BEB7 /* main.m */,
+				45501AEC0A73DD1200F6BEB7 /* CFallingSandController.h */,
+				45501AED0A73DD1200F6BEB7 /* CFallingSandController.m */,
+				45501AEE0A73DD1200F6BEB7 /* CFallingSandView.h */,
+				45501AEF0A73DD1200F6BEB7 /* CFallingSandView.m */,
+				45501AF00A73DD1200F6BEB7 /* CFallingSandWindowController.h */,
+				45501AF10A73DD1200F6BEB7 /* CFallingSandWindowController.m */,
+				45501AF20A73DD1200F6BEB7 /* CSandbox.h */,
+				45501AF30A73DD1200F6BEB7 /* CSandbox.m */,
+				45A8A0BF0A73E8E9007DA7DC /* CSandboxRenderer.h */,
+				45A8A0C00A73E8E9007DA7DC /* CSandboxRenderer.m */,
+				45501AF70A73DD1200F6BEB7 /* Utilities.h */,
+				45501AF60A73DD1200F6BEB7 /* Utilities.c */,
+				45A8A0AE0A73E8C5007DA7DC /* QTMovie_Extensions.h */,
+				45A8A0AD0A73E8C5007DA7DC /* QTMovie_Extensions.m */,
+				45A8A24B0A73EF33007DA7DC /* QTDataReference_Extensions.h */,
+				45A8A24C0A73EF33007DA7DC /* QTDataReference_Extensions.m */,
+				45A8A2A30A73F1A8007DA7DC /* NSImage_Extensions.h */,
+				45A8A2A40A73F1A8007DA7DC /* NSImage_Extensions.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		45501AFE0A73DD1600F6BEB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45501AFF0A73DD1600F6BEB7 /* Hourglass_Demo.tiff */,
+				45501B000A73DD1600F6BEB7 /* FallingSandWindow.nib */,
+				45501B020A73DD1600F6BEB7 /* InfoPlist.strings */,
+				45501B040A73DD1600F6BEB7 /* MainMenu.nib */,
+				45501B060A73DD1600F6BEB7 /* Hourglass.icns */,
+				45501B070A73DD1600F6BEB7 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* FallingSand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "FallingSand" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				45501B690A73DF3E00F6BEB7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FallingSand;
+			productInstallPath = "$(HOME)/Applications";
+			productName = FallingSand;
+			productReference = 8D1107320486CEB800E47090 /* Sands of Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FallingSand" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* FallingSand */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* FallingSand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45501B080A73DD1600F6BEB7 /* Hourglass_Demo.tiff in Resources */,
+				45501B090A73DD1600F6BEB7 /* FallingSandWindow.nib in Resources */,
+				45501B0A0A73DD1600F6BEB7 /* InfoPlist.strings in Resources */,
+				45501B0B0A73DD1600F6BEB7 /* MainMenu.nib in Resources */,
+				45501B0C0A73DD1600F6BEB7 /* Hourglass.icns in Resources */,
+				45501B0D0A73DD1600F6BEB7 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45501B690A73DF3E00F6BEB7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n### We only run on \"Release\" builds...\nif [[ $BUILD_STYLE != 'Release' ]] ; then\n\texit 0\nfi\n\n### Create the output directory...\nMYOUTPUTDIR=\"$SRCROOT/Output\"\nmkdir -p \"$MYOUTPUTDIR\"\n\n### Remove product if it already exists...\nif [[ -d \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME\" ]] ; then\n\trm -R \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME\"\nfi\n\n### Copy product to output directory...\ncp -R \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" \"$MYOUTPUTDIR\"\n\n### Remove tar.bz2 archive if already exists...\nif [[ -e \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME.tar.bz2\" ]] ; then\n\trm \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME.tar.bz2\"\nfi\n\n### Archive product into tar.bz2\ngnutar --create --bzip2 --file \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME.tar.bz2\" --directory \"$SRCROOT/Output\" \"$FULL_PRODUCT_NAME\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45501AF80A73DD1200F6BEB7 /* CFallingSandController.m in Sources */,
+				45501AF90A73DD1200F6BEB7 /* CFallingSandView.m in Sources */,
+				45501AFA0A73DD1200F6BEB7 /* CFallingSandWindowController.m in Sources */,
+				45501AFB0A73DD1200F6BEB7 /* CSandbox.m in Sources */,
+				45501AFC0A73DD1200F6BEB7 /* main.m in Sources */,
+				45501AFD0A73DD1200F6BEB7 /* Utilities.c in Sources */,
+				45A8A0AF0A73E8C5007DA7DC /* QTMovie_Extensions.m in Sources */,
+				45A8A0C10A73E8E9007DA7DC /* CSandboxRenderer.m in Sources */,
+				45A8A24D0A73EF33007DA7DC /* QTDataReference_Extensions.m in Sources */,
+				45A8A2A50A73F1A8007DA7DC /* NSImage_Extensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45501B000A73DD1600F6BEB7 /* FallingSandWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45501B010A73DD1600F6BEB7 /* English */,
+			);
+			name = FallingSandWindow.nib;
+			sourceTree = "<group>";
+		};
+		45501B020A73DD1600F6BEB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45501B030A73DD1600F6BEB7 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45501B040A73DD1600F6BEB7 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45501B050A73DD1600F6BEB7 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/Prefix.pch;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Sands of Time";
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Winline",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/Prefix.pch;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Sands of Time";
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Winline",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_UNROLL_LOOPS = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "FallingSand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FallingSand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

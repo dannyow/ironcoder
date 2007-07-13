@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650782910A718B0A00670240 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 650782900A718B0900670240 /* TODO */; };
+		650782EB0A72545A00670240 /* TimeGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 650782EA0A72545A00670240 /* TimeGraphView.m */; };
+		650782EE0A72546400670240 /* TimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650782ED0A72546400670240 /* TimeController.m */; };
+		650783EB0A7255A300670240 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650783EA0A7255A300670240 /* Carbon.framework */; };
+		65FB966C0A7275D1008418AE /* IronCoder.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 65FB966B0A7275D1008418AE /* IronCoder.tiff */; };
+		65FB99E00A72A824008418AE /* WHYDFML.icns in Resources */ = {isa = PBXBuildFile; fileRef = 65FB99DF0A72A824008418AE /* WHYDFML.icns */; };
+		65FB9BA40A72BDAF008418AE /* LinenPatternDrawing.c in Sources */ = {isa = PBXBuildFile; fileRef = 65FB9BA30A72BDAF008418AE /* LinenPatternDrawing.c */; };
+		65FB9C1B0A72C082008418AE /* PlaidPatternDrawing.c in Sources */ = {isa = PBXBuildFile; fileRef = 65FB9C190A72C082008418AE /* PlaidPatternDrawing.c */; };
+		65FB9C720A72C198008418AE /* DenimPatternDrawing.c in Sources */ = {isa = PBXBuildFile; fileRef = 65FB9C710A72C198008418AE /* DenimPatternDrawing.c */; };
+		65FB9E410A72C994008418AE /* G5VentPatternDrawing.c in Sources */ = {isa = PBXBuildFile; fileRef = 65FB9E400A72C994008418AE /* G5VentPatternDrawing.c */; };
+		65FB9EF70A72CD5C008418AE /* TableClothPatternDrawing.c in Sources */ = {isa = PBXBuildFile; fileRef = 65FB9EF60A72CD5C008418AE /* TableClothPatternDrawing.c */; };
+		65FBA1C70A73ED52008418AE /* DCJOfficeCarpetPatternDrawing.c in Sources */ = {isa = PBXBuildFile; fileRef = 65FBA1C50A73ED52008418AE /* DCJOfficeCarpetPatternDrawing.c */; };
+		65FBA20A0A73EFF8008418AE /* CGHelpers.c in Sources */ = {isa = PBXBuildFile; fileRef = 65FBA2090A73EFF8008418AE /* CGHelpers.c */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		650782900A718B0900670240 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		650782E90A72545A00670240 /* TimeGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeGraphView.h; sourceTree = "<group>"; };
+		650782EA0A72545A00670240 /* TimeGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeGraphView.m; sourceTree = "<group>"; };
+		650782EC0A72546400670240 /* TimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeController.h; sourceTree = "<group>"; };
+		650782ED0A72546400670240 /* TimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeController.m; sourceTree = "<group>"; };
+		650783EA0A7255A300670240 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		65FB966B0A7275D1008418AE /* IronCoder.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = IronCoder.tiff; sourceTree = "<group>"; };
+		65FB98E60A7288D2008418AE /* WHYDFML_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHYDFML_Prefix.pch; sourceTree = "<group>"; };
+		65FB99DF0A72A824008418AE /* WHYDFML.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = WHYDFML.icns; sourceTree = "<group>"; };
+		65FB9BA20A72BDAF008418AE /* LinenPatternDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinenPatternDrawing.h; sourceTree = "<group>"; };
+		65FB9BA30A72BDAF008418AE /* LinenPatternDrawing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinenPatternDrawing.c; sourceTree = "<group>"; };
+		65FB9C190A72C082008418AE /* PlaidPatternDrawing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PlaidPatternDrawing.c; sourceTree = "<group>"; };
+		65FB9C1A0A72C082008418AE /* PlaidPatternDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaidPatternDrawing.h; sourceTree = "<group>"; };
+		65FB9C700A72C198008418AE /* DenimPatternDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DenimPatternDrawing.h; sourceTree = "<group>"; };
+		65FB9C710A72C198008418AE /* DenimPatternDrawing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DenimPatternDrawing.c; sourceTree = "<group>"; };
+		65FB9E3F0A72C994008418AE /* G5VentPatternDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G5VentPatternDrawing.h; sourceTree = "<group>"; };
+		65FB9E400A72C994008418AE /* G5VentPatternDrawing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = G5VentPatternDrawing.c; sourceTree = "<group>"; };
+		65FB9EF50A72CD5C008418AE /* TableClothPatternDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableClothPatternDrawing.h; sourceTree = "<group>"; };
+		65FB9EF60A72CD5C008418AE /* TableClothPatternDrawing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TableClothPatternDrawing.c; sourceTree = "<group>"; };
+		65FBA1C50A73ED52008418AE /* DCJOfficeCarpetPatternDrawing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DCJOfficeCarpetPatternDrawing.c; sourceTree = "<group>"; };
+		65FBA1C60A73ED52008418AE /* DCJOfficeCarpetPatternDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCJOfficeCarpetPatternDrawing.h; sourceTree = "<group>"; };
+		65FBA2080A73EFF8008418AE /* CGHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHelpers.h; sourceTree = "<group>"; };
+		65FBA2090A73EFF8008418AE /* CGHelpers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGHelpers.c; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* WHYDFML?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WHYDFML?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				650783EB0A7255A300670240 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				650782E90A72545A00670240 /* TimeGraphView.h */,
+				650782EA0A72545A00670240 /* TimeGraphView.m */,
+				650782EC0A72546400670240 /* TimeController.h */,
+				650782ED0A72546400670240 /* TimeController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				650783EA0A7255A300670240 /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* WHYDFML?.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* WHYDFML? */ = {
+			isa = PBXGroup;
+			children = (
+				650782900A718B0900670240 /* TODO */,
+				65FB9BA70A72BDC7008418AE /* Pattern Renderering */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "WHYDFML?";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				65FB98E60A7288D2008418AE /* WHYDFML_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65FB99DF0A72A824008418AE /* WHYDFML.icns */,
+				65FB966B0A7275D1008418AE /* IronCoder.tiff */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65FB9BA70A72BDC7008418AE /* Pattern Renderering */ = {
+			isa = PBXGroup;
+			children = (
+				65FBA2080A73EFF8008418AE /* CGHelpers.h */,
+				65FBA2090A73EFF8008418AE /* CGHelpers.c */,
+				65FB9EF50A72CD5C008418AE /* TableClothPatternDrawing.h */,
+				65FB9EF60A72CD5C008418AE /* TableClothPatternDrawing.c */,
+				65FB9E3F0A72C994008418AE /* G5VentPatternDrawing.h */,
+				65FB9E400A72C994008418AE /* G5VentPatternDrawing.c */,
+				65FB9C700A72C198008418AE /* DenimPatternDrawing.h */,
+				65FB9C710A72C198008418AE /* DenimPatternDrawing.c */,
+				65FB9BA20A72BDAF008418AE /* LinenPatternDrawing.h */,
+				65FB9BA30A72BDAF008418AE /* LinenPatternDrawing.c */,
+				65FB9C1A0A72C082008418AE /* PlaidPatternDrawing.h */,
+				65FB9C190A72C082008418AE /* PlaidPatternDrawing.c */,
+				65FBA1C60A73ED52008418AE /* DCJOfficeCarpetPatternDrawing.h */,
+				65FBA1C50A73ED52008418AE /* DCJOfficeCarpetPatternDrawing.c */,
+			);
+			name = "Pattern Renderering";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* WHYDFML? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "WHYDFML?" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WHYDFML?";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "WHYDFML?";
+			productReference = 8D1107320486CEB800E47090 /* WHYDFML?.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WHYDFML" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* WHYDFML? */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* WHYDFML? */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				650782910A718B0A00670240 /* TODO in Resources */,
+				65FB966C0A7275D1008418AE /* IronCoder.tiff in Resources */,
+				65FB99E00A72A824008418AE /* WHYDFML.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				650782EB0A72545A00670240 /* TimeGraphView.m in Sources */,
+				650782EE0A72546400670240 /* TimeController.m in Sources */,
+				65FB9BA40A72BDAF008418AE /* LinenPatternDrawing.c in Sources */,
+				65FB9C1B0A72C082008418AE /* PlaidPatternDrawing.c in Sources */,
+				65FB9C720A72C198008418AE /* DenimPatternDrawing.c in Sources */,
+				65FB9E410A72C994008418AE /* G5VentPatternDrawing.c in Sources */,
+				65FB9EF70A72CD5C008418AE /* TableClothPatternDrawing.c in Sources */,
+				65FBA1C70A73ED52008418AE /* DCJOfficeCarpetPatternDrawing.c in Sources */,
+				65FBA20A0A73EFF8008418AE /* CGHelpers.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WHYDFML_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "WHYDFML?";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WHYDFML_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "WHYDFML?";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "WHYDFML?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WHYDFML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
