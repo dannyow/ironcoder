@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {
+            CLASS = CCrossHairWindow; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = CToxicTransparentShapedWindow; 
+        }, 
+        {
+            CLASS = CMardiGrasWindow; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = CToxicTransparentShapedWindow; 
+        }, 
+        {
+            CLASS = CMyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                crossHairWindow = CCrossHairWindow; 
+                mardiGrasWindow = CMardiGrasWindow; 
+                previewView = NSView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = CPreviewManager; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = CToxicTransparentShapedWindow; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindow; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

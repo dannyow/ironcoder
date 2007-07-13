@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D202CEA0486D31800D8A456 /* FFMinator_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA20370C41700C91783 /* FFMinator_Prefix.pch */; };
+		8D202CEB0486D31800D8A456 /* FFMinatorPref.h in Headers */ = {isa = PBXBuildFile; fileRef = F506C03C013D9D7901CA16C8 /* FFMinatorPref.h */; };
+		8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D202CEF0486D31800D8A456 /* FFMinatorPref.nib in Resources */ = {isa = PBXBuildFile; fileRef = F506C042013D9D8C01CA16C8 /* FFMinatorPref.nib */; };
+		8D202CF10486D31800D8A456 /* FFMinatorPref.m in Sources */ = {isa = PBXBuildFile; fileRef = F506C03D013D9D7901CA16C8 /* FFMinatorPref.m */; };
+		8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
+		EE0C34C209BA0D58002D4D00 /* main_tool.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0C34C109BA0D58002D4D00 /* main_tool.m */; };
+		EE0C34CB09BA0DB2002D4D00 /* FFMinatorTool.nib in Resources */ = {isa = PBXBuildFile; fileRef = EE0C34CA09BA0DB2002D4D00 /* FFMinatorTool.nib */; };
+		EE0C34F609BA0E24002D4D00 /* FFM.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0C34F509BA0E24002D4D00 /* FFM.m */; };
+		EE0C354209BA114E002D4D00 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0C354109BA114E002D4D00 /* Carbon.framework */; };
+		EE0C354309BA115C002D4D00 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		EE0C379F09BA9726002D4D00 /* FFMinator.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0C379E09BA9726002D4D00 /* FFMinator.png */; };
+		EE0C37E809BA9D93002D4D00 /* FFMinatorGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0C37E609BA9D93002D4D00 /* FFMinatorGlobal.h */; };
+		EE0C37E909BA9D93002D4D00 /* FFMinatorGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0C37E709BA9D93002D4D00 /* FFMinatorGlobal.m */; };
+		EE0C37EA09BA9D93002D4D00 /* FFMinatorGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0C37E709BA9D93002D4D00 /* FFMinatorGlobal.m */; };
+		EE0C380309BA9F19002D4D00 /* ffminator.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE0C380209BA9F19002D4D00 /* ffminator.plist */; };
+		EE0C382309BAA10E002D4D00 /* FFMinatorTool.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE0C349A09BA0D00002D4D00 /* FFMinatorTool.app */; };
+		EE1B2F5D09BB71FA001109CA /* CustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1B2F5C09BB71FA001109CA /* CustomWindow.m */; };
+		EE1B2F7109BB76E8001109CA /* beads_multicolor3.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1B2F6709BB76E8001109CA /* beads_multicolor3.png */; };
+		EE1B2F7209BB76E8001109CA /* hat_face.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1B2F6809BB76E8001109CA /* hat_face.png */; };
+		EE1B2F7309BB76E8001109CA /* mask_beak.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1B2F6909BB76E8001109CA /* mask_beak.png */; };
+		EE1B2F7409BB76E8001109CA /* mask_gold.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1B2F6A09BB76E8001109CA /* mask_gold.png */; };
+		EE1B2F7509BB76E8001109CA /* mask_medium.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1B2F6B09BB76E8001109CA /* mask_medium.png */; };
+		EE1B2F7609BB76E8001109CA /* mask_peacock.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1B2F6C09BB76E8001109CA /* mask_peacock.png */; };
+		EE1B2F7709BB76E8001109CA /* mask_purple_green.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1B2F6D09BB76E8001109CA /* mask_purple_green.png */; };
+		EE1B2F7809BB76E8001109CA /* medallion_necklace.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1B2F6E09BB76E8001109CA /* medallion_necklace.png */; };
+		EE1B2F7909BB76E8001109CA /* necklace.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1B2F6F09BB76E8001109CA /* necklace.png */; };
+		EE1B2F7A09BB76E8001109CA /* party_bear.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1B2F7009BB76E8001109CA /* party_bear.png */; };
+		EE1B2F9D09BB795F001109CA /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1B2F9C09BB795F001109CA /* CustomView.m */; };
+		EE1B311C09BB8AA5001109CA /* FFMinatorPrefIcon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EE1B311B09BB8AA5001109CA /* FFMinatorPrefIcon.tiff */; };
+		EE2FFC3A09BB55930002CA98 /* FFMinatorIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = EE2FFC3909BB55930002CA98 /* FFMinatorIcon.icns */; };
+		EE2FFC3B09BB55930002CA98 /* FFMinatorIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = EE2FFC3909BB55930002CA98 /* FFMinatorIcon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		06F27B30FFEEEFEF11CA0E56 /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		06F27B31FFEEEFEF11CA0E56 /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		EE0C34A409BA0D11002D4D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0C349909BA0D00002D4D00;
+			remoteInfo = FFMinatorTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE0C381709BAA0A9002D4D00 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				EE0C382309BAA10E002D4D00 /* FFMinatorTool.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCFA20370C41700C91783 /* FFMinator_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMinator_Prefix.pch; sourceTree = "<group>"; };
+		8D202CF70486D31800D8A456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D202CF80486D31800D8A456 /* FFMinator.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFMinator.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0C349A09BA0D00002D4D00 /* FFMinatorTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFMinatorTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0C349C09BA0D00002D4D00 /* FFMinatorTool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "FFMinatorTool-Info.plist"; sourceTree = "<group>"; };
+		EE0C34C109BA0D58002D4D00 /* main_tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main_tool.m; sourceTree = "<group>"; };
+		EE0C34CA09BA0DB2002D4D00 /* FFMinatorTool.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = FFMinatorTool.nib; sourceTree = "<group>"; };
+		EE0C34F409BA0E24002D4D00 /* FFM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFM.h; sourceTree = "<group>"; };
+		EE0C34F509BA0E24002D4D00 /* FFM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFM.m; sourceTree = "<group>"; };
+		EE0C354109BA114E002D4D00 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		EE0C379E09BA9726002D4D00 /* FFMinator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFMinator.png; sourceTree = "<group>"; };
+		EE0C37E609BA9D93002D4D00 /* FFMinatorGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMinatorGlobal.h; sourceTree = "<group>"; };
+		EE0C37E709BA9D93002D4D00 /* FFMinatorGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMinatorGlobal.m; sourceTree = "<group>"; };
+		EE0C380209BA9F19002D4D00 /* ffminator.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = ffminator.plist; sourceTree = "<group>"; };
+		EE1B2F5B09BB71FA001109CA /* CustomWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CustomWindow.h; sourceTree = "<group>"; };
+		EE1B2F5C09BB71FA001109CA /* CustomWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CustomWindow.m; sourceTree = "<group>"; };
+		EE1B2F6709BB76E8001109CA /* beads_multicolor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beads_multicolor3.png; sourceTree = "<group>"; };
+		EE1B2F6809BB76E8001109CA /* hat_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hat_face.png; sourceTree = "<group>"; };
+		EE1B2F6909BB76E8001109CA /* mask_beak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_beak.png; sourceTree = "<group>"; };
+		EE1B2F6A09BB76E8001109CA /* mask_gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_gold.png; sourceTree = "<group>"; };
+		EE1B2F6B09BB76E8001109CA /* mask_medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_medium.png; sourceTree = "<group>"; };
+		EE1B2F6C09BB76E8001109CA /* mask_peacock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_peacock.png; sourceTree = "<group>"; };
+		EE1B2F6D09BB76E8001109CA /* mask_purple_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_purple_green.png; sourceTree = "<group>"; };
+		EE1B2F6E09BB76E8001109CA /* medallion_necklace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medallion_necklace.png; sourceTree = "<group>"; };
+		EE1B2F6F09BB76E8001109CA /* necklace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = necklace.png; sourceTree = "<group>"; };
+		EE1B2F7009BB76E8001109CA /* party_bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = party_bear.png; sourceTree = "<group>"; };
+		EE1B2F9B09BB795F001109CA /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		EE1B2F9C09BB795F001109CA /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		EE1B311B09BB8AA5001109CA /* FFMinatorPrefIcon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = FFMinatorPrefIcon.tiff; sourceTree = "<group>"; };
+		EE2FFC3909BB55930002CA98 /* FFMinatorIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = FFMinatorIcon.icns; sourceTree = "<group>"; };
+		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+		F506C03C013D9D7901CA16C8 /* FFMinatorPref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMinatorPref.h; sourceTree = "<group>"; };
+		F506C03D013D9D7901CA16C8 /* FFMinatorPref.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMinatorPref.m; sourceTree = "<group>"; };
+		F506C043013D9D8C01CA16C8 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/FFMinatorPref.nib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D202CF20486D31800D8A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */,
+				8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0C349809BA0D00002D4D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0C354209BA114E002D4D00 /* Carbon.framework in Frameworks */,
+				EE0C354309BA115C002D4D00 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* FFMinator */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA10370C40200C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+				EE0C349C09BA0D00002D4D00 /* FFMinatorTool-Info.plist */,
+				EE0C34C109BA0D58002D4D00 /* main_tool.m */,
+				EE0C34CA09BA0DB2002D4D00 /* FFMinatorTool.nib */,
+			);
+			name = FFMinator;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EE0C354109BA114E002D4D00 /* Carbon.framework */,
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE1B311B09BB8AA5001109CA /* FFMinatorPrefIcon.tiff */,
+				EE1B2F6709BB76E8001109CA /* beads_multicolor3.png */,
+				EE1B2F6809BB76E8001109CA /* hat_face.png */,
+				EE1B2F6909BB76E8001109CA /* mask_beak.png */,
+				EE1B2F6A09BB76E8001109CA /* mask_gold.png */,
+				EE1B2F6B09BB76E8001109CA /* mask_medium.png */,
+				EE1B2F6C09BB76E8001109CA /* mask_peacock.png */,
+				EE1B2F6D09BB76E8001109CA /* mask_purple_green.png */,
+				EE1B2F6E09BB76E8001109CA /* medallion_necklace.png */,
+				EE1B2F6F09BB76E8001109CA /* necklace.png */,
+				EE1B2F7009BB76E8001109CA /* party_bear.png */,
+				EE2FFC3909BB55930002CA98 /* FFMinatorIcon.icns */,
+				EE0C380209BA9F19002D4D00 /* ffminator.plist */,
+				EE0C379E09BA9726002D4D00 /* FFMinator.png */,
+				8D202CF70486D31800D8A456 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				F506C042013D9D8C01CA16C8 /* FFMinatorPref.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE1B2F9B09BB795F001109CA /* CustomView.h */,
+				EE1B2F9C09BB795F001109CA /* CustomView.m */,
+				EE1B2F5B09BB71FA001109CA /* CustomWindow.h */,
+				EE1B2F5C09BB71FA001109CA /* CustomWindow.m */,
+				EE0C34F409BA0E24002D4D00 /* FFM.h */,
+				EE0C34F509BA0E24002D4D00 /* FFM.m */,
+				F506C03C013D9D7901CA16C8 /* FFMinatorPref.h */,
+				F506C03D013D9D7901CA16C8 /* FFMinatorPref.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				F506C035013D953901CA16C8 /* PreferencePanes.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D202CF80486D31800D8A456 /* FFMinator.prefPane */,
+				EE0C349A09BA0D00002D4D00 /* FFMinatorTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA10370C40200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EE0C37E609BA9D93002D4D00 /* FFMinatorGlobal.h */,
+				EE0C37E709BA9D93002D4D00 /* FFMinatorGlobal.m */,
+				32DBCFA20370C41700C91783 /* FFMinator_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D202CE90486D31800D8A456 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CEA0486D31800D8A456 /* FFMinator_Prefix.pch in Headers */,
+				8D202CEB0486D31800D8A456 /* FFMinatorPref.h in Headers */,
+				EE0C37E809BA9D93002D4D00 /* FFMinatorGlobal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D202CE80486D31800D8A456 /* FFMinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "FFMinator" */;
+			buildPhases = (
+				8D202CE90486D31800D8A456 /* Headers */,
+				8D202CEC0486D31800D8A456 /* Resources */,
+				8D202CF00486D31800D8A456 /* Sources */,
+				8D202CF20486D31800D8A456 /* Frameworks */,
+				8D202CF50486D31800D8A456 /* Rez */,
+				EE0C381709BAA0A9002D4D00 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+			};
+			dependencies = (
+				EE0C34A509BA0D11002D4D00 /* PBXTargetDependency */,
+			);
+			name = FFMinator;
+			productInstallPath = "$(HOME)/Library/PreferencePanes";
+			productName = FFMinator;
+			productReference = 8D202CF80486D31800D8A456 /* FFMinator.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EE0C349909BA0D00002D4D00 /* FFMinatorTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0C349D09BA0D01002D4D00 /* Build configuration list for PBXNativeTarget "FFMinatorTool" */;
+			buildPhases = (
+				EE0C349609BA0D00002D4D00 /* Resources */,
+				EE0C349709BA0D00002D4D00 /* Sources */,
+				EE0C349809BA0D00002D4D00 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "FFMinatorTool-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = FFMinatorTool;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = FFMinatorTool;
+			productName = FFMinatorTool;
+			productReference = EE0C349A09BA0D00002D4D00 /* FFMinatorTool.app */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.FFMinatorTool</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "FFMinator" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				06F27B30FFEEEFEF11CA0E56 /* Development */,
+				06F27B31FFEEEFEF11CA0E56 /* Deployment */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* FFMinator */;
+			projectDirPath = "";
+			targets = (
+				8D202CE80486D31800D8A456 /* FFMinator */,
+				EE0C349909BA0D00002D4D00 /* FFMinatorTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D202CEC0486D31800D8A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */,
+				8D202CEF0486D31800D8A456 /* FFMinatorPref.nib in Resources */,
+				EE0C379F09BA9726002D4D00 /* FFMinator.png in Resources */,
+				EE0C380309BA9F19002D4D00 /* ffminator.plist in Resources */,
+				EE2FFC3A09BB55930002CA98 /* FFMinatorIcon.icns in Resources */,
+				EE1B311C09BB8AA5001109CA /* FFMinatorPrefIcon.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0C349609BA0D00002D4D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0C34CB09BA0DB2002D4D00 /* FFMinatorTool.nib in Resources */,
+				EE2FFC3B09BB55930002CA98 /* FFMinatorIcon.icns in Resources */,
+				EE1B2F7109BB76E8001109CA /* beads_multicolor3.png in Resources */,
+				EE1B2F7209BB76E8001109CA /* hat_face.png in Resources */,
+				EE1B2F7309BB76E8001109CA /* mask_beak.png in Resources */,
+				EE1B2F7409BB76E8001109CA /* mask_gold.png in Resources */,
+				EE1B2F7509BB76E8001109CA /* mask_medium.png in Resources */,
+				EE1B2F7609BB76E8001109CA /* mask_peacock.png in Resources */,
+				EE1B2F7709BB76E8001109CA /* mask_purple_green.png in Resources */,
+				EE1B2F7809BB76E8001109CA /* medallion_necklace.png in Resources */,
+				EE1B2F7909BB76E8001109CA /* necklace.png in Resources */,
+				EE1B2F7A09BB76E8001109CA /* party_bear.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D202CF50486D31800D8A456 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D202CF00486D31800D8A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF10486D31800D8A456 /* FFMinatorPref.m in Sources */,
+				EE0C37E909BA9D93002D4D00 /* FFMinatorGlobal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0C349709BA0D00002D4D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0C34C209BA0D58002D4D00 /* main_tool.m in Sources */,
+				EE0C34F609BA0E24002D4D00 /* FFM.m in Sources */,
+				EE0C37EA09BA9D93002D4D00 /* FFMinatorGlobal.m in Sources */,
+				EE1B2F5D09BB71FA001109CA /* CustomWindow.m in Sources */,
+				EE1B2F9D09BB795F001109CA /* CustomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE0C34A509BA0D11002D4D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0C349909BA0D00002D4D00 /* FFMinatorTool */;
+			targetProxy = EE0C34A409BA0D11002D4D00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F506C042013D9D8C01CA16C8 /* FFMinatorPref.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F506C043013D9D8C01CA16C8 /* English */,
+			);
+			name = FFMinatorPref.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DBD214908BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FFMinator_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = FFMinator;
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DBD214A08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FFMinator_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = FFMinator;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		1DBD214D08BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DBD214E08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		EE0C349E09BA0D01002D4D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "FFMinatorTool-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = FFMinatorTool;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		EE0C349F09BA0D01002D4D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "FFMinatorTool-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = FFMinatorTool;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "FFMinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214908BA80EA00186707 /* Debug */,
+				1DBD214A08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "FFMinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214D08BA80EA00186707 /* Debug */,
+				1DBD214E08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0C349D09BA0D01002D4D00 /* Build configuration list for PBXNativeTarget "FFMinatorTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0C349E09BA0D01002D4D00 /* Debug */,
+				EE0C349F09BA0D01002D4D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
