@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Beads' target in the 'Beads' project
+//
+
+#ifdef __OBJC__
+#	import <Cocoa/Cocoa.h>
+#	include <ApplicationServices/ApplicationServices.h>
+#endif

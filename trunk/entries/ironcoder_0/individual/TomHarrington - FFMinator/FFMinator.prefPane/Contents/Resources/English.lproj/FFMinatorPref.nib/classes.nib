@@ -1,0 +1,38 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                closeHelpWindow = id; 
+                setDelaySeconds = id; 
+                setStartupStatus = id; 
+                showHelp = id; 
+                showMeYourBits = id; 
+                uninstall = id; 
+            }; 
+            CLASS = FFMinatorPref; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                delayValueField = NSTextField; 
+                delayValueStepper = NSStepper; 
+                helpWindow = NSWindow; 
+                showMeYourBitsButton = NSButton; 
+                startStopStatusButton = NSButton; 
+            }; 
+            SUPERCLASS = NSPreferencePane; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            CLASS = NSPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_firstKeyView" = id; 
+                "_initialKeyView" = id; 
+                "_lastKeyView" = id; 
+                "_window" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

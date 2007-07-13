@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {
+            CLASS = BSBourbonStreetView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {showMeYourAppController = BSShowMeYourAppDelegate; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            CLASS = BSShowMeYourAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bourbonStreetView = NSView; necklaces = NSMutableArray; window = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MUBorderlessTransparentWindow; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindow; 
+        }
+    ); 
+    IBVersion = 1; 
+}

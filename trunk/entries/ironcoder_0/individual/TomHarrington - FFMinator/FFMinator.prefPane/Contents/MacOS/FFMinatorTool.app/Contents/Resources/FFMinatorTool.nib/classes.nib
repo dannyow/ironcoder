@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = CustomView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            CLASS = CustomWindow; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {myImageView = CustomView; }; 
+            SUPERCLASS = NSPanel; 
+        }, 
+        {
+            CLASS = FFM; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {toolWindow = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {importSymphonyFromEditor = id; }; 
+            CLASS = SymphonyAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {dot = NSImageView; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

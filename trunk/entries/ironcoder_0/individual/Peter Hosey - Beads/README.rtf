@@ -1,0 +1,76 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf330
+{\fonttbl\f0\fnil\fcharset77 LucidaGrande-Bold;\f1\fnil\fcharset77 LucidaGrande;\f2\fnil\fcharset102 STXihei;
+\f3\fnil\fcharset77 ProFont;\f4\fswiss\fcharset77 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid0\'02\'05.;}{\levelnumbers\'01;}}{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww9680\viewh9900\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\b\fs24 \cf0 Beads
+\f1\b0 \
+by Peter Hosey\
+Copyright 2006 Peter Hosey. This application is under the BSD license (see LICENSE.txt) and has no warranty.\
+Written for the 2006 Iron Coder competition: Accessibility + Mardi Gras.\
+\
+
+\f0\b Description
+\f1\b0 \
+This application drapes some beads over the current window. Note that the chain of beads have been shellacked; the shape of the chain is fixed. This is because I did not feel that I have the skill to simulate a real chain of beads in eight hours, which is the amount of time I had left after this implementation was finished. 
+\f2 \uc0\u9786 
+\f1 \
+\
+Beads is a FBA: a \ul f\ulnone aceless \ul b\ulnone ackground \ul a\ulnone pplication. It does not inject code into other applications; it simply uses the Accessibility API to find out which window is current and drape some beads on it. To quit Beads, use the Quit Beads application, also included.\
+\
+
+\f0\b APIs used
+\f1\b0 , in no particular order\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\ql\qnatural\pardirnatural
+\ls1\ilvl0\cf0 {\listtext	\'a5	}Accessibility: to find out whether there is a frontmost window, and if so, its position. (
+\f3\fs18 \cf0 -poll:
+\f1\fs24 \cf0 )\
+{\listtext	\'a5	}Quartz 2D: to draw each bead (
+\f3\fs18 \cf0 -oneBeadWithRed:green:blue:
+\f1\fs24 \cf0 , 
+\f3\fs18 \cf0 -\{red,green,blue,gold,purple\}BeadData
+\f1\fs24 \cf0 , and 
+\f3\fs18 \cf0 -beadShadowData
+\f1\fs24 \cf0 ), and then to draw the chain of beads (
+\f3\fs18 \cf0 -chainOfBeads
+\f1\fs24 \cf0 ).\
+{\listtext	\'a5	}NSTimer: to poll using Accessibility. I couldn't get Accessibility's notifications to work using the system-wide AXUIElement; this was, unfortunately, the next best thing.\
+{\listtext	\'a5	}NSTimer: to fade the window in and out.\
+{\listtext	\'a5	}NSPanel: to manifest the chain on screen. It's a borderless overlay window.\
+{\listtext	\'a5	}NSImage, NSPDFImageRep, and NSImageView: to put the PDF of the chain of beads into the overlay window. The image rep is created for me when I call 
+\f3\fs18 \cf0 -[NSImage initWithData:]
+\f1\fs24 \cf0 .\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 \
+
+\f0\b Notes
+\f1\b0 \
+All drawing is done using Quartz, in PDF contexts. I wanted all the graphics to be vector-based, with no bitmaps. This turned out to be less important than I thought it would be.\
+\
+The beads did come out looking very nice, though. I think they'd look very good in a game, like a {\field{\*\fldinst{HYPERLINK "http://en.wikipedia.org/wiki/Puyo_Puyo"}}{\fldrslt Puyo Puyo}} or
+\f4  {\field{\*\fldinst{HYPERLINK "http://en.wikipedia.org/wiki/SameGame"}}{\fldrslt 
+\f1 Chain Shot}}
+\f1  clone. Feel free to use them so.\
+\
+Some of the functions and methods used, especially some of the Quartz functions, are Tiger-only. Therefore, this app requires Tiger. However, this is irrelevant to you; the disk image is compressed with bzip2, a feature which also requires Tiger. So if you did not have Tiger, you would not be reading this.\
+\
+
+\f0\b Bugs
+\f1\b0 \
+The chain looks very cheesy, especially when it swings from one window to another. Because it doesn't swing, you see. Maybe one day I'll write a Beads 2. ;)\
+\
+Polling behavior is evil. I had to settle for it because Accessibility wouldn't let me sign up for notifications from the system-wide UIElement. If it had, I'd have signed up for notifications of the focused application changing, and in those notifications, signed up on the application for the focused window changing.\
+\
+I wanted to make Quit Beads use Apple Events (to a bundle ID) instead of NSAppleScript, but it wouldn't cooperate. AESend returned 0, but Beads did not quit.\
+\
+
+\f0\b Contact\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+{\field{\*\fldinst{HYPERLINK "mailto:boredzo@gmail.com"}}{\fldrslt 
+\f1\b0 \cf0 By email}}
+\f1\b0 .\
+}

@@ -1,0 +1,8 @@
+Usage :
+
+Move the cursor around to different applications. If you pass over a control that has mardi gras related text the app will beep and display the secret word.
+
+Contact :
+
+Chris Parrish
+twenty3@roguesheep.com
