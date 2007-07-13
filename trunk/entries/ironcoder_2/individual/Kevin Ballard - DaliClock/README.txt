@@ -1,0 +1,1 @@
+This app pays homage to Salvador Dali and his melting clocks. The tie in to the theme should be pretty self-evident, as is the usage. You can drag the clocks around and New and Close work fine.

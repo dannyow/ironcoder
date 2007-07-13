@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11C14CE00A73F5E200A83AE0 /* WhereDidTheTimeGo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 11C14CDF0A73F5E200A83AE0 /* WhereDidTheTimeGo.icns */; };
+		11DBCAD30A72B94A00492B19 /* RAFTimeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DBCAD20A72B94A00492B19 /* RAFTimeAppDelegate.m */; };
+		11DBCBA00A72CB4300492B19 /* RAFPieGraphQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DBCB9F0A72CB4300492B19 /* RAFPieGraphQuartzView.m */; };
+		11DBCBA40A72CB7A00492B19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165DFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		11DBCBA90A72CB8000492B19 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97319FDCFA39411CA2CEA /* MainMenu.nib */; };
+		11DBCC9B0A72D57F00492B19 /* RAFDesktopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DBCC9A0A72D57F00492B19 /* RAFDesktopWindow.m */; };
+		11DF10760A74015E00514D0B /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 11DF10750A74015E00514D0B /* Preferences.nib */; };
+		11DF10910A7402C400514D0B /* RAFPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF10900A7402C400514D0B /* RAFPreferencesWindowController.m */; };
+		11E6DFA50A734D57000087B5 /* DefaultPrefs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11E6DFA40A734D57000087B5 /* DefaultPrefs.plist */; };
+		11EEEFED0A740E0200780069 /* Read Me.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 11EEEFEC0A740E0200780069 /* Read Me.rtfd */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		11C14CDF0A73F5E200A83AE0 /* WhereDidTheTimeGo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = WhereDidTheTimeGo.icns; path = Resources/WhereDidTheTimeGo.icns; sourceTree = "<group>"; };
+		11DBCAD10A72B94A00492B19 /* RAFTimeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAFTimeAppDelegate.h; path = Sources/RAFTimeAppDelegate.h; sourceTree = "<group>"; };
+		11DBCAD20A72B94A00492B19 /* RAFTimeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAFTimeAppDelegate.m; path = Sources/RAFTimeAppDelegate.m; sourceTree = "<group>"; };
+		11DBCB9E0A72CB4300492B19 /* RAFPieGraphQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAFPieGraphQuartzView.h; path = Sources/RAFPieGraphQuartzView.h; sourceTree = "<group>"; };
+		11DBCB9F0A72CB4300492B19 /* RAFPieGraphQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAFPieGraphQuartzView.m; path = Sources/RAFPieGraphQuartzView.m; sourceTree = "<group>"; };
+		11DBCC990A72D57F00492B19 /* RAFDesktopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAFDesktopWindow.h; path = Sources/RAFDesktopWindow.h; sourceTree = "<group>"; };
+		11DBCC9A0A72D57F00492B19 /* RAFDesktopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAFDesktopWindow.m; path = Sources/RAFDesktopWindow.m; sourceTree = "<group>"; };
+		11DF10750A74015E00514D0B /* Preferences.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Preferences.nib; path = Resources/Preferences.nib; sourceTree = "<group>"; };
+		11DF108F0A7402C400514D0B /* RAFPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAFPreferencesWindowController.h; path = Sources/RAFPreferencesWindowController.h; sourceTree = "<group>"; };
+		11DF10900A7402C400514D0B /* RAFPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAFPreferencesWindowController.m; path = Sources/RAFPreferencesWindowController.m; sourceTree = "<group>"; };
+		11E6DFA40A734D57000087B5 /* DefaultPrefs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = DefaultPrefs.plist; path = Resources/DefaultPrefs.plist; sourceTree = "<group>"; };
+		11EEEFEC0A740E0200780069 /* Read Me.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = "Read Me.rtfd"; path = "Resources/Read Me.rtfd"; sourceTree = "<group>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sources/main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = MainMenu.nib; path = Resources/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* WhereDidTheTimeGo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhereDidTheTimeGo_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* WhereDidTheTimeGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereDidTheTimeGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				11DBCB9E0A72CB4300492B19 /* RAFPieGraphQuartzView.h */,
+				11DBCB9F0A72CB4300492B19 /* RAFPieGraphQuartzView.m */,
+				11DBCAD10A72B94A00492B19 /* RAFTimeAppDelegate.h */,
+				11DBCAD20A72B94A00492B19 /* RAFTimeAppDelegate.m */,
+				11DBCC990A72D57F00492B19 /* RAFDesktopWindow.h */,
+				11DBCC9A0A72D57F00492B19 /* RAFDesktopWindow.m */,
+				11DF108F0A7402C400514D0B /* RAFPreferencesWindowController.h */,
+				11DF10900A7402C400514D0B /* RAFPreferencesWindowController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* WhereDidTheTimeGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* WhereDidTheTimeGo */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = WhereDidTheTimeGo;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* WhereDidTheTimeGo_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11EEEFEC0A740E0200780069 /* Read Me.rtfd */,
+				11C14CDF0A73F5E200A83AE0 /* WhereDidTheTimeGo.icns */,
+				11E6DFA40A734D57000087B5 /* DefaultPrefs.plist */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165DFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97319FDCFA39411CA2CEA /* MainMenu.nib */,
+				11DF10750A74015E00514D0B /* Preferences.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* WhereDidTheTimeGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "WhereDidTheTimeGo" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhereDidTheTimeGo;
+			productInstallPath = "$(HOME)/Applications";
+			productName = WhereDidTheTimeGo;
+			productReference = 8D1107320486CEB800E47090 /* WhereDidTheTimeGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WhereDidTheTimeGo" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* WhereDidTheTimeGo */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* WhereDidTheTimeGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DBCBA90A72CB8000492B19 /* MainMenu.nib in Resources */,
+				11DBCBA40A72CB7A00492B19 /* InfoPlist.strings in Resources */,
+				11E6DFA50A734D57000087B5 /* DefaultPrefs.plist in Resources */,
+				11C14CE00A73F5E200A83AE0 /* WhereDidTheTimeGo.icns in Resources */,
+				11DF10760A74015E00514D0B /* Preferences.nib in Resources */,
+				11EEEFED0A740E0200780069 /* Read Me.rtfd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				11DBCAD30A72B94A00492B19 /* RAFTimeAppDelegate.m in Sources */,
+				11DBCBA00A72CB4300492B19 /* RAFPieGraphQuartzView.m in Sources */,
+				11DBCC9B0A72D57F00492B19 /* RAFDesktopWindow.m in Sources */,
+				11DF10910A7402C400514D0B /* RAFPreferencesWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = WhereDidTheTimeGo;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = WhereDidTheTimeGo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "WhereDidTheTimeGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WhereDidTheTimeGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		593C17CC0A73DFC0009322E7 /* razor.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C17CB0A73DFC0009322E7 /* razor.png */; };
+		593C17DE0A73E267009322E7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 593C17DD0A73E267009322E7 /* Credits.rtf */; };
+		593C180D0A73E3F3009322E7 /* poison.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C180C0A73E3F3009322E7 /* poison.png */; };
+		593C181C0A73E4AA009322E7 /* tonic.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C181B0A73E4AA009322E7 /* tonic.png */; };
+		593C18850A73EB17009322E7 /* spray.aif in Resources */ = {isa = PBXBuildFile; fileRef = 593C18840A73EB17009322E7 /* spray.aif */; };
+		593C189B0A73EEF0009322E7 /* FuzzyFriday.icns in Resources */ = {isa = PBXBuildFile; fileRef = 593C189A0A73EEF0009322E7 /* FuzzyFriday.icns */; };
+		593C189E0A73F256009322E7 /* Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 593C189D0A73F256009322E7 /* Readme.rtf */; };
+		593C19160A7406DB009322E7 /* tonicicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C19150A7406DB009322E7 /* tonicicon.png */; };
+		593C19180A7406E0009322E7 /* razoricon.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C19170A7406E0009322E7 /* razoricon.png */; };
+		593C191A0A7406E7009322E7 /* playpause.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C19190A7406E7009322E7 /* playpause.png */; };
+		593C191E0A7406F3009322E7 /* poisonicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C191D0A7406F3009322E7 /* poisonicon.png */; };
+		593C19260A7407F5009322E7 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C19250A7407F5009322E7 /* reset.png */; };
+		599EA1020A72B1C10043BDB0 /* FESFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 599EA1010A72B1C10043BDB0 /* FESFace.m */; };
+		599EA1070A72B1C90043BDB0 /* FESHair.m in Sources */ = {isa = PBXBuildFile; fileRef = 599EA1060A72B1C90043BDB0 /* FESHair.m */; };
+		599EA2EB0A732B9A0043BDB0 /* FuzzyFred.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 599EA2E70A732B9A0043BDB0 /* FuzzyFred.pdf */; };
+		599EA3220A732E5F0043BDB0 /* FESFuzzyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599EA3210A732E5F0043BDB0 /* FESFuzzyController.m */; };
+		59A3616A0A71C1860084AE09 /* FESQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A361690A71C1860084AE09 /* FESQuartzView.m */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Fuzzy Freddy_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fuzzy Freddy_Prefix.pch"; sourceTree = "<group>"; };
+		593C17CB0A73DFC0009322E7 /* razor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = razor.png; sourceTree = "<group>"; };
+		593C17DD0A73E267009322E7 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		593C180C0A73E3F3009322E7 /* poison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poison.png; sourceTree = "<group>"; };
+		593C181B0A73E4AA009322E7 /* tonic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tonic.png; sourceTree = "<group>"; };
+		593C18840A73EB17009322E7 /* spray.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = spray.aif; sourceTree = "<group>"; };
+		593C189A0A73EEF0009322E7 /* FuzzyFriday.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = FuzzyFriday.icns; sourceTree = "<group>"; };
+		593C189D0A73F256009322E7 /* Readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
+		593C19150A7406DB009322E7 /* tonicicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tonicicon.png; sourceTree = "<group>"; };
+		593C19170A7406E0009322E7 /* razoricon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = razoricon.png; sourceTree = "<group>"; };
+		593C19190A7406E7009322E7 /* playpause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playpause.png; sourceTree = "<group>"; };
+		593C191D0A7406F3009322E7 /* poisonicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poisonicon.png; sourceTree = "<group>"; };
+		593C19250A7407F5009322E7 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		599EA1000A72B1C10043BDB0 /* FESFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FESFace.h; sourceTree = "<group>"; };
+		599EA1010A72B1C10043BDB0 /* FESFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FESFace.m; sourceTree = "<group>"; };
+		599EA1050A72B1C90043BDB0 /* FESHair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FESHair.h; sourceTree = "<group>"; };
+		599EA1060A72B1C90043BDB0 /* FESHair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FESHair.m; sourceTree = "<group>"; };
+		599EA2E70A732B9A0043BDB0 /* FuzzyFred.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FuzzyFred.pdf; sourceTree = "<group>"; };
+		599EA3200A732E5F0043BDB0 /* FESFuzzyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FESFuzzyController.h; sourceTree = "<group>"; };
+		599EA3210A732E5F0043BDB0 /* FESFuzzyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FESFuzzyController.m; sourceTree = "<group>"; };
+		59A361680A71C1860084AE09 /* FESQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FESQuartzView.h; sourceTree = "<group>"; };
+		59A361690A71C1860084AE09 /* FESQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FESQuartzView.m; sourceTree = "<group>"; };
+		59B9FACE0A73FDBD00B08DAB /* FESFuzzyConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FESFuzzyConstants.h; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Fuzzy Freddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fuzzy Freddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				599EA1050A72B1C90043BDB0 /* FESHair.h */,
+				599EA1060A72B1C90043BDB0 /* FESHair.m */,
+				599EA1000A72B1C10043BDB0 /* FESFace.h */,
+				599EA1010A72B1C10043BDB0 /* FESFace.m */,
+				59A361680A71C1860084AE09 /* FESQuartzView.h */,
+				59A361690A71C1860084AE09 /* FESQuartzView.m */,
+				599EA3200A732E5F0043BDB0 /* FESFuzzyController.h */,
+				599EA3210A732E5F0043BDB0 /* FESFuzzyController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Fuzzy Freddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Fuzzy Freddy */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Fuzzy Freddy";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				59B9FACE0A73FDBD00B08DAB /* FESFuzzyConstants.h */,
+				32CA4F630368D1EE00C91783 /* Fuzzy Freddy_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				593C189D0A73F256009322E7 /* Readme.rtf */,
+				593C189A0A73EEF0009322E7 /* FuzzyFriday.icns */,
+				593C18840A73EB17009322E7 /* spray.aif */,
+				593C19190A7406E7009322E7 /* playpause.png */,
+				593C17DD0A73E267009322E7 /* Credits.rtf */,
+				593C191D0A7406F3009322E7 /* poisonicon.png */,
+				593C19170A7406E0009322E7 /* razoricon.png */,
+				593C19250A7407F5009322E7 /* reset.png */,
+				593C181B0A73E4AA009322E7 /* tonic.png */,
+				593C19150A7406DB009322E7 /* tonicicon.png */,
+				593C17CB0A73DFC0009322E7 /* razor.png */,
+				593C180C0A73E3F3009322E7 /* poison.png */,
+				599EA2E70A732B9A0043BDB0 /* FuzzyFred.pdf */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Fuzzy Freddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Fuzzy Freddy" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fuzzy Freddy";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Fuzzy Freddy";
+			productReference = 8D1107320486CEB800E47090 /* Fuzzy Freddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Fuzzy Freddy" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Fuzzy Freddy */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Fuzzy Freddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				599EA2EB0A732B9A0043BDB0 /* FuzzyFred.pdf in Resources */,
+				593C17CC0A73DFC0009322E7 /* razor.png in Resources */,
+				593C17DE0A73E267009322E7 /* Credits.rtf in Resources */,
+				593C180D0A73E3F3009322E7 /* poison.png in Resources */,
+				593C181C0A73E4AA009322E7 /* tonic.png in Resources */,
+				593C18850A73EB17009322E7 /* spray.aif in Resources */,
+				593C189B0A73EEF0009322E7 /* FuzzyFriday.icns in Resources */,
+				593C189E0A73F256009322E7 /* Readme.rtf in Resources */,
+				593C19160A7406DB009322E7 /* tonicicon.png in Resources */,
+				593C19180A7406E0009322E7 /* razoricon.png in Resources */,
+				593C191A0A7406E7009322E7 /* playpause.png in Resources */,
+				593C191E0A7406F3009322E7 /* poisonicon.png in Resources */,
+				593C19260A7407F5009322E7 /* reset.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				59A3616A0A71C1860084AE09 /* FESQuartzView.m in Sources */,
+				599EA1020A72B1C10043BDB0 /* FESFace.m in Sources */,
+				599EA1070A72B1C90043BDB0 /* FESHair.m in Sources */,
+				599EA3220A732E5F0043BDB0 /* FESFuzzyController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Fuzzy Freddy";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Fuzzy Freddy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Fuzzy Freddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Fuzzy Freddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

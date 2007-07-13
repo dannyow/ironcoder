@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Classes</key>
+	<dict>
+		<key>NSApplication</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>processes</key>
+				<dict>
+					<key>Name</key>
+					<string>processes</string>
+				</dict>
+			</dict>
+			<key>Name</key>
+			<string>application</string>
+			<key>PluralName</key>
+			<string>applications</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Scripting dictionary for Usage.</string>
+	<key>Name</key>
+	<string>usage</string>
+</dict>
+</plist>

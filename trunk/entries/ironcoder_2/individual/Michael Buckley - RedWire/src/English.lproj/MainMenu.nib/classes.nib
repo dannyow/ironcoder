@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {reset = id; }; 
+            CLASS = RedWireController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {theView = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = RedWireView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {rwc = RedWireController; }; 
+            SUPERCLASS = NSView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

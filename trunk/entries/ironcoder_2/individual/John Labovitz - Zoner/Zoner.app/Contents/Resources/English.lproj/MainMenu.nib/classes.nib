@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            CLASS = ETZoner; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_projectionStepper" = NSStepper; "_view" = ETZonerView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = ETZonerView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

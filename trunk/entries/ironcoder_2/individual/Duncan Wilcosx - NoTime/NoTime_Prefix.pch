@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NoTime' target in the 'NoTime' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

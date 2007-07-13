@@ -1,0 +1,22 @@
+TapDance
+by Michael Ash (mike@mikeash.com)
+
+TapDance probably requires 10.4, and definitely requires that you enable access for assistive devices in your Universal Access settings. The app will warn you sternly and quit if you don't have that turned on.
+
+Suggested category: Best Abuse of the Rules.
+
+TapDance uses the CoreGraphics event tap API to monitor your usage of the computer. It tracks keyboard and mouse activity and how much time you spend working on a per-app basis. After five seconds of inactivity it stops counting until you start working again. You can see how much time you spend working in Xcode versus browsing the web in Safari or chatting in Colloquy or....
+
+The application will also tell you whether you're working or slacking via its Dock icon. Green means go go go you're working hard, red means stop slacking you slacker.
+
+Note that the only events that are tracked are mouse moved events, keyboard events, and application switched events. Therefore for the purposes of this application, absentmindedly moving your cursor over your dock icons counts as "active", and reading documentation using your scroll wheel and holding the mouse supernaturally still counts as "inactive". Caveat emptor.
+
+Other than the use of CGEventTap, the app does not (directly) use CoreGraphics anywhere. Oh well, the API didn't say I had to use the actual *graphics* part of CoreGraphics. Don't make a clock indeed...
+
+For the true control freaks among us, TapDance can also periodically upload the data it collects to a web server. This way your boss can keep track of exactly what you're doing from the comfort of his Rolls Royce.
+
+Periodic uploads are controlled in the preferences. Try setting the upload URL to http://www.mikeash.com/uploadtimes.py and then visit that URL in your browser to see the collected data. (Warning: everybody can see everybody's data, so don't mess around in your PornBrowser while you have this option turned on.) (Another warning: the example script should be pretty robust, but anybody who tries to do anything evil with it will have an unfriendly meeting with my +3 Gauntlets of Harming.)
+
+The data is uploaded as straight plists over HTTP POST, so it's trivial to write your own web service that does whatever you want, from e-mailing yourself to sending a page every time it detects your friend playing Halo.
+
+Oh, there is one more thing.... Lest this application be construed as actually being useful, it tends to get bored. With TapDance visible, let the computer sit. Wait five seconds so the stop sign comes up in the Dock icon, then leave the computer alone for another thirty seconds. TapDance will begin to entertain itself until you come back to the computer. For even more fun, open the Preferences and the About window too, then sit back and watch. TapDance will immediately tidy itself and get back to work at the same time you do.

@@ -1,0 +1,8 @@
+{
+    IBClasses = (
+        {CLASS = DialView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = DialWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

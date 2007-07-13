@@ -1,0 +1,73 @@
+--------------------------------------------------------------------------------
+
+TimeLapse
+
+--------------------------------------------------------------------------------
+                         Iron Coder 3 entry by Andy Kim (andy@potionfactory.com)
+
+
+
+
+PURPOSE OF EXISTENCE
+--------------------
+
+At the end of the day, I often times wonder how time went by so fast. TimeLapse
+takes a screenshot once in a while (7 seconds by default) and stores it. You can
+then browse your screenshots later and try to figure out what the heck went
+wrong.
+
+
+HIGHLIGHTS
+----------
+
+- Screenshot taken using Core Graphics API
+
+- A good example of super fast image resizing using the
+  CGImageSourceCreateThumbnailAtIndex call. The images are resized live. They are
+  not cached or pre-scaled to thumbnail size. The screenshot sizes are limited
+  to a width of 1024 pixels though just in case somebody runs this on the 30"
+  cinema display.
+
+- Tested with 1000+ screenshots.
+
+- Click on the thumbnail image to see the full-sized image! On a separate Window!
+
+- Live zoom-in and zoom-out
+
+- Printing. Prints out a bunch of screenshot swatches.
+
+- You can change the screenshot interval in the preferences
+
+- Because JPEG compression is used for the images, recording a day of 14 hours
+  taken at 1 minute intervals will only cost you 130 MB.
+
+- Core Graphics based gradient drawing
+
+- Universal Binary!
+
+
+HINT
+----
+The images get stored in "~/Library/Application Support/TimeLapse/TimeLapse.dat".
+Don't forget to delete it unless you like wasting hard drive space.
+
+
+TODO
+----
+
+- Screenshots should be taken in a separate thread
+
+- There are artifacts sometimes in the film's holes
+
+- Core Data + NSArrayController's arrangedObjects is not good for memory
+  efficiency. Need to release memory more aggressively.
+
+
+LICENSE
+-------
+
+It ain't much and the code is dirty, but I dedicate this to the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or distribute the
+code, either in source code form or as a compiled binary, for any purpose,
+commercial or non-commercial, and by any means.

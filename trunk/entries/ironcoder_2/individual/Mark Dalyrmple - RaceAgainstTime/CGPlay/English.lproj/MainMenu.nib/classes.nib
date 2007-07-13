@@ -1,0 +1,34 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {animate = id; useLayer = id; }; 
+            CLASS = BWCGLayerView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = BWCGView; 
+        }, 
+        {CLASS = BWCGPatternView; LANGUAGE = ObjC; SUPERCLASS = BWCGView; }, 
+        {
+            ACTIONS = {changeShading = id; extendEnd = id; extendStart = id; }; 
+            CLASS = BWCGShaderView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {blurbField = NSTextField; }; 
+            SUPERCLASS = BWCGView; 
+        }, 
+        {
+            ACTIONS = {
+                drawShadow = id; 
+                setAngle = id; 
+                setBlur = id; 
+                setDistance = id; 
+                useTransparency = id; 
+            }; 
+            CLASS = BWCGShadowView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = BWCGView; 
+        }, 
+        {CLASS = BWCGSimple; LANGUAGE = ObjC; SUPERCLASS = BWCGView; }, 
+        {CLASS = BWCGView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

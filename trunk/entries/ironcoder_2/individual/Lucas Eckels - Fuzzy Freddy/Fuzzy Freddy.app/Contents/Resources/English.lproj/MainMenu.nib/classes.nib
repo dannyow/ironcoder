@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                openReadme = id; 
+                playPause = id; 
+                reset = id; 
+                saveAsPdf = id; 
+                setPoison = id; 
+                setRazor = id; 
+                setTonic = id; 
+            }; 
+            CLASS = FESFuzzyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {fuzzyView = FESQuartzView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = FESQuartzView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {controller = FESFuzzyController; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

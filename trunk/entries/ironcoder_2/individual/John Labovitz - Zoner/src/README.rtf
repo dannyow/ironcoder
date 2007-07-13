@@ -1,0 +1,44 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf410
+{\fonttbl\f0\fnil\fcharset77 Georgia-Bold;\f1\fnil\fcharset77 Georgia;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\b\fs36 \cf0 Zoner\
+
+\f1\b0\fs28 by John Labovitz, Eureka Toolworks\
+johnl@johnlabovitz.com / www.johnlabovitz.com\
+\
+Zoner displays a map of the world, laid out with points marking the principal locations of timezones.  If you hover your mouse over any of these points, the current time in that part of the world will be shown on an analog clock.  The current cartographic projection is shown (its abbreviation, anyway), in the lower-left portion of the window.  You can cycle through several dozen projections by clicking on the up/down arrows.  In the lower right, you'll see the description of the timezone you're currently hovering over.\
+\
+The map is completely vector-based and generated on the fly.  The data comes from an ESRI "shapefile," containing the full outlines of every country, expressed in latitude-longitude coordinates.  The map data is then projected onto a two-dimensional plane using one of several dozen projections.\
+\
+\
+
+\f0\b Caveats\
+
+\f1\b0 \
+I seem to have uncovered an occasional bug in the CG anti-aliasing code; the app will crash in "aa_render" once in a while.  I don't yet know why.  In the meantime, I have turned off anti-aliasing for the map itself. It doesn't look as good, but is more reliable.\
+\
+The results of some of the projections result in out-of-range numbers (like infinity); I'm currently ignoring points that end up like this.\
+\
+\
+
+\f0\b About the project\
+
+\f1\b0 \
+This project an exercise in over-engineering.  My initial goal was to figure out when the Iron Coder contest actually started and ended, given that I'm not in either CDT or UTC, the timezones in which it was originally announced.  How better to figure out a simple arithmetical offset then by rendering all the world and its timezones?\
+\
+\
+
+\f0\b Credits\
+
+\f1\b0 \
+The ESRI shapefiles are read by the {\field{\*\fldinst{HYPERLINK "http://shapelib.maptools.org"}}{\fldrslt Shapelib}} library.\
+\
+The shapefile of the world is found\'c9 well, unfortunately I lost track of this link.  Larger versions of the world, not included in this release because it would have made the package too large, include the {\field{\*\fldinst{HYPERLINK "http://mappinghacks.com/data/world_borders.zip"}}{\fldrslt world_borders}} package from the {\field{\*\fldinst{HYPERLINK "http://mappinghacks.com/data/"}}{\fldrslt Mapping Hacks}} site.\
+\
+The cartographic projection library is {\field{\*\fldinst{HYPERLINK "http://members.verizon.net/~vze2hc4d/proj4/"}}{\fldrslt libproj4}}, which is an updated but simplified version of {\field{\*\fldinst{HYPERLINK "http://www.remotesensing.org/proj/"}}{\fldrslt proj4}} (which I originally tried to use, but gave up because it was very difficult to get it compiled as a Universal binary).\
+\
+Both these libraries are embedded in the Zoner application.\
+\
+The geographic location information for timezones is read from {\field{\*\fldinst{HYPERLINK "file:///usr/share/zoneinfo/zone.tab"}}{\fldrslt zone.tab}}, included in OS X, but originally from the {\field{\*\fldinst{HYPERLINK "http://www.twinsun.com/tz/tz-link.htm"}}{\fldrslt tz}} database.}

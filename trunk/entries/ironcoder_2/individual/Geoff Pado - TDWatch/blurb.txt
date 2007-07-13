@@ -1,0 +1,3 @@
+This app displays the time you lauched it in a text field. I did it in about 3 minutes because I'm on vacation and have no time to learn CG. It uses CoreGraphics to do absolutely nothing. 
+
+Geoff Pado - Arclite

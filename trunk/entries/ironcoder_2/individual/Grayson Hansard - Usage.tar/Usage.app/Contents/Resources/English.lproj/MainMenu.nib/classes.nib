@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = RSVerticallyCenteredTextFieldCell; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTextFieldCell; 
+        }, 
+        {
+            ACTIONS = {changeSize = id; }; 
+            CLASS = controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {tableView = NSTableView; userButton = NSButton; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
