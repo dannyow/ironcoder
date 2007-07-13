@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {openIronCoderHomePage = id; resetTimeStatistics = id; }; 
+            CLASS = TimeController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {ourWindow = NSWindow; timeView = TimeGraphView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = TimeGraphView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {dataSource = id; }; 
+            SUPERCLASS = NSView; 
+        }
+    ); 
+    IBVersion = 1; 
+}
