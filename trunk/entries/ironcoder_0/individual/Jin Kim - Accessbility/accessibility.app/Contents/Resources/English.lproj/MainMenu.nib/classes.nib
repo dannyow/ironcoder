@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {oBeadWindow = id; oCannonWindow = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = BeadView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = BorderlessWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}
