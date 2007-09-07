@@ -1,0 +1,80 @@
+#button_bar {
+    top: 0px;
+    border-bottom-color: #626262;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    position: fixed;
+    padding-top: 8px;
+	font-size: 14px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px -1px 2px #727272;
+    font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+    z-index: 20;
+    height: 30px;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-image: url("/resources/buttonbar.png");
+}
+
+#back_button {
+    visibility: visible;
+    height: 28px;
+    width: 50px;
+    position: absolute;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 20px;
+    text-align: left;
+    float: left;
+    background-repeat: no-repeat;
+    z-index: 10;
+    margin-top: 0px;
+    margin-left: 5px;
+    background-image: url("resources/backbutton-up.png");
+    font-weight: bold;
+    font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+#button_bar a:link, a:active, a:visited {
+	color: white;
+	text-decoration: none
+}
+
+#back_button:active {
+	background-image: url("/resources/backbutton-down.png");
+}
+
+body {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    color: #444444;
+    background: #FFFFFF;
+    font-family: Arial, Sans-Serif;
+    overflow-x: hidden;
+}
+
+#images {
+    text-overflow: clip;
+    margin-top: 40px;
+}
+
+ul li {
+    clear: both;
+    margin-left: 0px;
+    float: left;
+    text-align: left;
+    padding: 5px;
+    list-style-type: none;
+}
+
+#image {
+    padding-left: 5px;
+    margin-left: 0px;
+    float: left;
+    text-align: left;
+    list-style-type: none;
+}
