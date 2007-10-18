@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453989160725B8AD005F82DC /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453989150725B8AD005F82DC /* QuickTime.framework */; };
+		455F099E08A51ADB009DC1A4 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455F099C08A51ADB009DC1A4 /* Quartz.framework */; };
+		455F099F08A51ADB009DC1A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455F099D08A51ADB009DC1A4 /* QuartzCore.framework */; };
+		455F09AB08A51B40009DC1A4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455F09AA08A51B40009DC1A4 /* OpenGL.framework */; };
+		4568256D0751180900E4BCD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 456825550751180900E4BCD2 /* InfoPlist.strings */; };
+		4568256E0751180900E4BCD2 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 456825570751180900E4BCD2 /* MainMenu.nib */; };
+		456825700751180900E4BCD2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4568255B0751180900E4BCD2 /* Info.plist */; };
+		456825710751180900E4BCD2 /* version.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4568255C0751180900E4BCD2 /* version.plist */; };
+		45725F19098E5BE7005C75C4 /* ToxicMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45725F18098E5BE7005C75C4 /* ToxicMedia.framework */; };
+		4584A1500930F69D00566F79 /* CMyController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4584A14C0930F69D00566F79 /* CMyController.h */; };
+		4584A1510930F69D00566F79 /* CMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4584A14D0930F69D00566F79 /* CMyController.m */; };
+		4584A1520930F69D00566F79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4584A14E0930F69D00566F79 /* main.m */; };
+		4584A1530930F69D00566F79 /* SequenceGrabber_Prefix.pch in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4584A14F0930F69D00566F79 /* SequenceGrabber_Prefix.pch */; };
+		4598565D072739170054A86A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4598565C072739170054A86A /* Carbon.framework */; };
+		45B9709B090DBAD700475A8B /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B9709A090DBAD700475A8B /* QTKit.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4568259C0751184F00E4BCD2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4584A1500930F69D00566F79 /* CMyController.h in CopyFiles */,
+				4584A1530930F69D00566F79 /* SequenceGrabber_Prefix.pch in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		453989150725B8AD005F82DC /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		455F099C08A51ADB009DC1A4 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		455F099D08A51ADB009DC1A4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		455F09AA08A51B40009DC1A4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		456825560751180900E4BCD2 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		456825580751180900E4BCD2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/MainMenu.nib; sourceTree = SOURCE_ROOT; };
+		4568255B0751180900E4BCD2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		4568255C0751180900E4BCD2 /* version.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = version.plist; path = Resources/version.plist; sourceTree = SOURCE_ROOT; };
+		45725F18098E5BE7005C75C4 /* ToxicMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToxicMedia.framework; path = ../Debug/ToxicMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4584A14C0930F69D00566F79 /* CMyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMyController.h; sourceTree = "<group>"; };
+		4584A14D0930F69D00566F79 /* CMyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMyController.m; sourceTree = "<group>"; };
+		4584A14E0930F69D00566F79 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4584A14F0930F69D00566F79 /* SequenceGrabber_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequenceGrabber_Prefix.pch; sourceTree = "<group>"; };
+		4598565C072739170054A86A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		45B9709A090DBAD700475A8B /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* SequenceGrabber.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SequenceGrabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				453989160725B8AD005F82DC /* QuickTime.framework in Frameworks */,
+				4598565D072739170054A86A /* Carbon.framework in Frameworks */,
+				455F099E08A51ADB009DC1A4 /* Quartz.framework in Frameworks */,
+				455F099F08A51ADB009DC1A4 /* QuartzCore.framework in Frameworks */,
+				455F09AB08A51B40009DC1A4 /* OpenGL.framework in Frameworks */,
+				45B9709B090DBAD700475A8B /* QTKit.framework in Frameworks */,
+				45725F19098E5BE7005C75C4 /* ToxicMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45B9709A090DBAD700475A8B /* QTKit.framework */,
+				455F09AA08A51B40009DC1A4 /* OpenGL.framework */,
+				455F099C08A51ADB009DC1A4 /* Quartz.framework */,
+				455F099D08A51ADB009DC1A4 /* QuartzCore.framework */,
+				4598565C072739170054A86A /* Carbon.framework */,
+				453989150725B8AD005F82DC /* QuickTime.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* SequenceGrabber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* SequenceGrabber */ = {
+			isa = PBXGroup;
+			children = (
+				4584A14B0930F69D00566F79 /* Source */,
+				456825540751180900E4BCD2 /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = SequenceGrabber;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45725F18098E5BE7005C75C4 /* ToxicMedia.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		456825540751180900E4BCD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				456825550751180900E4BCD2 /* InfoPlist.strings */,
+				456825570751180900E4BCD2 /* MainMenu.nib */,
+				4568255B0751180900E4BCD2 /* Info.plist */,
+				4568255C0751180900E4BCD2 /* version.plist */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		4584A14B0930F69D00566F79 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4584A14C0930F69D00566F79 /* CMyController.h */,
+				4584A14D0930F69D00566F79 /* CMyController.m */,
+				4584A14E0930F69D00566F79 /* main.m */,
+				4584A14F0930F69D00566F79 /* SequenceGrabber_Prefix.pch */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* QuadView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455F030E08A3EFCA009DC1A4 /* Build configuration list for PBXNativeTarget "QuadView" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				4568259C0751184F00E4BCD2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuadView;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SequenceGrabber;
+			productReference = 8D1107320486CEB800E47090 /* SequenceGrabber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 455F031208A3EFCA009DC1A4 /* Build configuration list for PBXProject "QuadSample" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* SequenceGrabber */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* QuadView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568256D0751180900E4BCD2 /* InfoPlist.strings in Resources */,
+				4568256E0751180900E4BCD2 /* MainMenu.nib in Resources */,
+				456825700751180900E4BCD2 /* Info.plist in Resources */,
+				456825710751180900E4BCD2 /* version.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4584A1510930F69D00566F79 /* CMyController.m in Sources */,
+				4584A1520930F69D00566F79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		456825550751180900E4BCD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456825560751180900E4BCD2 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		456825570751180900E4BCD2 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456825580751180900E4BCD2 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		455F030F08A3EFCA009DC1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/SequenceGrabber_Prefix.pch;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SequenceGrabber;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		455F031008A3EFCA009DC1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/SequenceGrabber_Prefix.pch;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SequenceGrabber;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		455F031308A3EFCA009DC1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		455F031408A3EFCA009DC1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		455F030E08A3EFCA009DC1A4 /* Build configuration list for PBXNativeTarget "QuadView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455F030F08A3EFCA009DC1A4 /* Debug */,
+				455F031008A3EFCA009DC1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		455F031208A3EFCA009DC1A4 /* Build configuration list for PBXProject "QuadSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455F031308A3EFCA009DC1A4 /* Debug */,
+				455F031408A3EFCA009DC1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,11 @@
+	NSScanner* topScanner = [NSScanner scannerWithString:memoryInformation];
+		[topScanner scanString:@"PhysMem:" intoString:NULL];
+		[topScanner scanDouble:&wired.value];
+		[topScanner scanUpToString:@" wired,  " intoString:&wired.unit];
+		[topScanner scanDouble:&active.value];
+		[topScanner scanUpToString:@" active,  " intoString:&active.unit];
+		[topScanner scanDouble:&inactive.value];
+		[topScanner scanUpToString:@" used,  " intoString:&inactive.unit];
+		[topScanner scanDouble:&free.value];
+		[topScanner scanUpToString:@" free,  " intoString:&free.unit];
+		[topScanner release];

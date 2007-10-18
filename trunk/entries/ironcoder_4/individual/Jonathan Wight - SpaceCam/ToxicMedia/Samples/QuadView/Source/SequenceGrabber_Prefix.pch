@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'SequenceGrabber' target in the 'SequenceGrabber' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	
+	#define TXComponentID @"SequenceGrabber"
+#endif

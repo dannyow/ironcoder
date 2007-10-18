@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {menu = id; spaceView = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = CGNightView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

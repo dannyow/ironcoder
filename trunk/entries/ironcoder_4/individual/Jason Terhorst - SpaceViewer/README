@@ -1,0 +1,9 @@
+//README
+
+Jason Terhorst
+yourstruly@jterhorst.com
+www.jterhorst.com
+
+My app isn't big on the special effects this time around.
+It basically lets you "warp" through our solar system and see the nine planets (hey, there were nine planets when I was in elementary school, so I'm sticking with it!)
+The info summaries are in the "info" drawer on the side of the window. Borrowed info from en.wikipedia.org. The viewer simply draws all of the planets  to an image, then uses a CIFilter to create a motion blur on that image when switching between planets.

@@ -1,0 +1,30 @@
+<macro>
+	<inputs>
+		<image key="inputImage"/>
+	</inputs>
+	<outputs>
+		<image key="outputImage" ref="FILTER_2.outputImage"/>
+	</outputs>
+	<filters>
+		<filter key="FILTER_1" cifiltername="CISharpenLuminance">
+			<inputs>
+				<image key="inputImage" ref="inputImage"/>
+				<float key="inputSharpness">2.0</float>
+			</inputs>
+		</filter>
+		<filter key="FILTER_2" cifiltername="CICMYKHalftone">
+			<inputs>
+				<image key="inputImage" ref="FILTER_1.outputImage"/>
+				<float key="inputSharpness">0.7</float>
+				<float key="inputWidth">6.0</float>
+				<float key="inputGCR">1.0</float>
+				<float key="inputUCR">0.5</float>
+				<vector key="inputCenter">
+					<float>150</float>
+					<float>150</float>
+				</vector>
+				<float key="inputAngle">0.0</float>
+			</inputs>
+		</filter>
+	</filters>
+</macro>

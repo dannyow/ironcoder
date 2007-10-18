@@ -1,0 +1,71 @@
+float MIN(float scalar1, float scalar2)
+{
+return scalar1 < scalar2 ? scalar1 : scalar2;
+}
+
+float MAX(float scalar1, float scalar2)
+{
+return scalar1 > scalar2 ? scalar1 : scalar2;
+}
+
+float hue(vec4 color)
+{
+float min = MIN(color.r, MIN(color.g, color.b));
+float max = MAX(color.r, MAX(color.g, color.b));
+
+float delta = max - min;
+
+float theHue = (max == 0.0 ? -1000.0 : 
+	(color.r == max ? (color.g - color.b) / delta : -
+		(color.g == max ? 2.0 + (color.b - color.r) / delta : 
+			(4.0 + (color.r - color.g) / delta)
+			)
+		)
+	);
+
+theHue = theHue < 0.0 ? (theHue + 6.0) / 6.0 : theHue / 6.0;
+
+return(theHue);
+}
+
+kernel vec4 Weighting(sampler inSampler1)
+{
+const vec4 C1 = unpremultiply(sample(inSampler1, samplerCoord(inSampler1))); 
+
+const float theHue = hue(C1);
+
+const vec4 theColor = theHue < 0.0 ? vec4(1.0, 0.0, 0.0, 1.0) : vec4(theHue, theHue, theHue, 1.0);
+
+return premultiply(theColor);
+}
+
+
+/*
+void RGBtoHSV( float r, float g, float b, float *h, float *s, float *v )
+{
+	float min, max, delta;
+	min = MIN( r, g, b );
+	max = MAX( r, g, b );
+	*v = max;				// v
+	delta = max - min;
+	if( max == 0 )
+		{
+		// r = g = b = 0		// s = 0, v is undefined
+		*s = 0;
+		*h = -1;
+		}
+	else
+		{
+		*s = delta / max;		// s
+		if( r == max )
+			*h = ( g - b ) / delta;		// between yellow & magenta
+		else if( g == max )
+			*h = 2 + ( b - r ) / delta;	// between cyan & yellow
+		else
+			*h = 4 + ( r - g ) / delta;	// between magenta & cyan
+		*h *= 60;				// degrees
+		if( *h < 0 )
+			*h += 360;
+		}
+}
+*/

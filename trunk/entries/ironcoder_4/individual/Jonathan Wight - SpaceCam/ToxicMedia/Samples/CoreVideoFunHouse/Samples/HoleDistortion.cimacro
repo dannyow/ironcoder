@@ -1,0 +1,22 @@
+<macro>
+	<inputs>
+		<image key="inputImage"/>
+	</inputs>
+	<outputs>
+		<image key="outputImage" ref="FILTER_1.outputImage"/>
+	</outputs>
+	<nodes>
+		<filter key="FILTER_1" cifiltername="CIHoleDistortion">
+			<inputs>
+				<image key="inputImage" ref="inputImage"/>
+				<vector key="inputCenter">
+					<float>100</float>
+					<float>100</float>
+					<float>0</float>
+					<float>0</float>
+				</vector>
+				<float key="inputRadius">50.0</float>
+			</inputs>
+		</filter>
+	</nodes>
+</macro>

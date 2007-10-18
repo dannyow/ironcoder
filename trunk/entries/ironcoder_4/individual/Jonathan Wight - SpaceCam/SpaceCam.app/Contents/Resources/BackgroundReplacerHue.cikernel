@@ -1,0 +1,48 @@
+float MIN(float scalar1, float scalar2)
+{
+return scalar1 < scalar2 ? scalar1 : scalar2;
+}
+
+float MAX(float scalar1, float scalar2)
+{
+return scalar1 > scalar2 ? scalar1 : scalar2;
+}
+
+float hue(vec4 color)
+{
+float min = MIN(color.r, MIN(color.g, color.b));
+float max = MAX(color.r, MAX(color.g, color.b));
+
+float delta = max - min;
+
+float theHue = (max == 0.0 ? -1000.0 : 
+	(color.r == max ? (color.g - color.b) / delta : -
+		(color.g == max ? 2.0 + (color.b - color.r) / delta : 
+			(4.0 + (color.r - color.g) / delta)
+			)
+		)
+	);
+
+theHue = theHue < 0.0 ? (theHue + 6.0) / 6.0 : theHue / 6.0;
+
+return(theHue);
+}
+
+kernel vec4 MyKernel(sampler oldBackgroundImage, sampler newBackgroundImage, sampler image)
+{
+const vec4 C1 = unpremultiply(sample(oldBackgroundImage, samplerCoord(image))); 
+const vec4 C2 = unpremultiply(sample(newBackgroundImage, samplerCoord(newBackgroundImage))); 
+const vec4 C3 = unpremultiply(sample(image, samplerCoord(image))); 
+
+const float P = 0.05;
+
+const float D = abs(hue(C1) - hue(C3));
+
+bool theFlag = D <= P;
+
+const vec4 theResult = theFlag ? C2 : C3;
+
+
+
+return premultiply(theResult);
+}

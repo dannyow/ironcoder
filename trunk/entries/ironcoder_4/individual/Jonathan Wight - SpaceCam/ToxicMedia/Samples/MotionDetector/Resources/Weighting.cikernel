@@ -1,0 +1,9 @@
+kernel vec4 Weighting(sampler inSampler1, float inWeight1, sampler inSampler2, float inWeight2)
+{
+const vec4 C1 = unpremultiply(sample(inSampler1, samplerCoord(inSampler1))); 
+const vec4 C2 = unpremultiply(sample(inSampler2, samplerCoord(inSampler2))); 
+
+const vec4 theResult = C1 * inWeight1 + C2 * inWeight2;
+
+return premultiply(theResult);
+}

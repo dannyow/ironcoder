@@ -1,0 +1,40 @@
+<macro>
+	<inputs>
+		<image key="inputImage"/>
+		<float key="inputAngle">0.0</float>
+	</inputs>
+	
+	<outputs>
+		<image key="outputImage" ref="lines.outputImage"/>
+	</outputs>
+
+	<nodes>
+
+		<filter key="edges" cifiltername="CIEdgeWork">
+<!--
+			<instantiation>
+				<class>CIFilter</class>
+				<cifiltername>CIEdgeWork</cifiltername>
+			</instantiation>
+-->
+
+			<inputs>
+				<float key="inputRadius">4.0</float>
+				<image key="inputImage" ref="inputImage"/>
+			</inputs>
+		</filter>
+
+		<filter key="lines" cifiltername="CILineScreen">
+			<inputs>
+				<image key="inputImage" ref="edges.outputImage"/>
+<!--
+				<XXXX key="inputCenter"/>
+-->
+				<float key="inputAngle" ref="inputAngle"/>
+				<float key="inputWidth">10.0</float>
+				<float key="inputSharpness">0.7</float>
+			</inputs>
+		</filter>
+
+	</nodes>
+</macro>

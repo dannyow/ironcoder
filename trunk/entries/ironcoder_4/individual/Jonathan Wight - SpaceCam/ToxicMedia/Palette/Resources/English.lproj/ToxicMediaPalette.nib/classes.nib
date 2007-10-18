@@ -1,0 +1,63 @@
+{
+    IBClasses = (
+        {CLASS = CCoreImageView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {
+                chooseMovieFile = id; 
+                gotoBeginning = id; 
+                gotoEnd = id; 
+                gotoNextSelectionPoint = id; 
+                gotoPosterFrame = id; 
+                gotoPreviousSelectionPoint = id; 
+                pause = id; 
+                play = id; 
+                stepBackward = id; 
+                stepForward = id; 
+            }; 
+            CLASS = CCoreVideoMovieView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = CFilteringCoreImageView; 
+        }, 
+        {
+            CLASS = CFilteringCoreImageView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = CCoreImageView; 
+        }, 
+        {
+            ACTIONS = {pause = id; resume = id; start = id; stop = id; }; 
+            CLASS = CSequenceGrabber; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                loadSettings = id; 
+                pause = id; 
+                resume = id; 
+                runSoundChannelSettingsDialog = id; 
+                runVideoChannelSettingsDialog = id; 
+                saveSettings = id; 
+                start = id; 
+                stop = id; 
+            }; 
+            CLASS = CSequenceGrabberView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {outletSequenceGrabber = CSequenceGrabber; }; 
+            SUPERCLASS = CFilteringCoreImageView; 
+        }, 
+        {
+            CLASS = CToxicMediaPalette; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                coreImageViewProxy = NSView; 
+                coreVideoMovieViewProxy = NSView; 
+                filteringCoreImageViewProxy = NSView; 
+                sequenceGrabberProxy = NSView; 
+                sequenceGrabberViewProxy = NSView; 
+            }; 
+            SUPERCLASS = IBPalette; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

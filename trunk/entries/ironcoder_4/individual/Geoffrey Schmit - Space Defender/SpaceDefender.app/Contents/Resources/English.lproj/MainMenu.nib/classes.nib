@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = GameView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {
+                fire = id; 
+                moveLeft = id; 
+                moveRight = id; 
+                playGame = id; 
+                showPreferencePanel = id; 
+                stopGame = id; 
+            }; 
+            CLASS = SpaceDefenderDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {view = GameView; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

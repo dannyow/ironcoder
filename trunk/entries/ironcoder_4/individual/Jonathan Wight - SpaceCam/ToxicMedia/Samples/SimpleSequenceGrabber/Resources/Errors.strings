@@ -1,0 +1,13 @@
+"NSOSStatusErrorDomain.-2211.Description" = "Camera disconnected.";
+"NSOSStatusErrorDomain.-2211.FailureReason" = "Camera disconnected.";
+"NSOSStatusErrorDomain.-2211.RecoverySuggestion" = "Try plugging in your isight dummy!";
+
+// couldntGetRequiredComponent
+"NSOSStatusErrorDomain.-9405.Description" = "Unable to connect to sequence grabber device.";
+"NSOSStatusErrorDomain.-9405.FailureReason" = "No sequence grabber device was present.";
+"NSOSStatusErrorDomain.-9405.RecoverySuggestion" = "Try plugging in your isight dummy!";
+
+"CSequenceGrabberErrorDomain.-100.Description" = "Movie filename should be shorter.";
+"CSequenceGrabberErrorDomain.-100.FailureReason" = "The name the movie file will be saved under is too long.";
+"CSequenceGrabberErrorDomain.-100.RecoverySuggestion" = "Try using a shorter name for the movie file.";
+

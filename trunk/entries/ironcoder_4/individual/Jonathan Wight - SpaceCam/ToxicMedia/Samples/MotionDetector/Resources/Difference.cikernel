@@ -1,0 +1,26 @@
+
+
+kernel vec4 MyKernel(sampler firstFrame, sampler currentFrame)
+{
+const vec4 C1 = unpremultiply(sample(firstFrame, samplerCoord(firstFrame))); 
+const vec4 C2 = unpremultiply(sample(currentFrame, samplerCoord(currentFrame))); 
+
+const float G1 = (C1.r + C1.g + C1.b) / 3.0;
+const float G2 = (C2.r + C2.g + C2.b) / 3.0;
+const float D = abs(G1 - G2);
+const vec4 trueColor = vec4(1.0, 1.0, 1.0, 1.0);
+const vec4 falseColor = vec4(0.0, 0.0, 0.0, 1.0);
+const vec4 theResult = D > 0.05 ? trueColor : falseColor;
+return premultiply(theResult); // TODO do i need to this with alpha 1.0?
+
+/*
+const float G1 = (C1.r + C1.g + C1.b) / 3.0;
+const float G2 = (C2.r + C2.g + C2.b) / 3.0;
+const float D = abs(G1 - G2);
+return premultiply(vec4(D, D, D, 1.0));
+*/
+
+/*
+return premultiply(vec4(abs(C1.r - C2.r), abs(C1.g - C2.g), abs(C1.b - C2.b), 1.0));
+*/
+}

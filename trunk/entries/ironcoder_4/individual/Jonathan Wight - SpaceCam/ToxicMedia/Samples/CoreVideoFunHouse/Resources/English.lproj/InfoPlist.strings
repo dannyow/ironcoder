@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "CoreVideoFunHouse";
+NSHumanReadableCopyright = "© Toxic Software, 2005";

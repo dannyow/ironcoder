@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {redistributeStars = id; resetConstellation = id; saveImage = id; }; 
+            CLASS = TTApplicationController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_controlPanel" = NSPanel; "_view" = TTSpaceTimeView; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = TTSpaceTimeView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,1 @@
+This application displays the current memory space as an image. The image grows and shrinks to indicate total memory usage and pulsates in proportion to change in memory usage. It utilizes CoreImage for the display and pulsating effect.

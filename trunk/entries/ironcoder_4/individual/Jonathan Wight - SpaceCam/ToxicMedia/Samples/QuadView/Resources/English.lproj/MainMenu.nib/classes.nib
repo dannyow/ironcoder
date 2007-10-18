@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {CLASS = CCoreImageView; LANGUAGE = ObjC; SUPERCLASS = NSOpenGLView; }, 
+        {
+            ACTIONS = {actionConfigure = id; actionStart = id; actionStop = id; }; 
+            CLASS = CMyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                image1 = CFilteringCoreImageView; 
+                image2 = CFilteringCoreImageView; 
+                image3 = CFilteringCoreImageView; 
+                image4 = CFilteringCoreImageView; 
+                image5 = CFilteringCoreImageView; 
+                outletWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

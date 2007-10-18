@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450576BD0923CBD4004EE210 /* TestWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 450576BC0923CBD4004EE210 /* TestWindow.nib */; };
+		452CD88A090DE04C00DEE3B0 /* SequenceGrabberWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 452CD884090DE04C00DEE3B0 /* SequenceGrabberWindow.nib */; };
+		452CD8AA090DE12700DEE3B0 /* CSequenceGrabberWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 452CD8A9090DE12700DEE3B0 /* CSequenceGrabberWindowController.m */; };
+		452CD8AF090DE15600DEE3B0 /* CMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 452CD8AE090DE15600DEE3B0 /* CMyController.m */; };
+		452CF3D2099C2CBC008D25EC /* ToxicMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452CF3D1099C2CBC008D25EC /* ToxicMedia.framework */; };
+		45A4687308FE1A0B007CF07B /* Errors.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45A4687208FE1A0B007CF07B /* Errors.strings */; };
+		45BC9CD708FDF8150054DF50 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BC9CD508FDF8150054DF50 /* QTKit.framework */; };
+		45BC9CD808FDF8150054DF50 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BC9CD608FDF8150054DF50 /* QuartzCore.framework */; };
+		45BC9CDE08FDF81D0054DF50 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BC9CDD08FDF81D0054DF50 /* QuickTime.framework */; };
+		45E997500902F0AF002DEAF7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E9973D0902F0AF002DEAF7 /* OpenGL.framework */; };
+		45FC53AE08FBFB490091ABDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45FC53A608FBFB490091ABDF /* InfoPlist.strings */; };
+		45FC53AF08FBFB490091ABDF /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 45FC53A808FBFB490091ABDF /* MainMenu.nib */; };
+		45FC53B108FBFB490091ABDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FC53AC08FBFB490091ABDF /* main.m */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45ACDA1D09280D3A00AF07A0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		450576BC0923CBD4004EE210 /* TestWindow.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = TestWindow.nib; sourceTree = "<group>"; };
+		452CD885090DE04C00DEE3B0 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SequenceGrabberWindow.nib; sourceTree = "<group>"; };
+		452CD8A8090DE12700DEE3B0 /* CSequenceGrabberWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSequenceGrabberWindowController.h; sourceTree = "<group>"; };
+		452CD8A9090DE12700DEE3B0 /* CSequenceGrabberWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSequenceGrabberWindowController.m; sourceTree = "<group>"; };
+		452CD8AD090DE15600DEE3B0 /* CMyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMyController.h; sourceTree = "<group>"; };
+		452CD8AE090DE15600DEE3B0 /* CMyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMyController.m; sourceTree = "<group>"; };
+		452CF3D1099C2CBC008D25EC /* ToxicMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ToxicMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A4687208FE1A0B007CF07B /* Errors.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Errors.strings; sourceTree = "<group>"; };
+		45BC9CD508FDF8150054DF50 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		45BC9CD608FDF8150054DF50 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		45BC9CDD08FDF81D0054DF50 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		45E9973D0902F0AF002DEAF7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		45FC53A708FBFB490091ABDF /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45FC53A908FBFB490091ABDF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		45FC53AA08FBFB490091ABDF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FC53AC08FBFB490091ABDF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45FC53EA08FBFD0E0091ABDF /* SimpleSequenceGrabber_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleSequenceGrabber_Prefix.pch; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* SimpleSequenceGrabber.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SimpleSequenceGrabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				45BC9CD708FDF8150054DF50 /* QTKit.framework in Frameworks */,
+				45BC9CD808FDF8150054DF50 /* QuartzCore.framework in Frameworks */,
+				45BC9CDE08FDF81D0054DF50 /* QuickTime.framework in Frameworks */,
+				45E997500902F0AF002DEAF7 /* OpenGL.framework in Frameworks */,
+				452CF3D2099C2CBC008D25EC /* ToxicMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45E9973D0902F0AF002DEAF7 /* OpenGL.framework */,
+				45BC9CDD08FDF81D0054DF50 /* QuickTime.framework */,
+				45BC9CD508FDF8150054DF50 /* QTKit.framework */,
+				45BC9CD608FDF8150054DF50 /* QuartzCore.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* SimpleSequenceGrabber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				45FC53AB08FBFB490091ABDF /* Source */,
+				45FC53A508FBFB490091ABDF /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Sample;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				452CF3D1099C2CBC008D25EC /* ToxicMedia.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45FC53A508FBFB490091ABDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45FC53A608FBFB490091ABDF /* InfoPlist.strings */,
+				45FC53A808FBFB490091ABDF /* MainMenu.nib */,
+				452CD884090DE04C00DEE3B0 /* SequenceGrabberWindow.nib */,
+				45FC53AA08FBFB490091ABDF /* Info.plist */,
+				45A4687208FE1A0B007CF07B /* Errors.strings */,
+				450576BC0923CBD4004EE210 /* TestWindow.nib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45FC53AB08FBFB490091ABDF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				45FC53EA08FBFD0E0091ABDF /* SimpleSequenceGrabber_Prefix.pch */,
+				45FC53AC08FBFB490091ABDF /* main.m */,
+				452CD8AD090DE15600DEE3B0 /* CMyController.h */,
+				452CD8AE090DE15600DEE3B0 /* CMyController.m */,
+				452CD8A8090DE12700DEE3B0 /* CSequenceGrabberWindowController.h */,
+				452CD8A9090DE12700DEE3B0 /* CSequenceGrabberWindowController.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* SimpleSequenceGrabber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FC538208FBF91C0091ABDF /* Build configuration list for PBXNativeTarget "SimpleSequenceGrabber" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				45ACDA1D09280D3A00AF07A0 /* CopyFiles */,
+				45FC53D308FBFC040091ABDF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleSequenceGrabber;
+			productInstallPath = "$(HOME)/Applications";
+			productName = VideoBrush;
+			productReference = 8D1107320486CEB800E47090 /* SimpleSequenceGrabber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 45FC538608FBF91C0091ABDF /* Build configuration list for PBXProject "SimpleSequenceGrabber" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Sample */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* SimpleSequenceGrabber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FC53AE08FBFB490091ABDF /* InfoPlist.strings in Resources */,
+				45FC53AF08FBFB490091ABDF /* MainMenu.nib in Resources */,
+				45A4687308FE1A0B007CF07B /* Errors.strings in Resources */,
+				452CD88A090DE04C00DEE3B0 /* SequenceGrabberWindow.nib in Resources */,
+				450576BD0923CBD4004EE210 /* TestWindow.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45FC53D308FBFC040091ABDF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n### We only run on \"Release\" builds...\nif [[ $BUILD_STYLE != 'Release' ]] ; then\n\texit 0\nfi\n\n### Create the output directory...\nMYOUTPUTDIR=\"$SRCROOT/Output\"\nmkdir -p \"$MYOUTPUTDIR\"\n\n### Remove product if it already exists...\nif [[ -c \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME\" ]] ; then\n\trm -R \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME\"\nfi\n\n### Copy product to output directory...\ncp -R \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" \"$MYOUTPUTDIR\"\n\n### Remove tar.bz2 archive if already exists...\nif [[ -c \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME.tar.bz2\" ]] ; then\n\trm \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME.tar.bz2\"\nfi\n\n### Archive product into tar.bz2\ngnutar --create --bzip2 --file \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME.tar.bz2\" --directory \"$SRCROOT/Output\" \"$FULL_PRODUCT_NAME\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FC53B108FBFB490091ABDF /* main.m in Sources */,
+				452CD8AA090DE12700DEE3B0 /* CSequenceGrabberWindowController.m in Sources */,
+				452CD8AF090DE15600DEE3B0 /* CMyController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		452CD884090DE04C00DEE3B0 /* SequenceGrabberWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				452CD885090DE04C00DEE3B0 /* English */,
+			);
+			name = SequenceGrabberWindow.nib;
+			sourceTree = "<group>";
+		};
+		45FC53A608FBFB490091ABDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FC53A708FBFB490091ABDF /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45FC53A808FBFB490091ABDF /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FC53A908FBFB490091ABDF /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45FC538308FBF91C0091ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../../../../Developer/Products/Debug",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/SimpleSequenceGrabber_Prefix.pch;
+				GCC_USE_GCC3_PFE_SUPPORT = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = YES;
+				PRODUCT_NAME = SimpleSequenceGrabber;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		45FC538408FBF91C0091ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../../../../Developer/Products/Debug",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/SimpleSequenceGrabber_Prefix.pch;
+				GCC_USE_GCC3_PFE_SUPPORT = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = YES;
+				PRODUCT_NAME = SimpleSequenceGrabber;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		45FC538708FBF91C0091ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		45FC538808FBF91C0091ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45FC538208FBF91C0091ABDF /* Build configuration list for PBXNativeTarget "SimpleSequenceGrabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FC538308FBF91C0091ABDF /* Debug */,
+				45FC538408FBF91C0091ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45FC538608FBF91C0091ABDF /* Build configuration list for PBXProject "SimpleSequenceGrabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FC538708FBF91C0091ABDF /* Debug */,
+				45FC538808FBF91C0091ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
