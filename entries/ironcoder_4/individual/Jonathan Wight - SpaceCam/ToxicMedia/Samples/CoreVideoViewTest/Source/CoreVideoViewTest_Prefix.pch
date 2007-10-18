@@ -1,0 +1,13 @@
+//
+//  CoreVideoViewTest_Prefix.pch
+//  CoreVideoViewTest
+//
+//  Created by Jonathan Wight on 11/21/2005.
+//  Copyright Toxic Software 2005. All rights reserved.
+//
+
+// Prefix header for all source files of the 'CoreVideoViewTest' target in the 'CoreVideoViewTest' project
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

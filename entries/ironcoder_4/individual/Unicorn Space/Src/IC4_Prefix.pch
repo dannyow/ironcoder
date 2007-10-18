@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'IC4' target in the 'IC4' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

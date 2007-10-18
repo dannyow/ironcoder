@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = AnimatingTabView; LANGUAGE = ObjC; SUPERCLASS = NSTabView; }, 
+        {
+            ACTIONS = {fart = id; openHelp = id; vents = id; }; 
+            CLASS = FESCloseController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {ventButton = NSButton; view = FESCloseView; weaponButton = NSButton; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = FESCloseView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {controller = FESCloseController; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

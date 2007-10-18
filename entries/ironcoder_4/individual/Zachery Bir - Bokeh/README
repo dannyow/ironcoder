@@ -1,0 +1,38 @@
+From Wikipedia:
+
+  Bokeh (from the Japanese boke ぼけ, "blur") is a photographic
+  term describing the subjective aesthetic qualities of
+  out-of-focus areas in an image produced by a camera lens.
+  For example, causing an out-of-focus background image may
+  reduce distractions and emphasize the primary subject.
+
+  Although difficult to quantify, and hence open to debate,
+  some lenses are believed to enhance overall image quality
+  by producing more subjectively pleasing out-of-focus areas
+  (bokeh). Bokeh is especially important for large-aperture
+  lenses, macro lenses, and long telephoto lenses because they
+  are typically used with a narrow depth of field. Bokeh is
+  also important for "portrait lenses" (typically medium
+  telephoto — 85–150 mm on 35-mm format) because the photographer
+  would typically select a shallow depth of field (wide aperture)
+  to have an out of focus background and make the subject stand
+  out.
+
+Bokeh tries to replicate this feel by providing the front-most
+application with sharp focus, and rendering the remainder of
+the screen blurred, but still recognizable.
+
+Known Issues:
+  - Uh, well, it actually doesn't do any blurring (despite my
+    attempts at capturing the view behind each of Bokeh's windows
+    and using that as the input image for the CIFilter). In the
+    interim, it does make the windows slightly transparent, which
+    has an accumulative effect the further back the windows are.
+  - It doesn't properly interstice itself among all visible windows.
+  - Occasionally, you'll need to bring a particular window forward
+    twice to get it properly focused.
+    
+Thanks for playing,
+
+Zachery Bir
+zbir@urbanape.com

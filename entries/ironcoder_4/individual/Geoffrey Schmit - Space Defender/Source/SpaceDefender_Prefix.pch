@@ -1,0 +1,13 @@
+//
+//  SpaceDefender_Prefix.pch
+//  SpaceDefender
+//
+//  Created by Geoffrey Schmit on 28/10/2006.
+//  Copyright Sugar Maple Software, Inc 2006. All rights reserved.
+//
+
+// Prefix header for all source files of the 'SpaceDefender' target in the 'SpaceDefender' project
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

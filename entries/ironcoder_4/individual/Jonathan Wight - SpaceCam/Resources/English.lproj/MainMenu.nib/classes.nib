@@ -1,0 +1,16 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {actionGatherBackground = id; }; 
+            CLASS = CMyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                outletCoreImageView = CCoreImageView; 
+                outletSequenceGrabber = CSequenceGrabber; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,34 @@
+{
+    IBClasses = (
+        {CLASS = CCoreImageView; LANGUAGE = ObjC; SUPERCLASS = NSOpenGLView; }, 
+        {CLASS = CCoreVideoView; LANGUAGE = ObjC; SUPERCLASS = CCoreImageView; }, 
+        {
+            CLASS = CFilteringCoreImageView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = CCoreImageView; 
+        }, 
+        {
+            ACTIONS = {
+                actionGotoBeginning = id; 
+                actionGotoEnd = id; 
+                actionGotoNextSelectionPoint = id; 
+                actionGotoPosterTime = id; 
+                actionGotoPreviousSelectionPoint = id; 
+                actionOpenMacro = id; 
+                actionOpenMovie = id; 
+                actionOpenMovieURL = id; 
+                actionPlay = id; 
+                actionStepBackward = id; 
+                actionStepForward = id; 
+                actionStop = id; 
+            }; 
+            CLASS = CMyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {outletMovieView = CMyView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = CMyView; LANGUAGE = ObjC; SUPERCLASS = CFilteringCoreImageView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

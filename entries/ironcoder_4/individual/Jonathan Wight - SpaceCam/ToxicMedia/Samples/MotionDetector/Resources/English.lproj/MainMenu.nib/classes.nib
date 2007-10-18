@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {CLASS = CCoreImageView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            CLASS = CMyController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {outletInputVideoView = CCoreImageView; outletWindow = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

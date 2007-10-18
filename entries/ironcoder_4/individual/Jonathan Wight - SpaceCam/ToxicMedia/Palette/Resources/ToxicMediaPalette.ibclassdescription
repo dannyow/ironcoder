@@ -1,0 +1,27 @@
+{
+	CCoreImageView = {
+		SuperClass = NSOpenGLView;
+		Attributes = { };
+	};
+
+	CFilteringCoreImageView = {
+		SuperClass = CCoreImageView;
+		Attributes = { };
+	};
+
+	CSequenceGrabberView = {
+		SuperClass = CFilteringCoreImageView;
+		Attributes = { };
+		};
+
+	CSequenceGrabber = {
+		SuperClass = NSObject;
+		Attributes = { };
+	};
+
+	CCoreVideoMovieView = {
+		SuperClass = CFilteringCoreImageView;
+		Attributes = { };
+		};
+
+}

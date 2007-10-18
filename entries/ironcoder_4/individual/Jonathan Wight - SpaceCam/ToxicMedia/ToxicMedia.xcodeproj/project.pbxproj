@@ -1,0 +1,993 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4599F4A009781AF5008D9E8B /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4599F4B209781B13008D9E8B /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4599F4A209781AFE008D9E8B /* PBXTargetDependency */,
+				4599F4A409781B01008D9E8B /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4503EACB0944E9750023701B /* CSequenceGrabber.png in Resources */ = {isa = PBXBuildFile; fileRef = 4503EAC50944E9750023701B /* CSequenceGrabber.png */; };
+		4503EACC0944E9750023701B /* CoreImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4503EAC60944E9750023701B /* CoreImage.png */; };
+		4503EACD0944E9750023701B /* CFilteredCoreImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 4503EAC70944E9750023701B /* CFilteredCoreImageView.png */; };
+		4503EACE0944E9750023701B /* CCoreImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 4503EAC80944E9750023701B /* CCoreImageView.png */; };
+		4503EACF0944E9750023701B /* CCoreVideoMovieView.png in Resources */ = {isa = PBXBuildFile; fileRef = 4503EAC90944E9750023701B /* CCoreVideoMovieView.png */; };
+		4503EAD00944E9750023701B /* CSequenceGrabberView.png in Resources */ = {isa = PBXBuildFile; fileRef = 4503EACA0944E9750023701B /* CSequenceGrabberView.png */; };
+		4507FB8B0928171500ABE010 /* ToxicMediaPalette.ibclassdescription in Resources */ = {isa = PBXBuildFile; fileRef = 4507FB710928171500ABE010 /* ToxicMediaPalette.ibclassdescription */; };
+		4507FB910928171500ABE010 /* CCoreImageViewInspector.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4507FB770928171500ABE010 /* CCoreImageViewInspector.nib */; };
+		4507FB930928171500ABE010 /* ToxicMediaPalette.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4507FB7B0928171500ABE010 /* ToxicMediaPalette.nib */; };
+		4507FB950928171500ABE010 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4507FB7F0928171500ABE010 /* InfoPlist.strings */; };
+		4507FB970928171500ABE010 /* palette.table in Resources */ = {isa = PBXBuildFile; fileRef = 4507FB820928171500ABE010 /* palette.table */; };
+		4507FB980928171500ABE010 /* CCoreImageViewInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4507FB850928171500ABE010 /* CCoreImageViewInspector.m */; };
+		4507FB990928171500ABE010 /* CToxicMediaPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 4507FB870928171500ABE010 /* CToxicMediaPalette.m */; };
+		4507FC0A092817EC00ABE010 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19DC092805A300368C89 /* Carbon.framework */; };
+		4507FC0B092817ED00ABE010 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19DD092805A300368C89 /* Cocoa.framework */; };
+		4507FC0E092817EE00ABE010 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19DF092805A300368C89 /* OpenGL.framework */; };
+		4507FC0F092817EE00ABE010 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19E0092805A300368C89 /* QTKit.framework */; };
+		4507FC10092817EF00ABE010 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19E1092805A300368C89 /* Quartz.framework */; };
+		4507FC11092817F000ABE010 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19E2092805A300368C89 /* QuartzCore.framework */; };
+		4507FC12092817F000ABE010 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19E3092805A300368C89 /* QuickTime.framework */; };
+		4507FC1D0928181400ABE010 /* InterfaceBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4507FC1C0928181400ABE010 /* InterfaceBuilder.framework */; };
+		453DE8220A921646005A41EB /* ToxicMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* ToxicMedia.framework */; };
+		453DE8470A92165D005A41EB /* ToxicMedia.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* ToxicMedia.framework */; };
+		453DE9460A921E22005A41EB /* CToxicOpenGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 453DE9420A921E22005A41EB /* CToxicOpenGLView.h */; };
+		453DE9470A921E22005A41EB /* CToxicOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 453DE9430A921E22005A41EB /* CToxicOpenGLView.m */; };
+		453DE9480A921E22005A41EB /* CToxicOpenGLViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 453DE9440A921E22005A41EB /* CToxicOpenGLViewHelper.h */; };
+		453DE9490A921E22005A41EB /* CToxicOpenGLViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 453DE9450A921E22005A41EB /* CToxicOpenGLViewHelper.m */; };
+		454D19E5092805A300368C89 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19DC092805A300368C89 /* Carbon.framework */; };
+		454D19E6092805A300368C89 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19DD092805A300368C89 /* Cocoa.framework */; };
+		454D19E8092805A300368C89 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19DF092805A300368C89 /* OpenGL.framework */; };
+		454D19E9092805A300368C89 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19E0092805A300368C89 /* QTKit.framework */; };
+		454D19EA092805A300368C89 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19E1092805A300368C89 /* Quartz.framework */; };
+		454D19EB092805A300368C89 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19E2092805A300368C89 /* QuartzCore.framework */; };
+		454D19EC092805A300368C89 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D19E3092805A300368C89 /* QuickTime.framework */; };
+		45ACDC040928150100AF07A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45ACDBBD0928150100AF07A0 /* InfoPlist.strings */; };
+		45ACDC060928150100AF07A0 /* CCoreImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBC20928150100AF07A0 /* CCoreImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC070928150100AF07A0 /* CCoreImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBC30928150100AF07A0 /* CCoreImageView.m */; };
+		45ACDC080928150100AF07A0 /* CFilteringCoreImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBC40928150100AF07A0 /* CFilteringCoreImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC090928150100AF07A0 /* CFilteringCoreImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBC50928150100AF07A0 /* CFilteringCoreImageView.m */; };
+		45ACDC0A0928150100AF07A0 /* CGenericCIFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBC60928150100AF07A0 /* CGenericCIFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC0B0928150100AF07A0 /* CGenericCIFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBC70928150100AF07A0 /* CGenericCIFilter.m */; };
+		45ACDC0C0928150100AF07A0 /* CIImage_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBC80928150100AF07A0 /* CIImage_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC0D0928150100AF07A0 /* CIImage_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBC90928150100AF07A0 /* CIImage_Extensions.m */; };
+		45ACDC0E0928150100AF07A0 /* CCIMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBCB0928150100AF07A0 /* CCIMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC0F0928150100AF07A0 /* CCIMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBCC0928150100AF07A0 /* CCIMacro.m */; };
+		45ACDC100928150100AF07A0 /* CCIMacro_CoreImageFunHouseExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBCD0928150100AF07A0 /* CCIMacro_CoreImageFunHouseExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC110928150100AF07A0 /* CCIMacro_CoreImageFunHouseExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBCE0928150100AF07A0 /* CCIMacro_CoreImageFunHouseExtensions.m */; };
+		45ACDC120928150100AF07A0 /* CCIMacro_XMLExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBCF0928150100AF07A0 /* CCIMacro_XMLExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC130928150100AF07A0 /* CCIMacro_XMLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBD00928150100AF07A0 /* CCIMacro_XMLExtensions.m */; };
+		45ACDC160928150100AF07A0 /* CCoreVideoMovieView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBD40928150100AF07A0 /* CCoreVideoMovieView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC170928150100AF07A0 /* CCoreVideoMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBD50928150100AF07A0 /* CCoreVideoMovieView.m */; };
+		45ACDC180928150100AF07A0 /* CCVStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBD60928150100AF07A0 /* CCVStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC190928150100AF07A0 /* CCVStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBD70928150100AF07A0 /* CCVStream.m */; };
+		45ACDC1A0928150100AF07A0 /* NSOpenGLContext_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBD90928150100AF07A0 /* NSOpenGLContext_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC1B0928150100AF07A0 /* NSOpenGLContext_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBDA0928150100AF07A0 /* NSOpenGLContext_Extensions.m */; };
+		45ACDC1C0928150100AF07A0 /* CCarbonComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBDC0928150100AF07A0 /* CCarbonComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC1D0928150100AF07A0 /* CCarbonComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBDD0928150100AF07A0 /* CCarbonComponent.m */; };
+		45ACDC1E0928150100AF07A0 /* CCarbonComponentInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBDE0928150100AF07A0 /* CCarbonComponentInstance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC1F0928150100AF07A0 /* CCarbonComponentInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBDF0928150100AF07A0 /* CCarbonComponentInstance.m */; };
+		45ACDC200928150100AF07A0 /* CCarbonGWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBE00928150100AF07A0 /* CCarbonGWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC210928150100AF07A0 /* CCarbonGWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBE10928150100AF07A0 /* CCarbonGWorld.m */; };
+		45ACDC220928150100AF07A0 /* CCarbonHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBE20928150100AF07A0 /* CCarbonHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC230928150100AF07A0 /* CCarbonHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBE30928150100AF07A0 /* CCarbonHandle.m */; };
+		45ACDC240928150100AF07A0 /* CDecompressionSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBE40928150100AF07A0 /* CDecompressionSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC250928150100AF07A0 /* CDecompressionSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBE50928150100AF07A0 /* CDecompressionSession.m */; };
+		45ACDC260928150100AF07A0 /* CExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBE60928150100AF07A0 /* CExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC270928150100AF07A0 /* CExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBE70928150100AF07A0 /* CExceptionHandler.m */; };
+		45ACDC280928150100AF07A0 /* CFrameRate.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBE80928150100AF07A0 /* CFrameRate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC290928150100AF07A0 /* CFrameRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBE90928150100AF07A0 /* CFrameRate.m */; };
+		45ACDC2A0928150100AF07A0 /* Geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBEA0928150100AF07A0 /* Geometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC2B0928150100AF07A0 /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBEB0928150100AF07A0 /* Geometry.m */; };
+		45ACDC2C0928150100AF07A0 /* NSError_MoreExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBEC0928150100AF07A0 /* NSError_MoreExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC2D0928150100AF07A0 /* NSError_MoreExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBED0928150100AF07A0 /* NSError_MoreExtensions.m */; };
+		45ACDC2E0928150100AF07A0 /* NSException_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBEE0928150100AF07A0 /* NSException_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC2F0928150100AF07A0 /* NSException_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBEF0928150100AF07A0 /* NSException_Extensions.m */; };
+		45ACDC300928150100AF07A0 /* Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBF00928150100AF07A0 /* Prefix.pch */; settings = {ATTRIBUTES = (); }; };
+		45ACDC310928150100AF07A0 /* QTDataReference_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBF20928150100AF07A0 /* QTDataReference_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC320928150100AF07A0 /* QTDataReference_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBF30928150100AF07A0 /* QTDataReference_Extensions.m */; };
+		45ACDC330928150100AF07A0 /* QTMovie_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBF40928150100AF07A0 /* QTMovie_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC340928150100AF07A0 /* QTMovie_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBF50928150100AF07A0 /* QTMovie_Extensions.m */; };
+		45ACDC370928150100AF07A0 /* CSequenceGrabber.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBF90928150100AF07A0 /* CSequenceGrabber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC380928150100AF07A0 /* CSequenceGrabber.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBFA0928150100AF07A0 /* CSequenceGrabber.m */; };
+		45ACDC390928150100AF07A0 /* CSequenceGrabberChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBFB0928150100AF07A0 /* CSequenceGrabberChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC3A0928150100AF07A0 /* CSequenceGrabberChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBFC0928150100AF07A0 /* CSequenceGrabberChannel.m */; };
+		45ACDC3B0928150100AF07A0 /* CSequenceGrabberSoundChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBFD0928150100AF07A0 /* CSequenceGrabberSoundChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC3C0928150100AF07A0 /* CSequenceGrabberSoundChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDBFE0928150100AF07A0 /* CSequenceGrabberSoundChannel.m */; };
+		45ACDC3D0928150100AF07A0 /* CSequenceGrabberVideoChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDBFF0928150100AF07A0 /* CSequenceGrabberVideoChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC3E0928150100AF07A0 /* CSequenceGrabberVideoChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDC000928150100AF07A0 /* CSequenceGrabberVideoChannel.m */; };
+		45ACDC3F0928150100AF07A0 /* CSequenceGrabberView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDC010928150100AF07A0 /* CSequenceGrabberView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDC400928150100AF07A0 /* CSequenceGrabberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ACDC020928150100AF07A0 /* CSequenceGrabberView.m */; };
+		45ACDC410928150100AF07A0 /* ToxicMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 45ACDC030928150100AF07A0 /* ToxicMedia.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4599F4A109781AFE008D9E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = ToxicMedia;
+		};
+		4599F4A309781B01008D9E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45ACDC460928152A00AF07A0;
+			remoteInfo = "ToxicMedia Palette";
+		};
+		45A7DD7D0AF3AF9900058F7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = ToxicMedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		453DE8430A921655005A41EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				453DE8470A92165D005A41EB /* ToxicMedia.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4503EAC50944E9750023701B /* CSequenceGrabber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CSequenceGrabber.png; sourceTree = "<group>"; };
+		4503EAC60944E9750023701B /* CoreImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoreImage.png; sourceTree = "<group>"; };
+		4503EAC70944E9750023701B /* CFilteredCoreImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CFilteredCoreImageView.png; sourceTree = "<group>"; };
+		4503EAC80944E9750023701B /* CCoreImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCoreImageView.png; sourceTree = "<group>"; };
+		4503EAC90944E9750023701B /* CCoreVideoMovieView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCoreVideoMovieView.png; sourceTree = "<group>"; };
+		4503EACA0944E9750023701B /* CSequenceGrabberView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CSequenceGrabberView.png; sourceTree = "<group>"; };
+		4507FB710928171500ABE010 /* ToxicMediaPalette.ibclassdescription */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ToxicMediaPalette.ibclassdescription; sourceTree = "<group>"; };
+		4507FB780928171500ABE010 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CCoreImageViewInspector.nib; sourceTree = "<group>"; };
+		4507FB7C0928171500ABE010 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ToxicMediaPalette.nib; sourceTree = "<group>"; };
+		4507FB800928171500ABE010 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4507FB810928171500ABE010 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		4507FB820928171500ABE010 /* palette.table */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = palette.table; sourceTree = "<group>"; };
+		4507FB840928171500ABE010 /* CCoreImageViewInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCoreImageViewInspector.h; sourceTree = "<group>"; };
+		4507FB850928171500ABE010 /* CCoreImageViewInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCoreImageViewInspector.m; sourceTree = "<group>"; };
+		4507FB860928171500ABE010 /* CToxicMediaPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CToxicMediaPalette.h; sourceTree = "<group>"; };
+		4507FB870928171500ABE010 /* CToxicMediaPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CToxicMediaPalette.m; sourceTree = "<group>"; };
+		4507FB880928171500ABE010 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		4507FC1C0928181400ABE010 /* InterfaceBuilder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilder.framework; path = /System/Library/Frameworks/InterfaceBuilder.framework; sourceTree = "<absolute>"; };
+		453DE9420A921E22005A41EB /* CToxicOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CToxicOpenGLView.h; sourceTree = "<group>"; };
+		453DE9430A921E22005A41EB /* CToxicOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CToxicOpenGLView.m; sourceTree = "<group>"; };
+		453DE9440A921E22005A41EB /* CToxicOpenGLViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CToxicOpenGLViewHelper.h; sourceTree = "<group>"; };
+		453DE9450A921E22005A41EB /* CToxicOpenGLViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CToxicOpenGLViewHelper.m; sourceTree = "<group>"; };
+		454D19DB092805A300368C89 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		454D19DC092805A300368C89 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		454D19DD092805A300368C89 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		454D19DE092805A300368C89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		454D19DF092805A300368C89 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		454D19E0092805A300368C89 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		454D19E1092805A300368C89 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		454D19E2092805A300368C89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		454D19E3092805A300368C89 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		45ACDBBE0928150100AF07A0 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45ACDBBF0928150100AF07A0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		45ACDBC20928150100AF07A0 /* CCoreImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCoreImageView.h; sourceTree = "<group>"; };
+		45ACDBC30928150100AF07A0 /* CCoreImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCoreImageView.m; sourceTree = "<group>"; };
+		45ACDBC40928150100AF07A0 /* CFilteringCoreImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringCoreImageView.h; sourceTree = "<group>"; };
+		45ACDBC50928150100AF07A0 /* CFilteringCoreImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFilteringCoreImageView.m; sourceTree = "<group>"; };
+		45ACDBC60928150100AF07A0 /* CGenericCIFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGenericCIFilter.h; sourceTree = "<group>"; };
+		45ACDBC70928150100AF07A0 /* CGenericCIFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGenericCIFilter.m; sourceTree = "<group>"; };
+		45ACDBC80928150100AF07A0 /* CIImage_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIImage_Extensions.h; sourceTree = "<group>"; };
+		45ACDBC90928150100AF07A0 /* CIImage_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIImage_Extensions.m; sourceTree = "<group>"; };
+		45ACDBCB0928150100AF07A0 /* CCIMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIMacro.h; sourceTree = "<group>"; };
+		45ACDBCC0928150100AF07A0 /* CCIMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIMacro.m; sourceTree = "<group>"; };
+		45ACDBCD0928150100AF07A0 /* CCIMacro_CoreImageFunHouseExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIMacro_CoreImageFunHouseExtensions.h; sourceTree = "<group>"; };
+		45ACDBCE0928150100AF07A0 /* CCIMacro_CoreImageFunHouseExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIMacro_CoreImageFunHouseExtensions.m; sourceTree = "<group>"; };
+		45ACDBCF0928150100AF07A0 /* CCIMacro_XMLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIMacro_XMLExtensions.h; sourceTree = "<group>"; };
+		45ACDBD00928150100AF07A0 /* CCIMacro_XMLExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIMacro_XMLExtensions.m; sourceTree = "<group>"; };
+		45ACDBD40928150100AF07A0 /* CCoreVideoMovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCoreVideoMovieView.h; sourceTree = "<group>"; };
+		45ACDBD50928150100AF07A0 /* CCoreVideoMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCoreVideoMovieView.m; sourceTree = "<group>"; };
+		45ACDBD60928150100AF07A0 /* CCVStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVStream.h; sourceTree = "<group>"; };
+		45ACDBD70928150100AF07A0 /* CCVStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVStream.m; sourceTree = "<group>"; };
+		45ACDBD90928150100AF07A0 /* NSOpenGLContext_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOpenGLContext_Extensions.h; sourceTree = "<group>"; };
+		45ACDBDA0928150100AF07A0 /* NSOpenGLContext_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOpenGLContext_Extensions.m; sourceTree = "<group>"; };
+		45ACDBDC0928150100AF07A0 /* CCarbonComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCarbonComponent.h; sourceTree = "<group>"; };
+		45ACDBDD0928150100AF07A0 /* CCarbonComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCarbonComponent.m; sourceTree = "<group>"; };
+		45ACDBDE0928150100AF07A0 /* CCarbonComponentInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCarbonComponentInstance.h; sourceTree = "<group>"; };
+		45ACDBDF0928150100AF07A0 /* CCarbonComponentInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCarbonComponentInstance.m; sourceTree = "<group>"; };
+		45ACDBE00928150100AF07A0 /* CCarbonGWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCarbonGWorld.h; sourceTree = "<group>"; };
+		45ACDBE10928150100AF07A0 /* CCarbonGWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCarbonGWorld.m; sourceTree = "<group>"; };
+		45ACDBE20928150100AF07A0 /* CCarbonHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCarbonHandle.h; sourceTree = "<group>"; };
+		45ACDBE30928150100AF07A0 /* CCarbonHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCarbonHandle.m; sourceTree = "<group>"; };
+		45ACDBE40928150100AF07A0 /* CDecompressionSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDecompressionSession.h; sourceTree = "<group>"; };
+		45ACDBE50928150100AF07A0 /* CDecompressionSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDecompressionSession.m; sourceTree = "<group>"; };
+		45ACDBE60928150100AF07A0 /* CExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CExceptionHandler.h; sourceTree = "<group>"; };
+		45ACDBE70928150100AF07A0 /* CExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CExceptionHandler.m; sourceTree = "<group>"; };
+		45ACDBE80928150100AF07A0 /* CFrameRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFrameRate.h; sourceTree = "<group>"; };
+		45ACDBE90928150100AF07A0 /* CFrameRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFrameRate.m; sourceTree = "<group>"; };
+		45ACDBEA0928150100AF07A0 /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		45ACDBEB0928150100AF07A0 /* Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geometry.m; sourceTree = "<group>"; };
+		45ACDBEC0928150100AF07A0 /* NSError_MoreExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSError_MoreExtensions.h; sourceTree = "<group>"; };
+		45ACDBED0928150100AF07A0 /* NSError_MoreExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSError_MoreExtensions.m; sourceTree = "<group>"; };
+		45ACDBEE0928150100AF07A0 /* NSException_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSException_Extensions.h; sourceTree = "<group>"; };
+		45ACDBEF0928150100AF07A0 /* NSException_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSException_Extensions.m; sourceTree = "<group>"; };
+		45ACDBF00928150100AF07A0 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		45ACDBF20928150100AF07A0 /* QTDataReference_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTDataReference_Extensions.h; sourceTree = "<group>"; };
+		45ACDBF30928150100AF07A0 /* QTDataReference_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTDataReference_Extensions.m; sourceTree = "<group>"; };
+		45ACDBF40928150100AF07A0 /* QTMovie_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTMovie_Extensions.h; sourceTree = "<group>"; };
+		45ACDBF50928150100AF07A0 /* QTMovie_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTMovie_Extensions.m; sourceTree = "<group>"; };
+		45ACDBF90928150100AF07A0 /* CSequenceGrabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSequenceGrabber.h; sourceTree = "<group>"; };
+		45ACDBFA0928150100AF07A0 /* CSequenceGrabber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSequenceGrabber.m; sourceTree = "<group>"; };
+		45ACDBFB0928150100AF07A0 /* CSequenceGrabberChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSequenceGrabberChannel.h; sourceTree = "<group>"; };
+		45ACDBFC0928150100AF07A0 /* CSequenceGrabberChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSequenceGrabberChannel.m; sourceTree = "<group>"; };
+		45ACDBFD0928150100AF07A0 /* CSequenceGrabberSoundChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSequenceGrabberSoundChannel.h; sourceTree = "<group>"; };
+		45ACDBFE0928150100AF07A0 /* CSequenceGrabberSoundChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSequenceGrabberSoundChannel.m; sourceTree = "<group>"; };
+		45ACDBFF0928150100AF07A0 /* CSequenceGrabberVideoChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSequenceGrabberVideoChannel.h; sourceTree = "<group>"; };
+		45ACDC000928150100AF07A0 /* CSequenceGrabberVideoChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSequenceGrabberVideoChannel.m; sourceTree = "<group>"; };
+		45ACDC010928150100AF07A0 /* CSequenceGrabberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSequenceGrabberView.h; sourceTree = "<group>"; };
+		45ACDC020928150100AF07A0 /* CSequenceGrabberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSequenceGrabberView.m; sourceTree = "<group>"; };
+		45ACDC030928150100AF07A0 /* ToxicMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToxicMedia.h; sourceTree = "<group>"; };
+		45ACDC470928152A00AF07A0 /* ToxicMedia.palette */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToxicMedia.palette; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E92DA00856B35500B7327A /* ToxicFrameworks_Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ToxicFrameworks_Debug.xcconfig; sourceTree = "<group>"; };
+		45E92DA10856B35500B7327A /* ToxicFrameworks_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ToxicFrameworks_Release.xcconfig; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* ToxicMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToxicMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45ACDC450928152A00AF07A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4507FC0A092817EC00ABE010 /* Carbon.framework in Frameworks */,
+				4507FC0B092817ED00ABE010 /* Cocoa.framework in Frameworks */,
+				4507FC0E092817EE00ABE010 /* OpenGL.framework in Frameworks */,
+				4507FC0F092817EE00ABE010 /* QTKit.framework in Frameworks */,
+				4507FC10092817EF00ABE010 /* Quartz.framework in Frameworks */,
+				4507FC11092817F000ABE010 /* QuartzCore.framework in Frameworks */,
+				4507FC12092817F000ABE010 /* QuickTime.framework in Frameworks */,
+				4507FC1D0928181400ABE010 /* InterfaceBuilder.framework in Frameworks */,
+				453DE8220A921646005A41EB /* ToxicMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454D19E5092805A300368C89 /* Carbon.framework in Frameworks */,
+				454D19E6092805A300368C89 /* Cocoa.framework in Frameworks */,
+				454D19E8092805A300368C89 /* OpenGL.framework in Frameworks */,
+				454D19E9092805A300368C89 /* QTKit.framework in Frameworks */,
+				454D19EA092805A300368C89 /* Quartz.framework in Frameworks */,
+				454D19EB092805A300368C89 /* QuartzCore.framework in Frameworks */,
+				454D19EC092805A300368C89 /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* ToxicMedia.framework */,
+				45ACDC470928152A00AF07A0 /* ToxicMedia.palette */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* ToxicSQL */ = {
+			isa = PBXGroup;
+			children = (
+				45E92D9F0856B35500B7327A /* Configurations */,
+				45ACDBBB0928150100AF07A0 /* Framework */,
+				4507FB6C0928171500ABE010 /* Palette */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = ToxicSQL;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				454D19DB092805A300368C89 /* AppKit.framework */,
+				454D19DC092805A300368C89 /* Carbon.framework */,
+				454D19DD092805A300368C89 /* Cocoa.framework */,
+				454D19DE092805A300368C89 /* Foundation.framework */,
+				454D19DF092805A300368C89 /* OpenGL.framework */,
+				454D19E0092805A300368C89 /* QTKit.framework */,
+				454D19E1092805A300368C89 /* Quartz.framework */,
+				454D19E2092805A300368C89 /* QuartzCore.framework */,
+				454D19E3092805A300368C89 /* QuickTime.framework */,
+				4507FC1C0928181400ABE010 /* InterfaceBuilder.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		4507FB6C0928171500ABE010 /* Palette */ = {
+			isa = PBXGroup;
+			children = (
+				4507FB830928171500ABE010 /* Source */,
+				4507FB700928171500ABE010 /* Resources */,
+			);
+			path = Palette;
+			sourceTree = "<group>";
+		};
+		4507FB700928171500ABE010 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4507FB710928171500ABE010 /* ToxicMediaPalette.ibclassdescription */,
+				4503EAC50944E9750023701B /* CSequenceGrabber.png */,
+				4503EAC60944E9750023701B /* CoreImage.png */,
+				4503EAC70944E9750023701B /* CFilteredCoreImageView.png */,
+				4503EAC80944E9750023701B /* CCoreImageView.png */,
+				4503EAC90944E9750023701B /* CCoreVideoMovieView.png */,
+				4503EACA0944E9750023701B /* CSequenceGrabberView.png */,
+				4507FB770928171500ABE010 /* CCoreImageViewInspector.nib */,
+				4507FB7B0928171500ABE010 /* ToxicMediaPalette.nib */,
+				4507FB7F0928171500ABE010 /* InfoPlist.strings */,
+				4507FB810928171500ABE010 /* Info.plist */,
+				4507FB820928171500ABE010 /* palette.table */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4507FB830928171500ABE010 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4507FB840928171500ABE010 /* CCoreImageViewInspector.h */,
+				4507FB850928171500ABE010 /* CCoreImageViewInspector.m */,
+				4507FB860928171500ABE010 /* CToxicMediaPalette.h */,
+				4507FB870928171500ABE010 /* CToxicMediaPalette.m */,
+				4507FB880928171500ABE010 /* Prefix.pch */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		453DE7CD0A9215AF005A41EB /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				453DE9420A921E22005A41EB /* CToxicOpenGLView.h */,
+				453DE9430A921E22005A41EB /* CToxicOpenGLView.m */,
+				453DE9440A921E22005A41EB /* CToxicOpenGLViewHelper.h */,
+				453DE9450A921E22005A41EB /* CToxicOpenGLViewHelper.m */,
+			);
+			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		45ACDBBB0928150100AF07A0 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				45ACDBC00928150100AF07A0 /* Source */,
+				45ACDBBC0928150100AF07A0 /* Resources */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		45ACDBBC0928150100AF07A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45ACDBBD0928150100AF07A0 /* InfoPlist.strings */,
+				45ACDBBF0928150100AF07A0 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45ACDBC00928150100AF07A0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				45ACDBC10928150100AF07A0 /* CoreImage */,
+				45ACDBCA0928150100AF07A0 /* CoreImageMacro */,
+				45ACDBD10928150100AF07A0 /* CoreVideo */,
+				45ACDBD80928150100AF07A0 /* Extensions */,
+				45ACDBDB0928150100AF07A0 /* Misc */,
+				453DE7CD0A9215AF005A41EB /* OpenGL */,
+				45ACDBF00928150100AF07A0 /* Prefix.pch */,
+				45ACDBF10928150100AF07A0 /* QTKit */,
+				45ACDBF80928150100AF07A0 /* SequenceGrabber */,
+				45ACDC030928150100AF07A0 /* ToxicMedia.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		45ACDBC10928150100AF07A0 /* CoreImage */ = {
+			isa = PBXGroup;
+			children = (
+				45ACDBC20928150100AF07A0 /* CCoreImageView.h */,
+				45ACDBC30928150100AF07A0 /* CCoreImageView.m */,
+				45ACDBC40928150100AF07A0 /* CFilteringCoreImageView.h */,
+				45ACDBC50928150100AF07A0 /* CFilteringCoreImageView.m */,
+				45ACDBC60928150100AF07A0 /* CGenericCIFilter.h */,
+				45ACDBC70928150100AF07A0 /* CGenericCIFilter.m */,
+				45ACDBC80928150100AF07A0 /* CIImage_Extensions.h */,
+				45ACDBC90928150100AF07A0 /* CIImage_Extensions.m */,
+			);
+			path = CoreImage;
+			sourceTree = "<group>";
+		};
+		45ACDBCA0928150100AF07A0 /* CoreImageMacro */ = {
+			isa = PBXGroup;
+			children = (
+				45ACDBCB0928150100AF07A0 /* CCIMacro.h */,
+				45ACDBCC0928150100AF07A0 /* CCIMacro.m */,
+				45ACDBCD0928150100AF07A0 /* CCIMacro_CoreImageFunHouseExtensions.h */,
+				45ACDBCE0928150100AF07A0 /* CCIMacro_CoreImageFunHouseExtensions.m */,
+				45ACDBCF0928150100AF07A0 /* CCIMacro_XMLExtensions.h */,
+				45ACDBD00928150100AF07A0 /* CCIMacro_XMLExtensions.m */,
+			);
+			path = CoreImageMacro;
+			sourceTree = "<group>";
+		};
+		45ACDBD10928150100AF07A0 /* CoreVideo */ = {
+			isa = PBXGroup;
+			children = (
+				45ACDBD40928150100AF07A0 /* CCoreVideoMovieView.h */,
+				45ACDBD50928150100AF07A0 /* CCoreVideoMovieView.m */,
+				45ACDBD60928150100AF07A0 /* CCVStream.h */,
+				45ACDBD70928150100AF07A0 /* CCVStream.m */,
+			);
+			path = CoreVideo;
+			sourceTree = "<group>";
+		};
+		45ACDBD80928150100AF07A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				45ACDBD90928150100AF07A0 /* NSOpenGLContext_Extensions.h */,
+				45ACDBDA0928150100AF07A0 /* NSOpenGLContext_Extensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45ACDBDB0928150100AF07A0 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				45ACDBDC0928150100AF07A0 /* CCarbonComponent.h */,
+				45ACDBDD0928150100AF07A0 /* CCarbonComponent.m */,
+				45ACDBDE0928150100AF07A0 /* CCarbonComponentInstance.h */,
+				45ACDBDF0928150100AF07A0 /* CCarbonComponentInstance.m */,
+				45ACDBE00928150100AF07A0 /* CCarbonGWorld.h */,
+				45ACDBE10928150100AF07A0 /* CCarbonGWorld.m */,
+				45ACDBE20928150100AF07A0 /* CCarbonHandle.h */,
+				45ACDBE30928150100AF07A0 /* CCarbonHandle.m */,
+				45ACDBE40928150100AF07A0 /* CDecompressionSession.h */,
+				45ACDBE50928150100AF07A0 /* CDecompressionSession.m */,
+				45ACDBE60928150100AF07A0 /* CExceptionHandler.h */,
+				45ACDBE70928150100AF07A0 /* CExceptionHandler.m */,
+				45ACDBE80928150100AF07A0 /* CFrameRate.h */,
+				45ACDBE90928150100AF07A0 /* CFrameRate.m */,
+				45ACDBEA0928150100AF07A0 /* Geometry.h */,
+				45ACDBEB0928150100AF07A0 /* Geometry.m */,
+				45ACDBEC0928150100AF07A0 /* NSError_MoreExtensions.h */,
+				45ACDBED0928150100AF07A0 /* NSError_MoreExtensions.m */,
+				45ACDBEE0928150100AF07A0 /* NSException_Extensions.h */,
+				45ACDBEF0928150100AF07A0 /* NSException_Extensions.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		45ACDBF10928150100AF07A0 /* QTKit */ = {
+			isa = PBXGroup;
+			children = (
+				45ACDBF20928150100AF07A0 /* QTDataReference_Extensions.h */,
+				45ACDBF30928150100AF07A0 /* QTDataReference_Extensions.m */,
+				45ACDBF40928150100AF07A0 /* QTMovie_Extensions.h */,
+				45ACDBF50928150100AF07A0 /* QTMovie_Extensions.m */,
+			);
+			path = QTKit;
+			sourceTree = "<group>";
+		};
+		45ACDBF80928150100AF07A0 /* SequenceGrabber */ = {
+			isa = PBXGroup;
+			children = (
+				45ACDBF90928150100AF07A0 /* CSequenceGrabber.h */,
+				45ACDBFA0928150100AF07A0 /* CSequenceGrabber.m */,
+				45ACDBFB0928150100AF07A0 /* CSequenceGrabberChannel.h */,
+				45ACDBFC0928150100AF07A0 /* CSequenceGrabberChannel.m */,
+				45ACDBFD0928150100AF07A0 /* CSequenceGrabberSoundChannel.h */,
+				45ACDBFE0928150100AF07A0 /* CSequenceGrabberSoundChannel.m */,
+				45ACDBFF0928150100AF07A0 /* CSequenceGrabberVideoChannel.h */,
+				45ACDC000928150100AF07A0 /* CSequenceGrabberVideoChannel.m */,
+				45ACDC010928150100AF07A0 /* CSequenceGrabberView.h */,
+				45ACDC020928150100AF07A0 /* CSequenceGrabberView.m */,
+			);
+			path = SequenceGrabber;
+			sourceTree = "<group>";
+		};
+		45E92D9F0856B35500B7327A /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				45E92DA00856B35500B7327A /* ToxicFrameworks_Debug.xcconfig */,
+				45E92DA10856B35500B7327A /* ToxicFrameworks_Release.xcconfig */,
+			);
+			name = Configurations;
+			path = ../Configurations;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45ACDC060928150100AF07A0 /* CCoreImageView.h in Headers */,
+				45ACDC080928150100AF07A0 /* CFilteringCoreImageView.h in Headers */,
+				45ACDC0A0928150100AF07A0 /* CGenericCIFilter.h in Headers */,
+				45ACDC0C0928150100AF07A0 /* CIImage_Extensions.h in Headers */,
+				45ACDC0E0928150100AF07A0 /* CCIMacro.h in Headers */,
+				45ACDC100928150100AF07A0 /* CCIMacro_CoreImageFunHouseExtensions.h in Headers */,
+				45ACDC120928150100AF07A0 /* CCIMacro_XMLExtensions.h in Headers */,
+				45ACDC160928150100AF07A0 /* CCoreVideoMovieView.h in Headers */,
+				45ACDC180928150100AF07A0 /* CCVStream.h in Headers */,
+				45ACDC1A0928150100AF07A0 /* NSOpenGLContext_Extensions.h in Headers */,
+				45ACDC1C0928150100AF07A0 /* CCarbonComponent.h in Headers */,
+				45ACDC1E0928150100AF07A0 /* CCarbonComponentInstance.h in Headers */,
+				45ACDC200928150100AF07A0 /* CCarbonGWorld.h in Headers */,
+				45ACDC220928150100AF07A0 /* CCarbonHandle.h in Headers */,
+				45ACDC240928150100AF07A0 /* CDecompressionSession.h in Headers */,
+				45ACDC260928150100AF07A0 /* CExceptionHandler.h in Headers */,
+				45ACDC280928150100AF07A0 /* CFrameRate.h in Headers */,
+				45ACDC2A0928150100AF07A0 /* Geometry.h in Headers */,
+				45ACDC2C0928150100AF07A0 /* NSError_MoreExtensions.h in Headers */,
+				45ACDC2E0928150100AF07A0 /* NSException_Extensions.h in Headers */,
+				45ACDC300928150100AF07A0 /* Prefix.pch in Headers */,
+				45ACDC310928150100AF07A0 /* QTDataReference_Extensions.h in Headers */,
+				45ACDC330928150100AF07A0 /* QTMovie_Extensions.h in Headers */,
+				45ACDC370928150100AF07A0 /* CSequenceGrabber.h in Headers */,
+				45ACDC390928150100AF07A0 /* CSequenceGrabberChannel.h in Headers */,
+				45ACDC3B0928150100AF07A0 /* CSequenceGrabberSoundChannel.h in Headers */,
+				45ACDC3D0928150100AF07A0 /* CSequenceGrabberVideoChannel.h in Headers */,
+				45ACDC3F0928150100AF07A0 /* CSequenceGrabberView.h in Headers */,
+				45ACDC410928150100AF07A0 /* ToxicMedia.h in Headers */,
+				453DE9460A921E22005A41EB /* CToxicOpenGLView.h in Headers */,
+				453DE9480A921E22005A41EB /* CToxicOpenGLViewHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45ACDC460928152A00AF07A0 /* ToxicMedia Palette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45ACDC490928152A00AF07A0 /* Build configuration list for PBXNativeTarget "ToxicMedia Palette" */;
+			buildPhases = (
+				45ACDC430928152A00AF07A0 /* Resources */,
+				45ACDC440928152A00AF07A0 /* Sources */,
+				45ACDC450928152A00AF07A0 /* Frameworks */,
+				453DE8430A921655005A41EB /* CopyFiles */,
+				452D9B74092A4C0100EA4A1E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45A7DD7E0AF3AF9900058F7E /* PBXTargetDependency */,
+			);
+			name = "ToxicMedia Palette";
+			productName = "ToxicMedia Palette";
+			productReference = 45ACDC470928152A00AF07A0 /* ToxicMedia.palette */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8DC2EF4F0486A6940098B216 /* ToxicMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E92DA40856B35600B7327A /* Build configuration list for PBXNativeTarget "ToxicMedia" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+				8DC2EF580486A6940098B216 /* Rez */,
+				452D9B6E092A4BF500EA4A1E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToxicMedia;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = ToxicSQL;
+			productReference = 8DC2EF5B0486A6940098B216 /* ToxicMedia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 45E92DA80856B35600B7327A /* Build configuration list for PBXProject "ToxicMedia" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* ToxicSQL */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			targets = (
+				4599F4A009781AF5008D9E8B /* All */,
+				8DC2EF4F0486A6940098B216 /* ToxicMedia */,
+				45ACDC460928152A00AF07A0 /* ToxicMedia Palette */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45ACDC430928152A00AF07A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4507FB8B0928171500ABE010 /* ToxicMediaPalette.ibclassdescription in Resources */,
+				4507FB910928171500ABE010 /* CCoreImageViewInspector.nib in Resources */,
+				4507FB930928171500ABE010 /* ToxicMediaPalette.nib in Resources */,
+				4507FB950928171500ABE010 /* InfoPlist.strings in Resources */,
+				4507FB970928171500ABE010 /* palette.table in Resources */,
+				4503EACB0944E9750023701B /* CSequenceGrabber.png in Resources */,
+				4503EACC0944E9750023701B /* CoreImage.png in Resources */,
+				4503EACD0944E9750023701B /* CFilteredCoreImageView.png in Resources */,
+				4503EACE0944E9750023701B /* CCoreImageView.png in Resources */,
+				4503EACF0944E9750023701B /* CCoreVideoMovieView.png in Resources */,
+				4503EAD00944E9750023701B /* CSequenceGrabberView.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45ACDC040928150100AF07A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8DC2EF580486A6940098B216 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		452D9B6E092A4BF500EA4A1E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n### We only run on \"Release\" builds...\nif [[ $BUILD_STYLE != 'Release' ]] ; then\n\texit 0\nfi\n\n### Create the output directory...\nMYOUTPUTDIR=\"$SRCROOT/Output\"\nmkdir -p \"$MYOUTPUTDIR\"\n\n### Remove product if it already exists...\nif [[ -c \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME\" ]] ; then\n\trm -R \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME\"\nfi\n\n### Copy product to output directory...\ncp -R \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" \"$MYOUTPUTDIR\"\n\n### Remove tar.bz2 archive if already exists...\nif [[ -c \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME.tar.bz2\" ]] ; then\n\trm \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME.tar.bz2\"\nfi\n\n### Archive product into tar.bz2\ngnutar --create --bzip2 --file \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME.tar.bz2\" --directory \"$SRCROOT/Output\" \"$FULL_PRODUCT_NAME\"";
+		};
+		452D9B74092A4C0100EA4A1E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\nif [[ $BUILD_STYLE != 'Release' ]] ; then\n\texit 0\nfi\n\nenv > ~/Desktop/env.txt\n\nMYOUTPUTDIR=\"$SRCROOT/Output\"\nmkdir -p \"$MYOUTPUTDIR\"\nrm -R \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME\"\ncp -R \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" \"$MYOUTPUTDIR\"\ngnutar --create --bzip2 --file \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME.tar.bz2\" --directory \"$SRCROOT/Output\" \"$FULL_PRODUCT_NAME\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45ACDC440928152A00AF07A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4507FB980928171500ABE010 /* CCoreImageViewInspector.m in Sources */,
+				4507FB990928171500ABE010 /* CToxicMediaPalette.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45ACDC070928150100AF07A0 /* CCoreImageView.m in Sources */,
+				45ACDC090928150100AF07A0 /* CFilteringCoreImageView.m in Sources */,
+				45ACDC0B0928150100AF07A0 /* CGenericCIFilter.m in Sources */,
+				45ACDC0D0928150100AF07A0 /* CIImage_Extensions.m in Sources */,
+				45ACDC0F0928150100AF07A0 /* CCIMacro.m in Sources */,
+				45ACDC110928150100AF07A0 /* CCIMacro_CoreImageFunHouseExtensions.m in Sources */,
+				45ACDC130928150100AF07A0 /* CCIMacro_XMLExtensions.m in Sources */,
+				45ACDC170928150100AF07A0 /* CCoreVideoMovieView.m in Sources */,
+				45ACDC190928150100AF07A0 /* CCVStream.m in Sources */,
+				45ACDC1B0928150100AF07A0 /* NSOpenGLContext_Extensions.m in Sources */,
+				45ACDC1D0928150100AF07A0 /* CCarbonComponent.m in Sources */,
+				45ACDC1F0928150100AF07A0 /* CCarbonComponentInstance.m in Sources */,
+				45ACDC210928150100AF07A0 /* CCarbonGWorld.m in Sources */,
+				45ACDC230928150100AF07A0 /* CCarbonHandle.m in Sources */,
+				45ACDC250928150100AF07A0 /* CDecompressionSession.m in Sources */,
+				45ACDC270928150100AF07A0 /* CExceptionHandler.m in Sources */,
+				45ACDC290928150100AF07A0 /* CFrameRate.m in Sources */,
+				45ACDC2B0928150100AF07A0 /* Geometry.m in Sources */,
+				45ACDC2D0928150100AF07A0 /* NSError_MoreExtensions.m in Sources */,
+				45ACDC2F0928150100AF07A0 /* NSException_Extensions.m in Sources */,
+				45ACDC320928150100AF07A0 /* QTDataReference_Extensions.m in Sources */,
+				45ACDC340928150100AF07A0 /* QTMovie_Extensions.m in Sources */,
+				45ACDC380928150100AF07A0 /* CSequenceGrabber.m in Sources */,
+				45ACDC3A0928150100AF07A0 /* CSequenceGrabberChannel.m in Sources */,
+				45ACDC3C0928150100AF07A0 /* CSequenceGrabberSoundChannel.m in Sources */,
+				45ACDC3E0928150100AF07A0 /* CSequenceGrabberVideoChannel.m in Sources */,
+				45ACDC400928150100AF07A0 /* CSequenceGrabberView.m in Sources */,
+				453DE9470A921E22005A41EB /* CToxicOpenGLView.m in Sources */,
+				453DE9490A921E22005A41EB /* CToxicOpenGLViewHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4599F4A209781AFE008D9E8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* ToxicMedia */;
+			targetProxy = 4599F4A109781AFE008D9E8B /* PBXContainerItemProxy */;
+		};
+		4599F4A409781B01008D9E8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45ACDC460928152A00AF07A0 /* ToxicMedia Palette */;
+			targetProxy = 4599F4A309781B01008D9E8B /* PBXContainerItemProxy */;
+		};
+		45A7DD7E0AF3AF9900058F7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* ToxicMedia */;
+			targetProxy = 45A7DD7D0AF3AF9900058F7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4507FB770928171500ABE010 /* CCoreImageViewInspector.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4507FB780928171500ABE010 /* English */,
+			);
+			name = CCoreImageViewInspector.nib;
+			sourceTree = "<group>";
+		};
+		4507FB7B0928171500ABE010 /* ToxicMediaPalette.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4507FB7C0928171500ABE010 /* English */,
+			);
+			name = ToxicMediaPalette.nib;
+			sourceTree = "<group>";
+		};
+		4507FB7F0928171500ABE010 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4507FB800928171500ABE010 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45ACDBBD0928150100AF07A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45ACDBBE0928150100AF07A0 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4599F4B309781B13008D9E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = All;
+			};
+			name = Debug;
+		};
+		4599F4B409781B13008D9E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = All;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		45ACDC4A0928152A00AF07A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Palette/Source/Prefix.pch;
+				INFOPLIST_FILE = Palette/Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Palettes";
+				PREBINDING = NO;
+				PRODUCT_NAME = ToxicMedia;
+				WRAPPER_EXTENSION = palette;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		45ACDC4B0928152A00AF07A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Palette/Source/Prefix.pch;
+				INFOPLIST_FILE = Palette/Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Palettes";
+				PREBINDING = NO;
+				PRODUCT_NAME = ToxicMedia;
+				WRAPPER_EXTENSION = palette;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		45E92DA50856B35600B7327A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E92DA00856B35500B7327A /* ToxicFrameworks_Debug.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREFIX_HEADER = Framework/Source/Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Framework/Resources/Info.plist;
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-seg1addr",
+					0xd1700000,
+				);
+				PRODUCT_NAME = ToxicMedia;
+			};
+			name = Debug;
+		};
+		45E92DA60856B35600B7327A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E92DA10856B35500B7327A /* ToxicFrameworks_Release.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREFIX_HEADER = Framework/Source/Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Framework/Resources/Info.plist;
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-seg1addr",
+					0xd1700000,
+				);
+				PRODUCT_NAME = ToxicMedia;
+			};
+			name = Release;
+		};
+		45E92DA90856B35600B7327A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		45E92DAA0856B35600B7327A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4599F4B209781B13008D9E8B /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4599F4B309781B13008D9E8B /* Debug */,
+				4599F4B409781B13008D9E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45ACDC490928152A00AF07A0 /* Build configuration list for PBXNativeTarget "ToxicMedia Palette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ACDC4A0928152A00AF07A0 /* Debug */,
+				45ACDC4B0928152A00AF07A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45E92DA40856B35600B7327A /* Build configuration list for PBXNativeTarget "ToxicMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E92DA50856B35600B7327A /* Debug */,
+				45E92DA60856B35600B7327A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45E92DA80856B35600B7327A /* Build configuration list for PBXProject "ToxicMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E92DA90856B35600B7327A /* Debug */,
+				45E92DAA0856B35600B7327A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

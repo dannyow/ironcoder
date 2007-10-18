@@ -1,0 +1,23 @@
+﻿<macro>
+	<inputs>
+		<image key="inputImage"/>
+	</inputs>
+	<nodes>
+		<filter key="FILTER_2" cifiltername="CISharpenLuminance">
+			<inputs>
+				<image key="inputImage" ref="inputImage"/>
+				<float key="inputSharpness">2.0</float>
+			</inputs>
+		</filter>
+		<filter key="FILTER_4" cifiltername="CICrystallize">
+			<inputs>
+				<image key="inputImage" ref="FILTER_2.outputImage"/>
+				<vector key="inputCenter">
+					<float>150</float>
+					<float>150</float>
+				</vector>
+				<float key="inputRadius">20.0</float>
+			</inputs>
+		</filter>
+	</nodes>
+</macro>

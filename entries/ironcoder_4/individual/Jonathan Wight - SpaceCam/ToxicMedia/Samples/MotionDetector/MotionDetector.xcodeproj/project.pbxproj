@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453989160725B8AD005F82DC /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453989150725B8AD005F82DC /* QuickTime.framework */; };
+		454D19270928044000368C89 /* CMotionDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 454D19200928044000368C89 /* CMotionDetector.m */; };
+		454D19290928044000368C89 /* CMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454D19220928044000368C89 /* CMyController.m */; };
+		454D192A0928044000368C89 /* Description.plist in Resources */ = {isa = PBXBuildFile; fileRef = 454D19230928044000368C89 /* Description.plist */; };
+		454D192B0928044000368C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 454D19240928044000368C89 /* main.m */; };
+		455A3D7A09A8E24D0012C0DE /* Test.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 455A3D7909A8E24D0012C0DE /* Test.cikernel */; };
+		455BD5F508B4CE2600F3CDFA /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455BD5F408B4CE2600F3CDFA /* QTKit.framework */; };
+		455BD8FF08B4EA0100F3CDFA /* Highlight.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 455BD8FE08B4EA0100F3CDFA /* Highlight.cikernel */; };
+		455F099E08A51ADB009DC1A4 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455F099C08A51ADB009DC1A4 /* Quartz.framework */; };
+		455F099F08A51ADB009DC1A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455F099D08A51ADB009DC1A4 /* QuartzCore.framework */; };
+		455F09AB08A51B40009DC1A4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455F09AA08A51B40009DC1A4 /* OpenGL.framework */; };
+		45658AAE08B520DD00A8BC1E /* Weighting.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 45658AAD08B520DD00A8BC1E /* Weighting.cikernel */; };
+		4568256D0751180900E4BCD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 456825550751180900E4BCD2 /* InfoPlist.strings */; };
+		4568256E0751180900E4BCD2 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 456825570751180900E4BCD2 /* MainMenu.nib */; };
+		456825700751180900E4BCD2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4568255B0751180900E4BCD2 /* Info.plist */; };
+		456825710751180900E4BCD2 /* version.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4568255C0751180900E4BCD2 /* version.plist */; };
+		45725F81098E5C4F005C75C4 /* ToxicMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45725F80098E5C4F005C75C4 /* ToxicMedia.framework */; };
+		457BFEE60A6D5D6D009C35F9 /* ToxicMedia.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 45725F80098E5C4F005C75C4 /* ToxicMedia.framework */; };
+		4598565D072739170054A86A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4598565C072739170054A86A /* Carbon.framework */; };
+		45C9656408B4A844006665C8 /* Difference.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 45C9656308B4A844006665C8 /* Difference.cikernel */; };
+		45E13D1D08B57D2E0044E376 /* Description.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45E13D1508B57AFE0044E376 /* Description.plist */; };
+		45E13D6108B57DB30044E376 /* Weighting.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 45658AAD08B520DD00A8BC1E /* Weighting.cikernel */; };
+		45E13D7708B57E0B0044E376 /* WeightingImageUnit.plugin in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 45E13CD008B53F030044E376 /* WeightingImageUnit.plugin */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		458B9A4F08B57EFE000B14F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45E13CCF08B53F030044E376;
+			remoteInfo = WeightingImageUnit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4568259C0751184F00E4BCD2 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				457BFEE60A6D5D6D009C35F9 /* ToxicMedia.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E13D7108B57DF10044E376 /* Copy Plugins */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				45E13D7708B57E0B0044E376 /* WeightingImageUnit.plugin in Copy Plugins */,
+			);
+			name = "Copy Plugins";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		453989150725B8AD005F82DC /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		454D191F0928044000368C89 /* CMotionDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMotionDetector.h; sourceTree = "<group>"; };
+		454D19200928044000368C89 /* CMotionDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMotionDetector.m; sourceTree = "<group>"; };
+		454D19210928044000368C89 /* CMyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMyController.h; sourceTree = "<group>"; };
+		454D19220928044000368C89 /* CMyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMyController.m; sourceTree = "<group>"; };
+		454D19230928044000368C89 /* Description.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Description.plist; sourceTree = "<group>"; };
+		454D19240928044000368C89 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		454D19250928044000368C89 /* MotionDetector_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionDetector_Prefix.pch; sourceTree = "<group>"; };
+		455A3D7909A8E24D0012C0DE /* Test.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test.cikernel; sourceTree = "<group>"; };
+		455BD5F408B4CE2600F3CDFA /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		455BD8FE08B4EA0100F3CDFA /* Highlight.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Highlight.cikernel; sourceTree = "<group>"; };
+		455F099C08A51ADB009DC1A4 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		455F099D08A51ADB009DC1A4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		455F09AA08A51B40009DC1A4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		45658AAD08B520DD00A8BC1E /* Weighting.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Weighting.cikernel; sourceTree = "<group>"; };
+		456825560751180900E4BCD2 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		456825580751180900E4BCD2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/MainMenu.nib; sourceTree = SOURCE_ROOT; };
+		4568255B0751180900E4BCD2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		4568255C0751180900E4BCD2 /* version.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = version.plist; path = Resources/version.plist; sourceTree = SOURCE_ROOT; };
+		45725F80098E5C4F005C75C4 /* ToxicMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ToxicMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4598565C072739170054A86A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		45C9656308B4A844006665C8 /* Difference.cikernel */ = {isa = PBXFileReference; explicitFileType = sourcecode.c; fileEncoding = 4; path = Difference.cikernel; sourceTree = "<group>"; };
+		45E13CD008B53F030044E376 /* WeightingImageUnit.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightingImageUnit.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E13CD108B53F040044E376 /* WeightingImageUnit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "WeightingImageUnit-Info.plist"; path = "../WeightingImageUnit-Info.plist"; sourceTree = "<group>"; };
+		45E13D1508B57AFE0044E376 /* Description.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Description.plist; path = ../Source/Description.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* MotionDetector.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MotionDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45E13CCE08B53F030044E376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				453989160725B8AD005F82DC /* QuickTime.framework in Frameworks */,
+				4598565D072739170054A86A /* Carbon.framework in Frameworks */,
+				455F099E08A51ADB009DC1A4 /* Quartz.framework in Frameworks */,
+				455F099F08A51ADB009DC1A4 /* QuartzCore.framework in Frameworks */,
+				455F09AB08A51B40009DC1A4 /* OpenGL.framework in Frameworks */,
+				455BD5F508B4CE2600F3CDFA /* QTKit.framework in Frameworks */,
+				45725F81098E5C4F005C75C4 /* ToxicMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				455F09AA08A51B40009DC1A4 /* OpenGL.framework */,
+				455F099C08A51ADB009DC1A4 /* Quartz.framework */,
+				455F099D08A51ADB009DC1A4 /* QuartzCore.framework */,
+				4598565C072739170054A86A /* Carbon.framework */,
+				453989150725B8AD005F82DC /* QuickTime.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				455BD5F408B4CE2600F3CDFA /* QTKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MotionDetector.app */,
+				45E13CD008B53F030044E376 /* WeightingImageUnit.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* SequenceGrabber */ = {
+			isa = PBXGroup;
+			children = (
+				454D191E0928044000368C89 /* Source */,
+				456825540751180900E4BCD2 /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = SequenceGrabber;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45725F80098E5C4F005C75C4 /* ToxicMedia.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		454D191E0928044000368C89 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				454D191F0928044000368C89 /* CMotionDetector.h */,
+				454D19200928044000368C89 /* CMotionDetector.m */,
+				454D19210928044000368C89 /* CMyController.h */,
+				454D19220928044000368C89 /* CMyController.m */,
+				454D19230928044000368C89 /* Description.plist */,
+				454D19240928044000368C89 /* main.m */,
+				454D19250928044000368C89 /* MotionDetector_Prefix.pch */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		456825540751180900E4BCD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				456825550751180900E4BCD2 /* InfoPlist.strings */,
+				456825570751180900E4BCD2 /* MainMenu.nib */,
+				4568255B0751180900E4BCD2 /* Info.plist */,
+				4568255C0751180900E4BCD2 /* version.plist */,
+				45C9656308B4A844006665C8 /* Difference.cikernel */,
+				455BD8FE08B4EA0100F3CDFA /* Highlight.cikernel */,
+				455A3D7909A8E24D0012C0DE /* Test.cikernel */,
+				45E13D1508B57AFE0044E376 /* Description.plist */,
+				45658AAD08B520DD00A8BC1E /* Weighting.cikernel */,
+				45E13CD108B53F040044E376 /* WeightingImageUnit-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45E13CCF08B53F030044E376 /* WeightingImageUnit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E13CD308B53F060044E376 /* Build configuration list for PBXNativeTarget "WeightingImageUnit" */;
+			buildPhases = (
+				45E13CCC08B53F030044E376 /* Resources */,
+				45E13CCD08B53F030044E376 /* Sources */,
+				45E13CCE08B53F030044E376 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeightingImageUnit;
+			productName = DifferenceImageUnit;
+			productReference = 45E13CD008B53F030044E376 /* WeightingImageUnit.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D1107260486CEB800E47090 /* MotionDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455F030E08A3EFCA009DC1A4 /* Build configuration list for PBXNativeTarget "MotionDetector" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				4568259C0751184F00E4BCD2 /* Copy Frameworks */,
+				45E13D7108B57DF10044E376 /* Copy Plugins */,
+				458F0BDB0A76A916000931B2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				458B9A5008B57EFE000B14F5 /* PBXTargetDependency */,
+			);
+			name = MotionDetector;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SequenceGrabber;
+			productReference = 8D1107320486CEB800E47090 /* MotionDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 455F031208A3EFCA009DC1A4 /* Build configuration list for PBXProject "MotionDetector" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* SequenceGrabber */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* MotionDetector */,
+				45E13CCF08B53F030044E376 /* WeightingImageUnit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45E13CCC08B53F030044E376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E13D1D08B57D2E0044E376 /* Description.plist in Resources */,
+				45E13D6108B57DB30044E376 /* Weighting.cikernel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568256D0751180900E4BCD2 /* InfoPlist.strings in Resources */,
+				4568256E0751180900E4BCD2 /* MainMenu.nib in Resources */,
+				456825700751180900E4BCD2 /* Info.plist in Resources */,
+				456825710751180900E4BCD2 /* version.plist in Resources */,
+				45C9656408B4A844006665C8 /* Difference.cikernel in Resources */,
+				455BD8FF08B4EA0100F3CDFA /* Highlight.cikernel in Resources */,
+				45658AAE08B520DD00A8BC1E /* Weighting.cikernel in Resources */,
+				454D192A0928044000368C89 /* Description.plist in Resources */,
+				455A3D7A09A8E24D0012C0DE /* Test.cikernel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		458F0BDB0A76A916000931B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n### We only run on \"Release\" builds...\nif [[ $BUILD_STYLE != 'Release' ]] ; then\n\texit 0\nfi\n\n### Create the output directory...\nMYOUTPUTDIR=\"$SRCROOT/Output\"\nmkdir -p \"$MYOUTPUTDIR\"\n\n### Remove product if it already exists...\nif [[ -d \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME\" ]] ; then\n\trm -R \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME\"\nfi\n\n### Copy product to output directory...\ncp -R \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" \"$MYOUTPUTDIR\"\n\n### Remove tar.bz2 archive if already exists...\nif [[ -e \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME.tar.bz2\" ]] ; then\n\trm \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME.tar.bz2\"\nfi\n\n### Archive product into tar.bz2\ngnutar --create --bzip2 --file \"$MYOUTPUTDIR/$FULL_PRODUCT_NAME.tar.bz2\" --directory \"$SRCROOT/Output\" \"$FULL_PRODUCT_NAME\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45E13CCD08B53F030044E376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454D19270928044000368C89 /* CMotionDetector.m in Sources */,
+				454D19290928044000368C89 /* CMyController.m in Sources */,
+				454D192B0928044000368C89 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		458B9A5008B57EFE000B14F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45E13CCF08B53F030044E376 /* WeightingImageUnit */;
+			targetProxy = 458B9A4F08B57EFE000B14F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		456825550751180900E4BCD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456825560751180900E4BCD2 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		456825570751180900E4BCD2 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456825580751180900E4BCD2 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		455F030F08A3EFCA009DC1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_VARIANTS = normal;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../../../../../../Shared/Library/Developer/Products/Debug",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/MotionDetector_Prefix.pch;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MotionDetector;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		455F031008A3EFCA009DC1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../../../../../../Shared/Library/Developer/Products/Debug",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/MotionDetector_Prefix.pch;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MotionDetector;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		455F031308A3EFCA009DC1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		455F031408A3EFCA009DC1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		45E13CD408B53F060044E376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "WeightingImageUnit-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = WeightingImageUnit;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		45E13CD508B53F060044E376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "WeightingImageUnit-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				LIBRARY_STYLE = BUNDLE;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = WeightingImageUnit;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		455F030E08A3EFCA009DC1A4 /* Build configuration list for PBXNativeTarget "MotionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455F030F08A3EFCA009DC1A4 /* Debug */,
+				455F031008A3EFCA009DC1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		455F031208A3EFCA009DC1A4 /* Build configuration list for PBXProject "MotionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455F031308A3EFCA009DC1A4 /* Debug */,
+				455F031408A3EFCA009DC1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45E13CD308B53F060044E376 /* Build configuration list for PBXNativeTarget "WeightingImageUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E13CD408B53F060044E376 /* Debug */,
+				45E13CD508B53F060044E376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,20 @@
+kernel vec4 MyKernel(sampler oldBackgroundImage, sampler newBackgroundImage, sampler image)
+{
+const vec4 C1 = unpremultiply(sample(oldBackgroundImage, samplerCoord(image))); 
+const vec4 C2 = unpremultiply(sample(newBackgroundImage, samplerCoord(newBackgroundImage))); 
+const vec4 C3 = unpremultiply(sample(image, samplerCoord(image))); 
+
+const float P = 0.1;
+
+const vec4 D = abs(C1 - C3);
+
+bool theFlag = D.r < P;
+theFlag = theFlag ? D.g < P : theFlag;
+theFlag = theFlag ? D.b < P : theFlag;
+
+const vec4 theResult = theFlag ? C2 : C3;
+
+
+
+return premultiply(theResult);
+}

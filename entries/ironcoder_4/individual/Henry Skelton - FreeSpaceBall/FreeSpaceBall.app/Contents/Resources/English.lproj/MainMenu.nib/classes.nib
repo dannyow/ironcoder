@@ -1,0 +1,9 @@
+{
+    IBClasses = (
+        {CLASS = FSBAppController; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FSBBallView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FSBInvisibleWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

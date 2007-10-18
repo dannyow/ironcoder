@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            CLASS = ETImageStageAppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {stageView = ETStageView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = ETStageView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

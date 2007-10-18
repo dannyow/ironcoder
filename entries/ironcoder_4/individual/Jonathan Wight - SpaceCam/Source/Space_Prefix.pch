@@ -1,0 +1,13 @@
+//
+//  Space_Prefix.pch
+//  Space
+//
+//  Created by Jonathan Wight on 10/28/06.
+//  Copyright __MyCompanyName__ 2006. All rights reserved.
+//
+
+// Prefix header for all source files of the 'Space' target in the 'Space' project
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,13 @@
+//
+//  SimpleSequenceGrabber_Prefix.pch
+//  SimpleSequenceGrabber
+//
+//  Created by Jonathan Wight on 10/12/2005.
+//  Copyright Toxic Software 2005. All rights reserved.
+//
+
+// Prefix header for all source files of the 'SimpleSequenceGrabber' target in the 'SimpleSequenceGrabber' project
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,17 @@
+float brightness(vec4 inPixel);
+
+
+kernel vec4 MyKernel(sampler inOriginal, sampler inMask)
+{
+const vec4 originalPixel = unpremultiply(sample(inOriginal, samplerCoord(inOriginal))); 
+const vec4 maskPixel = unpremultiply(sample(inMask, samplerCoord(inMask))); 
+
+const vec4 theResult = brightness(maskPixel) > 0.0 ? originalPixel : originalPixel * 0.75;
+
+return premultiply(theResult);
+}
+
+float brightness(vec4 inPixel)
+{
+return((inPixel.r + inPixel.g + inPixel.b) / 3.0);
+}

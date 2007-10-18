@@ -1,0 +1,24 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                loadSettings = id; 
+                runSoundChannelSettingsDialog = id; 
+                runVideoChannelSettingsDialog = id; 
+                saveSettings = id; 
+                start = id; 
+                stop = id; 
+            }; 
+            CLASS = CSequenceGrabberView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = CFilteringCoreImageView; 
+        }, 
+        {
+            CLASS = CSequenceGrabberWindowController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "ToxicSQL";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "ToxicSQL version 1.0, Copyright (c) 2004 Toxic Software.";
+NSHumanReadableCopyright = "Copyright (c) 2004 Toxic Software.";
