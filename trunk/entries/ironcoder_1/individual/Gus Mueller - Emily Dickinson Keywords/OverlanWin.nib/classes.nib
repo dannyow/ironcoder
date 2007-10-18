@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FMTransparentWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = LEController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {textScrollView = NSScrollView; textView = NSTextView; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
