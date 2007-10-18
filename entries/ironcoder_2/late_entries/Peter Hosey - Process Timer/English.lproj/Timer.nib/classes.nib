@@ -1,0 +1,51 @@
+{
+    IBClasses = (
+        {CLASS = BZRedButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {
+            CLASS = BZStringArrayController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSArrayController; 
+        }, 
+        {
+            ACTIONS = {"" = id; cancel = id; endSheet = id; ok = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            ACTIONS = {
+                chooseExecutable = id; 
+                launch = id; 
+                runNewTimerWindow = id; 
+                runSearchPathEditor = id; 
+                searchPathEditorOK = id; 
+                sendSIGHUP = id; 
+                sendSIGINT = id; 
+                sendSIGKILL = id; 
+                sendSIGTERM = id; 
+                toggleTimerOptions = id; 
+            }; 
+            CLASS = ProcessTimer; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                delegate = id; 
+                newTimerWindow = NSWindow; 
+                searchPathEditor = NSPanel; 
+                timerOptionsHiddenView = NSView; 
+                timerOptionsShownView = NSView; 
+                timerOptionsView = NSView; 
+                timerView = ProcessTimerView; 
+                timerWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {takeStringValueFrom = id; takeTenthsPhaseFrom = id; }; 
+            CLASS = ProcessTimerView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

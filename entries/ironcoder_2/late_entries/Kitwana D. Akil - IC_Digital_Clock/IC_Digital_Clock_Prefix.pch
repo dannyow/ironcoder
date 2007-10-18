@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'IC_Digital_Clock' target in the 'IC_Digital_Clock' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
