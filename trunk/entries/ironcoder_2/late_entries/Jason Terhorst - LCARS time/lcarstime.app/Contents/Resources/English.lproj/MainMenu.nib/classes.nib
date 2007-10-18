@@ -1,0 +1,8 @@
+{
+    IBClasses = (
+        {CLASS = CustomWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = LCARSview; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}
