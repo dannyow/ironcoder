@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC70B3FD0A1E7D1400C86986 /* QDMP.h in Headers */ = {isa = PBXBuildFile; fileRef = 01285BFC00CC31807F000001 /* QDMP.h */; };
+		CC70B3FE0A1E7D1400C86986 /* iTunesAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 01285C0200CC31B17F000001 /* iTunesAPI.h */; };
+		CC70B3FF0A1E7D1400C86986 /* iTunesVisualAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 01285C0300CC31B17F000001 /* iTunesVisualAPI.h */; };
+		CC70B4010A1E7D1400C86986 /* SettingsDialog.nib in Resources */ = {isa = PBXBuildFile; fileRef = 01285C0B00CC4AFE7F000001 /* SettingsDialog.nib */; };
+		CC70B4020A1E7D1400C86986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		CC70B4050A1E7D1400C86986 /* QDMP.c in Sources */ = {isa = PBXBuildFile; fileRef = 01285BFB00CC31807F000001 /* QDMP.c */; };
+		CC70B4060A1E7D1400C86986 /* iTunesXPlugIn.c in Sources */ = {isa = PBXBuildFile; fileRef = 01285C0700CC38597F000001 /* iTunesXPlugIn.c */; };
+		CC70B4070A1E7D1400C86986 /* iTunesAPI.c in Sources */ = {isa = PBXBuildFile; fileRef = 01285C0900CC3A4A7F000001 /* iTunesAPI.c */; };
+		CC70B4090A1E7D1400C86986 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */; };
+		CC70B40A0A1E7D1400C86986 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01285BF100CC2F967F000001 /* Carbon.framework */; };
+		CC70B4A30A1E875E00C86986 /* GlueJunk.h in Headers */ = {isa = PBXBuildFile; fileRef = CC70B4A10A1E875E00C86986 /* GlueJunk.h */; };
+		CC70B4A40A1E875E00C86986 /* GlueJunk.m in Sources */ = {isa = PBXBuildFile; fileRef = CC70B4A20A1E875E00C86986 /* GlueJunk.m */; };
+		CC70B5460A1E878E00C86986 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC70B5450A1E878E00C86986 /* Cocoa.framework */; };
+		CC70B5740A1E8B8700C86986 /* FMTransparentWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = CC70B5720A1E8B8700C86986 /* FMTransparentWindow.h */; };
+		CC70B5750A1E8B8700C86986 /* FMTransparentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CC70B5730A1E8B8700C86986 /* FMTransparentWindow.m */; };
+		CC70B5830A1E8BC100C86986 /* OverlanWin.nib in Resources */ = {isa = PBXBuildFile; fileRef = CC70B5820A1E8BC100C86986 /* OverlanWin.nib */; };
+		CC70B58A0A1E8BF300C86986 /* LEController.h in Headers */ = {isa = PBXBuildFile; fileRef = CC70B5880A1E8BF300C86986 /* LEController.h */; };
+		CC70B58B0A1E8BF300C86986 /* LEController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC70B5890A1E8BF300C86986 /* LEController.m */; };
+		CC9CFA530A1FD83000245FFC /* poems.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC9CFA520A1FD83000245FFC /* poems.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		014CEA3F0018CDD111CA2923 /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_PKGINFO_FILE = YES;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		014CEA400018CDD111CA2923 /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC9CEC490A1FD6A500245FFC /* Copy Poetry */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			name = "Copy Poetry";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01285BF100CC2F967F000001 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		01285BFB00CC31807F000001 /* QDMP.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = QDMP.c; sourceTree = "<group>"; };
+		01285BFC00CC31807F000001 /* QDMP.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QDMP.h; sourceTree = "<group>"; };
+		01285C0200CC31B17F000001 /* iTunesAPI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = iTunesAPI.h; sourceTree = "<group>"; };
+		01285C0300CC31B17F000001 /* iTunesVisualAPI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = iTunesVisualAPI.h; sourceTree = "<group>"; };
+		01285C0700CC38597F000001 /* iTunesXPlugIn.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = iTunesXPlugIn.c; sourceTree = "<group>"; };
+		01285C0900CC3A4A7F000001 /* iTunesAPI.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = iTunesAPI.c; sourceTree = "<group>"; };
+		01285C0B00CC4AFE7F000001 /* SettingsDialog.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SettingsDialog.nib; sourceTree = "<group>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		CC70B4100A1E7D1400C86986 /* Info-iTunesX_Visualizer__Upgraded_.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-iTunesX_Visualizer__Upgraded_.plist"; sourceTree = "<group>"; };
+		CC70B4110A1E7D1500C86986 /* Emily Dickinson Keywords.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emily Dickinson Keywords.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC70B4A10A1E875E00C86986 /* GlueJunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlueJunk.h; sourceTree = "<group>"; };
+		CC70B4A20A1E875E00C86986 /* GlueJunk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlueJunk.m; sourceTree = "<group>"; };
+		CC70B5450A1E878E00C86986 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		CC70B5720A1E8B8700C86986 /* FMTransparentWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMTransparentWindow.h; path = src/FMTransparentWindow.h; sourceTree = "<group>"; };
+		CC70B5730A1E8B8700C86986 /* FMTransparentWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMTransparentWindow.m; path = src/FMTransparentWindow.m; sourceTree = "<group>"; };
+		CC70B5820A1E8BC100C86986 /* OverlanWin.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = OverlanWin.nib; sourceTree = "<group>"; };
+		CC70B5880A1E8BF300C86986 /* LEController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEController.h; sourceTree = "<group>"; };
+		CC70B5890A1E8BF300C86986 /* LEController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEController.m; sourceTree = "<group>"; };
+		CC9CFA520A1FD83000245FFC /* poems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = poems.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC70B4080A1E7D1400C86986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC70B4090A1E7D1400C86986 /* CoreFoundation.framework in Frameworks */,
+				CC70B40A0A1E7D1400C86986 /* Carbon.framework in Frameworks */,
+				CC70B5460A1E878E00C86986 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01285BF900CC31807F000001 /* QDMP */ = {
+			isa = PBXGroup;
+			children = (
+				01285BFB00CC31807F000001 /* QDMP.c */,
+				01285BFC00CC31807F000001 /* QDMP.h */,
+			);
+			path = QDMP;
+			sourceTree = "<group>";
+		};
+		01285C0000CC31B17F000001 /* iTuneVisualAPI */ = {
+			isa = PBXGroup;
+			children = (
+				01285C0900CC3A4A7F000001 /* iTunesAPI.c */,
+				01285C0200CC31B17F000001 /* iTunesAPI.h */,
+				01285C0300CC31B17F000001 /* iTunesVisualAPI.h */,
+			);
+			path = iTuneVisualAPI;
+			sourceTree = "<group>";
+		};
+		089C166AFE841209C02AAC07 /* iTunesXPlugIn */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+				CC70B4100A1E7D1400C86986 /* Info-iTunesX_Visualizer__Upgraded_.plist */,
+			);
+			name = iTunesXPlugIn;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CC70B5450A1E878E00C86986 /* Cocoa.framework */,
+				0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */,
+				01285BF100CC2F967F000001 /* Carbon.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC9CFA520A1FD83000245FFC /* poems.plist */,
+				01285C0B00CC4AFE7F000001 /* SettingsDialog.nib */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				CC70B5820A1E8BC100C86986 /* OverlanWin.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				01285C0700CC38597F000001 /* iTunesXPlugIn.c */,
+				01285BF900CC31807F000001 /* QDMP */,
+				01285C0000CC31B17F000001 /* iTuneVisualAPI */,
+				CC70B4A10A1E875E00C86986 /* GlueJunk.h */,
+				CC70B4A20A1E875E00C86986 /* GlueJunk.m */,
+				CC70B5720A1E8B8700C86986 /* FMTransparentWindow.h */,
+				CC70B5730A1E8B8700C86986 /* FMTransparentWindow.m */,
+				CC70B5880A1E8BF300C86986 /* LEController.h */,
+				CC70B5890A1E8BF300C86986 /* LEController.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC70B4110A1E7D1500C86986 /* Emily Dickinson Keywords.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CC70B3FC0A1E7D1400C86986 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC70B3FD0A1E7D1400C86986 /* QDMP.h in Headers */,
+				CC70B3FE0A1E7D1400C86986 /* iTunesAPI.h in Headers */,
+				CC70B3FF0A1E7D1400C86986 /* iTunesVisualAPI.h in Headers */,
+				CC70B4A30A1E875E00C86986 /* GlueJunk.h in Headers */,
+				CC70B5740A1E8B8700C86986 /* FMTransparentWindow.h in Headers */,
+				CC70B58A0A1E8BF300C86986 /* LEController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CC70B3FB0A1E7D1400C86986 /* Emily Dickinson Keywords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC70B40C0A1E7D1400C86986 /* Build configuration list for PBXNativeTarget "Emily Dickinson Keywords" */;
+			buildPhases = (
+				CC70B3FC0A1E7D1400C86986 /* Headers */,
+				CC70B4000A1E7D1400C86986 /* Resources */,
+				CC70B4040A1E7D1400C86986 /* Sources */,
+				CC70B4080A1E7D1400C86986 /* Frameworks */,
+				CC70B40B0A1E7D1400C86986 /* Rez */,
+				CC9CEC490A1FD6A500245FFC /* Copy Poetry */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O3";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "iTunesX Visualizer";
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = bundle;
+			};
+			dependencies = (
+			);
+			name = "Emily Dickinson Keywords";
+			productInstallPath = "/Users/guillerm/Library/iTunes/iTunes Plug-ins";
+			productName = iTunesXPlugIn;
+			productReference = CC70B4110A1E7D1500C86986 /* Emily Dickinson Keywords.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CC70B3EF0A1E7CE200C86986 /* Build configuration list for PBXProject "EDK" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA3F0018CDD111CA2923 /* Development */,
+				014CEA400018CDD111CA2923 /* Deployment */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* iTunesXPlugIn */;
+			projectDirPath = "";
+			targets = (
+				CC70B3FB0A1E7D1400C86986 /* Emily Dickinson Keywords */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC70B4000A1E7D1400C86986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC70B4010A1E7D1400C86986 /* SettingsDialog.nib in Resources */,
+				CC70B4020A1E7D1400C86986 /* InfoPlist.strings in Resources */,
+				CC70B5830A1E8BC100C86986 /* OverlanWin.nib in Resources */,
+				CC9CFA530A1FD83000245FFC /* poems.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		CC70B40B0A1E7D1400C86986 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC70B4040A1E7D1400C86986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC70B4050A1E7D1400C86986 /* QDMP.c in Sources */,
+				CC70B4060A1E7D1400C86986 /* iTunesXPlugIn.c in Sources */,
+				CC70B4070A1E7D1400C86986 /* iTunesAPI.c in Sources */,
+				CC70B4A40A1E875E00C86986 /* GlueJunk.m in Sources */,
+				CC70B5750A1E8B8700C86986 /* FMTransparentWindow.m in Sources */,
+				CC70B58B0A1E8BF300C86986 /* LEController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC70B3F00A1E7CE200C86986 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		CC70B3F10A1E7CE200C86986 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		CC70B3F20A1E7CE200C86986 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		CC70B40D0A1E7D1400C86986 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-iTunesX_Visualizer__Upgraded_.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Emily Dickinson Keywords";
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		CC70B40E0A1E7D1400C86986 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-iTunesX_Visualizer__Upgraded_.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Emily Dickinson Keywords";
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		CC70B40F0A1E7D1400C86986 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-iTunesX_Visualizer__Upgraded_.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "iTunesX Visualizer";
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC70B3EF0A1E7CE200C86986 /* Build configuration list for PBXProject "EDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC70B3F00A1E7CE200C86986 /* Development */,
+				CC70B3F10A1E7CE200C86986 /* Deployment */,
+				CC70B3F20A1E7CE200C86986 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		CC70B40C0A1E7D1400C86986 /* Build configuration list for PBXNativeTarget "Emily Dickinson Keywords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC70B40D0A1E7D1400C86986 /* Development */,
+				CC70B40E0A1E7D1400C86986 /* Deployment */,
+				CC70B40F0A1E7D1400C86986 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
