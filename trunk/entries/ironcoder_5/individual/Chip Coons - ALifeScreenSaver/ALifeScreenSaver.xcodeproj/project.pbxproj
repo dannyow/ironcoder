@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804759D20BBE094000E43066 /* alifeEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 804759D00BBE094000E43066 /* alifeEntity.h */; };
+		804759D30BBE094000E43066 /* alifeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 804759D10BBE094000E43066 /* alifeEntity.m */; };
+		804759DA0BBE0C4B00E43066 /* alifeMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 804759D80BBE0C4B00E43066 /* alifeMap.h */; };
+		804759DB0BBE0C4B00E43066 /* alifeMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 804759D90BBE0C4B00E43066 /* alifeMap.m */; };
+		804759F20BBE975500E43066 /* alifeGene.h in Headers */ = {isa = PBXBuildFile; fileRef = 804759F00BBE975500E43066 /* alifeGene.h */; };
+		804759F30BBE975500E43066 /* alifeGene.m in Sources */ = {isa = PBXBuildFile; fileRef = 804759F10BBE975500E43066 /* alifeGene.m */; };
+		80475AEE0BBF03F300E43066 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80475AED0BBF03F300E43066 /* main.m */; };
+		80475AEF0BBF041B00E43066 /* alifeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 804759D10BBE094000E43066 /* alifeEntity.m */; };
+		80475AF00BBF041C00E43066 /* alifeGene.m in Sources */ = {isa = PBXBuildFile; fileRef = 804759F10BBE975500E43066 /* alifeGene.m */; };
+		80475AF10BBF041E00E43066 /* alifeMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 804759D90BBE0C4B00E43066 /* alifeMap.m */; };
+		80475AF20BBF041E00E43066 /* ALifeScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* ALifeScreenSaverView.m */; };
+		80475B1C0BBF048100E43066 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 80475B1B0BBF048100E43066 /* MainMenu.nib */; };
+		80475B270BBF059C00E43066 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		80475B280BBF059C00E43066 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */; };
+		80475BA50BBF05A600E43066 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C167FFE841241C02AAC07 /* AppKit.framework */; };
+		80475BA60BBF05A600E43066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C1672FE841209C02AAC07 /* Foundation.framework */; };
+		80475BF40BBF062300E43066 /* alifeAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80475BF30BBF062300E43066 /* alifeAppController.m */; };
+		8047600E0BBF2F4700E43066 /* ALifeScreenSaver.saver in Resources */ = {isa = PBXBuildFile; fileRef = 8D255AD30486D3F9007BF209 /* ALifeScreenSaver.saver */; };
+		8D255AC70486D3F9007BF209 /* ALifeScreenSaver_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA80370C50100C91783 /* ALifeScreenSaver_Prefix.pch */; };
+		8D255AC80486D3F9007BF209 /* ALifeScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = F50079790118B23001CA0E54 /* ALifeScreenSaverView.h */; };
+		8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D255ACC0486D3F9007BF209 /* ALifeScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* ALifeScreenSaverView.m */; };
+		8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80475ACA0BBF038A00E43066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D255AC50486D3F9007BF209 /* ALifeScreenSaver */;
+			remoteInfo = ALifeScreenSaver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCFA80370C50100C91783 /* ALifeScreenSaver_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALifeScreenSaver_Prefix.pch; sourceTree = "<group>"; };
+		804759D00BBE094000E43066 /* alifeEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alifeEntity.h; sourceTree = "<group>"; };
+		804759D10BBE094000E43066 /* alifeEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alifeEntity.m; sourceTree = "<group>"; };
+		804759D80BBE0C4B00E43066 /* alifeMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alifeMap.h; sourceTree = "<group>"; };
+		804759D90BBE0C4B00E43066 /* alifeMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alifeMap.m; sourceTree = "<group>"; };
+		804759F00BBE975500E43066 /* alifeGene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alifeGene.h; sourceTree = "<group>"; };
+		804759F10BBE975500E43066 /* alifeGene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alifeGene.m; sourceTree = "<group>"; };
+		80475AC20BBF036700E43066 /* ALifeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALifeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80475AC40BBF036700E43066 /* ALifeApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ALifeApp-Info.plist"; sourceTree = "<group>"; };
+		80475AED0BBF03F300E43066 /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80475B1B0BBF048100E43066 /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = MainMenu.nib; sourceTree = "<group>"; };
+		80475BF20BBF062300E43066 /* alifeAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alifeAppController.h; sourceTree = "<group>"; };
+		80475BF30BBF062300E43066 /* alifeAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alifeAppController.m; sourceTree = "<group>"; };
+		8D255AD20486D3F9007BF209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D255AD30486D3F9007BF209 /* ALifeScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALifeScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50079790118B23001CA0E54 /* ALifeScreenSaverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALifeScreenSaverView.h; sourceTree = "<group>"; };
+		F500797A0118B23001CA0E54 /* ALifeScreenSaverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALifeScreenSaverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80475AC00BBF036700E43066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80475B270BBF059C00E43066 /* Cocoa.framework in Frameworks */,
+				80475B280BBF059C00E43066 /* ScreenSaver.framework in Frameworks */,
+				80475BA50BBF05A600E43066 /* AppKit.framework in Frameworks */,
+				80475BA60BBF05A600E43066 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D255ACD0486D3F9007BF209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */,
+				8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* ALifeScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA70370C4F300C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+				80475AC40BBF036700E43066 /* ALifeApp-Info.plist */,
+			);
+			name = ALifeScreenSaver;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80475B1B0BBF048100E43066 /* MainMenu.nib */,
+				8D255AD20486D3F9007BF209 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F50079790118B23001CA0E54 /* ALifeScreenSaverView.h */,
+				F500797A0118B23001CA0E54 /* ALifeScreenSaverView.m */,
+				804759D00BBE094000E43066 /* alifeEntity.h */,
+				804759D10BBE094000E43066 /* alifeEntity.m */,
+				804759D80BBE0C4B00E43066 /* alifeMap.h */,
+				804759D90BBE0C4B00E43066 /* alifeMap.m */,
+				804759F00BBE975500E43066 /* alifeGene.h */,
+				804759F10BBE975500E43066 /* alifeGene.m */,
+				80475BF20BBF062300E43066 /* alifeAppController.h */,
+				80475BF30BBF062300E43066 /* alifeAppController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D255AD30486D3F9007BF209 /* ALifeScreenSaver.saver */,
+				80475AC20BBF036700E43066 /* ALifeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA70370C4F300C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				80475AED0BBF03F300E43066 /* main.m */,
+				32DBCFA80370C50100C91783 /* ALifeScreenSaver_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D255AC60486D3F9007BF209 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255AC70486D3F9007BF209 /* ALifeScreenSaver_Prefix.pch in Headers */,
+				8D255AC80486D3F9007BF209 /* ALifeScreenSaverView.h in Headers */,
+				804759D20BBE094000E43066 /* alifeEntity.h in Headers */,
+				804759DA0BBE0C4B00E43066 /* alifeMap.h in Headers */,
+				804759F20BBE975500E43066 /* alifeGene.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		80475AC10BBF036700E43066 /* ALifeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80475AC50BBF036800E43066 /* Build configuration list for PBXNativeTarget "ALifeApp" */;
+			buildPhases = (
+				80475ABE0BBF036700E43066 /* Resources */,
+				80475ABF0BBF036700E43066 /* Sources */,
+				80475AC00BBF036700E43066 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80475ACB0BBF038A00E43066 /* PBXTargetDependency */,
+			);
+			name = ALifeApp;
+			productName = ALifeApp;
+			productReference = 80475AC20BBF036700E43066 /* ALifeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D255AC50486D3F9007BF209 /* ALifeScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "ALifeScreenSaver" */;
+			buildPhases = (
+				8D255AC60486D3F9007BF209 /* Headers */,
+				8D255AC90486D3F9007BF209 /* Resources */,
+				8D255ACB0486D3F9007BF209 /* Sources */,
+				8D255ACD0486D3F9007BF209 /* Frameworks */,
+				8D255AD00486D3F9007BF209 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALifeScreenSaver;
+			productInstallPath = "$(HOME)/Library/Screen Savers";
+			productName = ALifeScreenSaver;
+			productReference = 8D255AD30486D3F9007BF209 /* ALifeScreenSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "ALifeScreenSaver" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* ALifeScreenSaver */;
+			projectDirPath = "";
+			targets = (
+				8D255AC50486D3F9007BF209 /* ALifeScreenSaver */,
+				80475AC10BBF036700E43066 /* ALifeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80475ABE0BBF036700E43066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8047600E0BBF2F4700E43066 /* ALifeScreenSaver.saver in Resources */,
+				80475B1C0BBF048100E43066 /* MainMenu.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D255AC90486D3F9007BF209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D255AD00486D3F9007BF209 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80475ABF0BBF036700E43066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80475AEE0BBF03F300E43066 /* main.m in Sources */,
+				80475AEF0BBF041B00E43066 /* alifeEntity.m in Sources */,
+				80475AF00BBF041C00E43066 /* alifeGene.m in Sources */,
+				80475AF10BBF041E00E43066 /* alifeMap.m in Sources */,
+				80475AF20BBF041E00E43066 /* ALifeScreenSaverView.m in Sources */,
+				80475BF40BBF062300E43066 /* alifeAppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D255ACB0486D3F9007BF209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACC0486D3F9007BF209 /* ALifeScreenSaverView.m in Sources */,
+				804759D30BBE094000E43066 /* alifeEntity.m in Sources */,
+				804759DB0BBE0C4B00E43066 /* alifeMap.m in Sources */,
+				804759F30BBE975500E43066 /* alifeGene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80475ACB0BBF038A00E43066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D255AC50486D3F9007BF209 /* ALifeScreenSaver */;
+			targetProxy = 80475ACA0BBF038A00E43066 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80475AC60BBF036800E43066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "ALifeApp-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ALifeApp;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		80475AC70BBF036800E43066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "ALifeApp-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ALifeApp;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		EF7AD72E08BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ALifeScreenSaver_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = ALifeScreenSaver;
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		EF7AD72F08BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ALifeScreenSaver_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = ALifeScreenSaver;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		EF7AD73208BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		EF7AD73308BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80475AC50BBF036800E43066 /* Build configuration list for PBXNativeTarget "ALifeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80475AC60BBF036800E43066 /* Debug */,
+				80475AC70BBF036800E43066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "ALifeScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD72E08BB986600CE4634 /* Debug */,
+				EF7AD72F08BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "ALifeScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD73208BB986600CE4634 /* Debug */,
+				EF7AD73308BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

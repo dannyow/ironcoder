@@ -1,0 +1,77 @@
+A screensaver that uses a very simple genetic algorithm to attempt to rebuild an image from the pixel level.  The algorithm goes like this:
+
+a new term: pixure - a creature that represents one pixel in this program (a pxiel creature)
+
+1) create a 2-dimensional array of pixures, each is initially set to represent a random color. (or optionally we could use some other pattern to seed the populatyion, like a gradient or another image)
+	pixures have:
+		a NSColor
+		a method accuracy that returns 0 to 1 closeness to the real color
+
+2) assign a tolerance value between 0 and 1 that represents how close an pixure's color has to come to the real color of the image in order to survive.
+3) begin running the genetic algorithm
+
+	genetic algorithm:
+	a)for each organism, see if it is close enough to the tolerance value to survive, if not, then kill it (remove it from the array)
+	b)for each nonliving pixel (each pixel that no longer contains a living organism), find 2 nearby pixures that are closest to the coordinates, if more than 2 are close to the coordinates, then choose the two that are closest to the actual color value for their pixel. 
+	c) breed the 2 parent pixures by assigning a blendedColorWithPercent where the value of percent represents the ratio of the accuracy of the two parents, so the parent with the higher accuracy will have more effect on the color of the offspring than the parent with the lower accuracy.  Note that closeness has no effect on the color, just strength.
+	d) reduce the tolerance by some value (probably around 10%), and then begin the process again
+	e) when no pixures have died and the tolerance is less than .05, then assume the image is very close to the original (call this an optimal solution) and allow a short respite before changing the source image and starting over, with tolerance set back to its starting value
+	
+   
+After each generation, a new image should be created from the current population of pixures and that new iamge should be shown on the screen.
+
+When an optimal solution has been found, then the resultant image can be displayed on the screen for a short delay while a new image is chosen.
+
+It would probably be cool to then use the old population as the seed for the new iamge, much like invoking a sort of simple climate change.
+
+
+model classes:
+
+Pixure
+PixurePopulation - a 2-dimensional array of pixures, does the generational work of the genetic algorithm      
+PixureImage - an image container                  
+Pixelsystem - runs the population through its genetic algorithm - main method is advanceGenerations:(unsigned int)generationCount which iterates a number of generations and then returns, also acts as the topmost object for controllers to communicate to, and offers a pixureImage method that returns the image created by the population of pixures
+
+view classes (for testing purposes):
+PixureTesterView - draws a population of pixures in its current state of evolution, put it beside an nsiamgeview of the iamge being used as a source for testing purposes
+
+controller classes (for testing purposes):
+PixureTestController - allows user to choose an image, to know statistics about algorithm, and to step through the genetic algorithm generation by generation 
+                                                                             
+screensaver class:                                      
+PixureSaverView - a ScreenSaverView subclass that displays the resultant picture from a Pixelsystem, and communicates with a controller to determine how often to iterate through a generation and display it
+PixureSaver - a controller class that communicates with the PixureSaverView and its contained PixelSystem 
+
+For fun: instead of using pythagoras tofigure out accuracy, just use calculated luminosity, allowing colors of various hues to match fine.
+  
+  
+Know what? Forget generations.  They cause lock ups and general slowness, and they're not a very biological model (evolution doesn't iterate from east to west
+Instead, a simple growPixureAtRow:Column: method that gets called randomly on different row/column coordinates, depending on what's found:
+
+if found a child pixure, check for accuracy and either kill or let mature
+if found an adult, check for adjacent empty coordinates and allow to reproduce into one random empty space,
+	if no adjacent empty spaces, then allow to kill one adjacent space that has a lower accuracy than self
+if found an empty spot, continue
+
+
+How this meets the theme:
+First, by default the screensaver uses the nature-based images from /Library/Desktop Pictures, those that show living things
+Second, PixureSaver uses a genetic  algorithm to determine the color of each individual pixel in its displayed image.
+
+Known bugs:
+* a small leak that occurs when switching pictures
+* an occasional crash that I didn't have time to track down
+* when the screen saver first loads, it shows a thumbnail/name for a random image that will not be drawn.  Within a few seconds the correct image gets displayed when the actual evolution/display finally loads
+* not really a bug, but annoying - loading an image takes prohibitively long - up to 15 seconds
+
+Not finished: (things I started but ran out of time before I could get working)
+* user-selectable folder for images to use as sources - I use the images from /Library/Desktop Pictures and from the installed screen savers, but user-definable folders would be cooler
+* using [NSColor clearColor] as the color for initial seeding of the population:
+	it looked pretty cool, but crashed on me once near the end of Sunday, so I ran out of time and removed it.  Really cool when it worked.
+* user-selectable probability of mutation and degree of mutation - see [Pixure mutatedColorFromColor] for an explanation of these values
+
+Next Steps - if there were more time:
+* threaded loading of images and setup of populations - for easier/smoother transitions to next image, and hopefully quicker loading
+* a more helpful preview image - it didn't make sense to show the evolving image, as most users won't watch a preview for 2-3 minutes, but perhaps a precanned pdf explaining the algorithm or showing a timelapse of the results of the transition.
+* iphoto browsing, of course
+* all kind of niceties from leopard - oh well

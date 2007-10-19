@@ -1,0 +1,47 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                gliderFrequencyTypeSelected = id; 
+                moveGenerationSpeedSlider = id; 
+                moveGliderFrequencySlider = id; 
+                optionsAboutClick = id; 
+                optionsCancelClick = id; 
+                optionsOKClick = id; 
+            }; 
+            CLASS = "CREPLIFE_OptionsController"; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                generationSpeedField = NSTextField; 
+                generationSpeedSlider = NSSlider; 
+                gliderFrequencyField = NSTextField; 
+                gliderFrequencySelector = NSPopUpButton; 
+                gliderFrequencySlider = NSSlider; 
+                optionsSheet = NSPanel; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                moveGenerationSpeedSlider = id; 
+                moveGliderDelaySlider = id; 
+                optionsAboutClick = id; 
+                optionsCancelClick = id; 
+                optionsOKClick = id; 
+            }; 
+            CLASS = "CREPLIFE_View"; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                generationSpeedField = NSTextField; 
+                generationSpeedSlider = NSSlider; 
+                gliderDelayField = NSTextField; 
+                gliderDelaySlider = NSSlider; 
+                optionsSheet = NSPanel; 
+            }; 
+            SUPERCLASS = ScreenSaverView; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ScreenSaverView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

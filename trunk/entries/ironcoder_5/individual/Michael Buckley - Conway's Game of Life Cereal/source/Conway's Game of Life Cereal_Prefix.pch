@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Conway's Game of Life Cereal' target in the 'Conway's Game of Life Cereal' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

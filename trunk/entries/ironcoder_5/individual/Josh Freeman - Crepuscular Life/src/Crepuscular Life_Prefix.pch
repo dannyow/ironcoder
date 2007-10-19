@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Crepuscular Life' target in the 'Crepuscular Life' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <AppKit/AppKit.h>
+#endif

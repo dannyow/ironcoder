@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ScreenSaverView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = ScreenSaverWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            ACTIONS = {toggleAnimation = id; }; 
+            CLASS = VivaAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                oCheckboxColumn = NSTableColumn; 
+                oPrefsWindow = NSPanel; 
+                oStatusMenu = NSMenu; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = VivaView; LANGUAGE = ObjC; SUPERCLASS = ScreenSaverView; }
+    ); 
+    IBVersion = 1; 
+}

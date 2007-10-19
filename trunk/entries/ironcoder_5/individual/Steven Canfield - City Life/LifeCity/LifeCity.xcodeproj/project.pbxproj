@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D255AC70486D3F9007BF209 /* LifeCity_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA80370C50100C91783 /* LifeCity_Prefix.pch */; };
+		8D255AC80486D3F9007BF209 /* LifeCityView.h in Headers */ = {isa = PBXBuildFile; fileRef = F50079790118B23001CA0E54 /* LifeCityView.h */; };
+		8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D255ACC0486D3F9007BF209 /* LifeCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* LifeCityView.m */; };
+		8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */; };
+		CE123BB10BBF4C16000A7F9B /* City Life.saver in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D255AD30486D3F9007BF209 /* City Life.saver */; };
+		CE18ABE40BBDEFFC0029904B /* LifeCityOpenGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18ABE20BBDEFFC0029904B /* LifeCityOpenGLView.h */; };
+		CE18ABE50BBDEFFC0029904B /* LifeCityOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18ABE30BBDEFFC0029904B /* LifeCityOpenGLView.m */; };
+		CE18AC4B0BBDF2050029904B /* LifeCity_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA80370C50100C91783 /* LifeCity_Prefix.pch */; };
+		CE18AC4C0BBDF2050029904B /* LifeCityView.h in Headers */ = {isa = PBXBuildFile; fileRef = F50079790118B23001CA0E54 /* LifeCityView.h */; };
+		CE18AC4D0BBDF2050029904B /* LifeCityOpenGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18ABE20BBDEFFC0029904B /* LifeCityOpenGLView.h */; };
+		CE18AC4F0BBDF2050029904B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		CE18AC510BBDF2050029904B /* LifeCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* LifeCityView.m */; };
+		CE18AC520BBDF2050029904B /* LifeCityOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18ABE30BBDEFFC0029904B /* LifeCityOpenGLView.m */; };
+		CE18AC540BBDF2050029904B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		CE18AC550BBDF2050029904B /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */; };
+		CE18AC880BBDF2B80029904B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE18AC870BBDF2B80029904B /* OpenGL.framework */; };
+		CE18AC890BBDF2B80029904B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE18AC870BBDF2B80029904B /* OpenGL.framework */; };
+		CE18AD3E0BBDF50B0029904B /* GLDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18AD3C0BBDF50B0029904B /* GLDebug.h */; };
+		CE18AD3F0BBDF50B0029904B /* GLDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18AD3D0BBDF50B0029904B /* GLDebug.m */; };
+		CE18AD400BBDF50B0029904B /* GLDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18AD3C0BBDF50B0029904B /* GLDebug.h */; };
+		CE18AD410BBDF50B0029904B /* GLDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18AD3D0BBDF50B0029904B /* GLDebug.m */; };
+		CE18AF120BBDF9B90029904B /* Rectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18AF100BBDF9B90029904B /* Rectangle.h */; };
+		CE18AF130BBDF9B90029904B /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18AF110BBDF9B90029904B /* Rectangle.m */; };
+		CE18AF140BBDF9B90029904B /* Rectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18AF100BBDF9B90029904B /* Rectangle.h */; };
+		CE18AF150BBDF9B90029904B /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18AF110BBDF9B90029904B /* Rectangle.m */; };
+		CE18B0C70BBE0C900029904B /* Photo.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18B0C50BBE0C900029904B /* Photo.h */; };
+		CE18B0C80BBE0C900029904B /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18B0C60BBE0C900029904B /* Photo.m */; };
+		CE18B0C90BBE0C900029904B /* Photo.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18B0C50BBE0C900029904B /* Photo.h */; };
+		CE18B0CA0BBE0C900029904B /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18B0C60BBE0C900029904B /* Photo.m */; };
+		CE18B56F0BBE3F7F0029904B /* OpenGL.framework in Resources */ = {isa = PBXBuildFile; fileRef = CE18AC870BBDF2B80029904B /* OpenGL.framework */; };
+		CE18B8210BBE53B50029904B /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18B81F0BBE53B50029904B /* Person.h */; };
+		CE18B8220BBE53B50029904B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18B8200BBE53B50029904B /* Person.m */; };
+		CE18B8230BBE53B50029904B /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18B81F0BBE53B50029904B /* Person.h */; };
+		CE18B8240BBE53B50029904B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18B8200BBE53B50029904B /* Person.m */; };
+		CE18B82F0BBE54290029904B /* Color+Random.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18B82D0BBE54290029904B /* Color+Random.h */; };
+		CE18B8300BBE54290029904B /* Color+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18B82E0BBE54290029904B /* Color+Random.m */; };
+		CE18B8310BBE54290029904B /* Color+Random.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18B82D0BBE54290029904B /* Color+Random.h */; };
+		CE18B8320BBE54290029904B /* Color+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18B82E0BBE54290029904B /* Color+Random.m */; };
+		CE18BB6B0BBE6E390029904B /* Building.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18BB690BBE6E390029904B /* Building.h */; };
+		CE18BB6C0BBE6E390029904B /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18BB6A0BBE6E390029904B /* Building.m */; };
+		CE18BB6D0BBE6E390029904B /* Building.h in Headers */ = {isa = PBXBuildFile; fileRef = CE18BB690BBE6E390029904B /* Building.h */; };
+		CE18BB6E0BBE6E390029904B /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18BB6A0BBE6E390029904B /* Building.m */; };
+		CE5AA3960BBFADE100CAE0B9 /* singapore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5AA3950BBFADE100CAE0B9 /* singapore.jpg */; };
+		CE5AA3970BBFADE100CAE0B9 /* singapore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE5AA3950BBFADE100CAE0B9 /* singapore.jpg */; };
+		CE5AA6160BBFD32A00CAE0B9 /* ApplicationIconEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5AA6140BBFD32A00CAE0B9 /* ApplicationIconEnumerator.h */; };
+		CE5AA6170BBFD32A00CAE0B9 /* ApplicationIconEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5AA6150BBFD32A00CAE0B9 /* ApplicationIconEnumerator.m */; };
+		CE5AA6180BBFD32A00CAE0B9 /* ApplicationIconEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5AA6140BBFD32A00CAE0B9 /* ApplicationIconEnumerator.h */; };
+		CE5AA6190BBFD32A00CAE0B9 /* ApplicationIconEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5AA6150BBFD32A00CAE0B9 /* ApplicationIconEnumerator.m */; };
+		CE5AA65A0BBFD63900CAE0B9 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5AA6590BBFD63900CAE0B9 /* ApplicationServices.framework */; };
+		CE5AA65B0BBFD63900CAE0B9 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5AA6590BBFD63900CAE0B9 /* ApplicationServices.framework */; };
+		CEC014E20BBF24C900F4B5BC /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC014E10BBF24C900F4B5BC /* GLUT.framework */; };
+		CEC014E30BBF24C900F4B5BC /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC014E10BBF24C900F4B5BC /* GLUT.framework */; };
+		CEC015C30BBF3DB800F4B5BC /* PhotoEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC015C10BBF3DB800F4B5BC /* PhotoEnumerator.h */; };
+		CEC015C40BBF3DB800F4B5BC /* PhotoEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC015C20BBF3DB800F4B5BC /* PhotoEnumerator.m */; };
+		CEC015C50BBF3DB800F4B5BC /* PhotoEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC015C10BBF3DB800F4B5BC /* PhotoEnumerator.h */; };
+		CEC015C60BBF3DB800F4B5BC /* PhotoEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC015C20BBF3DB800F4B5BC /* PhotoEnumerator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE123B9C0BBF4BB7000A7F9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Users/scanfield/Library/Screen Savers/";
+			dstSubfolderSpec = 0;
+			files = (
+				CE123BB10BBF4C16000A7F9B /* City Life.saver in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCFA80370C50100C91783 /* LifeCity_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeCity_Prefix.pch; sourceTree = "<group>"; };
+		8D255AD20486D3F9007BF209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D255AD30486D3F9007BF209 /* City Life.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "City Life.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE18ABE20BBDEFFC0029904B /* LifeCityOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeCityOpenGLView.h; sourceTree = "<group>"; };
+		CE18ABE30BBDEFFC0029904B /* LifeCityOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeCityOpenGLView.m; sourceTree = "<group>"; };
+		CE18AC5A0BBDF2050029904B /* LifeCity.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCity.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE18AC5B0BBDF2050029904B /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
+		CE18AC870BBDF2B80029904B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		CE18AD3C0BBDF50B0029904B /* GLDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLDebug.h; sourceTree = "<group>"; };
+		CE18AD3D0BBDF50B0029904B /* GLDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLDebug.m; sourceTree = "<group>"; };
+		CE18AF100BBDF9B90029904B /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		CE18AF110BBDF9B90029904B /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		CE18B0C50BBE0C900029904B /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		CE18B0C60BBE0C900029904B /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		CE18B81F0BBE53B50029904B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CE18B8200BBE53B50029904B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		CE18B82D0BBE54290029904B /* Color+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Color+Random.h"; sourceTree = "<group>"; };
+		CE18B82E0BBE54290029904B /* Color+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Color+Random.m"; sourceTree = "<group>"; };
+		CE18BB690BBE6E390029904B /* Building.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Building.h; sourceTree = "<group>"; };
+		CE18BB6A0BBE6E390029904B /* Building.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Building.m; sourceTree = "<group>"; };
+		CE5AA3950BBFADE100CAE0B9 /* singapore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = singapore.jpg; sourceTree = "<group>"; };
+		CE5AA6140BBFD32A00CAE0B9 /* ApplicationIconEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationIconEnumerator.h; sourceTree = "<group>"; };
+		CE5AA6150BBFD32A00CAE0B9 /* ApplicationIconEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationIconEnumerator.m; sourceTree = "<group>"; };
+		CE5AA6590BBFD63900CAE0B9 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		CEC014E10BBF24C900F4B5BC /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		CEC015C10BBF3DB800F4B5BC /* PhotoEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoEnumerator.h; sourceTree = "<group>"; };
+		CEC015C20BBF3DB800F4B5BC /* PhotoEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoEnumerator.m; sourceTree = "<group>"; };
+		F50079790118B23001CA0E54 /* LifeCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeCityView.h; sourceTree = "<group>"; };
+		F500797A0118B23001CA0E54 /* LifeCityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeCityView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D255ACD0486D3F9007BF209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */,
+				8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */,
+				CE18AC880BBDF2B80029904B /* OpenGL.framework in Frameworks */,
+				CEC014E20BBF24C900F4B5BC /* GLUT.framework in Frameworks */,
+				CE5AA65A0BBFD63900CAE0B9 /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE18AC530BBDF2050029904B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE18AC540BBDF2050029904B /* Cocoa.framework in Frameworks */,
+				CE18AC550BBDF2050029904B /* ScreenSaver.framework in Frameworks */,
+				CE18AC890BBDF2B80029904B /* OpenGL.framework in Frameworks */,
+				CEC014E30BBF24C900F4B5BC /* GLUT.framework in Frameworks */,
+				CE5AA65B0BBFD63900CAE0B9 /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* LifeCity */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA70370C4F300C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = LifeCity;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE5AA3950BBFADE100CAE0B9 /* singapore.jpg */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				8D255AD20486D3F9007BF209 /* Info.plist */,
+				CE18AC5B0BBDF2050029904B /* Info copy.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEC015C10BBF3DB800F4B5BC /* PhotoEnumerator.h */,
+				CEC015C20BBF3DB800F4B5BC /* PhotoEnumerator.m */,
+				CE5AA6140BBFD32A00CAE0B9 /* ApplicationIconEnumerator.h */,
+				CE5AA6150BBFD32A00CAE0B9 /* ApplicationIconEnumerator.m */,
+				F50079790118B23001CA0E54 /* LifeCityView.h */,
+				F500797A0118B23001CA0E54 /* LifeCityView.m */,
+				CE18ABE20BBDEFFC0029904B /* LifeCityOpenGLView.h */,
+				CE18ABE30BBDEFFC0029904B /* LifeCityOpenGLView.m */,
+				CE18B81F0BBE53B50029904B /* Person.h */,
+				CE18B8200BBE53B50029904B /* Person.m */,
+				CE18BB690BBE6E390029904B /* Building.h */,
+				CE18BB6A0BBE6E390029904B /* Building.m */,
+				CE18B82D0BBE54290029904B /* Color+Random.h */,
+				CE18B82E0BBE54290029904B /* Color+Random.m */,
+				CE18AF100BBDF9B90029904B /* Rectangle.h */,
+				CE18AF110BBDF9B90029904B /* Rectangle.m */,
+				CE18B0C50BBE0C900029904B /* Photo.h */,
+				CE18B0C60BBE0C900029904B /* Photo.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE5AA6590BBFD63900CAE0B9 /* ApplicationServices.framework */,
+				CEC014E10BBF24C900F4B5BC /* GLUT.framework */,
+				CE18AC870BBDF2B80029904B /* OpenGL.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D255AD30486D3F9007BF209 /* City Life.saver */,
+				CE18AC5A0BBDF2050029904B /* LifeCity.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA70370C4F300C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE18AD3C0BBDF50B0029904B /* GLDebug.h */,
+				CE18AD3D0BBDF50B0029904B /* GLDebug.m */,
+				32DBCFA80370C50100C91783 /* LifeCity_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D255AC60486D3F9007BF209 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255AC70486D3F9007BF209 /* LifeCity_Prefix.pch in Headers */,
+				8D255AC80486D3F9007BF209 /* LifeCityView.h in Headers */,
+				CE18ABE40BBDEFFC0029904B /* LifeCityOpenGLView.h in Headers */,
+				CE18AD400BBDF50B0029904B /* GLDebug.h in Headers */,
+				CE18AF140BBDF9B90029904B /* Rectangle.h in Headers */,
+				CE18B0C90BBE0C900029904B /* Photo.h in Headers */,
+				CE18B8230BBE53B50029904B /* Person.h in Headers */,
+				CE18B8310BBE54290029904B /* Color+Random.h in Headers */,
+				CE18BB6B0BBE6E390029904B /* Building.h in Headers */,
+				CEC015C30BBF3DB800F4B5BC /* PhotoEnumerator.h in Headers */,
+				CE5AA6160BBFD32A00CAE0B9 /* ApplicationIconEnumerator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE18AC4A0BBDF2050029904B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE18AC4B0BBDF2050029904B /* LifeCity_Prefix.pch in Headers */,
+				CE18AC4C0BBDF2050029904B /* LifeCityView.h in Headers */,
+				CE18AC4D0BBDF2050029904B /* LifeCityOpenGLView.h in Headers */,
+				CE18AD3E0BBDF50B0029904B /* GLDebug.h in Headers */,
+				CE18AF120BBDF9B90029904B /* Rectangle.h in Headers */,
+				CE18B0C70BBE0C900029904B /* Photo.h in Headers */,
+				CE18B8210BBE53B50029904B /* Person.h in Headers */,
+				CE18B82F0BBE54290029904B /* Color+Random.h in Headers */,
+				CE18BB6D0BBE6E390029904B /* Building.h in Headers */,
+				CEC015C50BBF3DB800F4B5BC /* PhotoEnumerator.h in Headers */,
+				CE5AA6180BBFD32A00CAE0B9 /* ApplicationIconEnumerator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D255AC50486D3F9007BF209 /* LifeCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "LifeCity" */;
+			buildPhases = (
+				8D255AC60486D3F9007BF209 /* Headers */,
+				8D255AC90486D3F9007BF209 /* Resources */,
+				8D255ACB0486D3F9007BF209 /* Sources */,
+				8D255ACD0486D3F9007BF209 /* Frameworks */,
+				8D255AD00486D3F9007BF209 /* Rez */,
+				CE123B9C0BBF4BB7000A7F9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeCity;
+			productInstallPath = "$(HOME)/Library/Screen Savers";
+			productName = LifeCity;
+			productReference = 8D255AD30486D3F9007BF209 /* City Life.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CE18AC490BBDF2050029904B /* LifeCity Run */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE18AC570BBDF2050029904B /* Build configuration list for PBXNativeTarget "LifeCity Run" */;
+			buildPhases = (
+				CE18AC4A0BBDF2050029904B /* Headers */,
+				CE18AC4E0BBDF2050029904B /* Resources */,
+				CE18AC500BBDF2050029904B /* Sources */,
+				CE18AC530BBDF2050029904B /* Frameworks */,
+				CE18AC560BBDF2050029904B /* Rez */,
+				CE18AC5C0BBDF21B0029904B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LifeCity Run";
+			productInstallPath = "$(HOME)/Library/Screen Savers";
+			productName = LifeCity;
+			productReference = CE18AC5A0BBDF2050029904B /* LifeCity.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "LifeCity" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* LifeCity */;
+			projectDirPath = "";
+			targets = (
+				8D255AC50486D3F9007BF209 /* LifeCity */,
+				CE18AC490BBDF2050029904B /* LifeCity Run */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D255AC90486D3F9007BF209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */,
+				CE5AA3960BBFADE100CAE0B9 /* singapore.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE18AC4E0BBDF2050029904B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE18B56F0BBE3F7F0029904B /* OpenGL.framework in Resources */,
+				CE18AC4F0BBDF2050029904B /* InfoPlist.strings in Resources */,
+				CE5AA3970BBFADE100CAE0B9 /* singapore.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D255AD00486D3F9007BF209 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE18AC560BBDF2050029904B /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE18AC5C0BBDF21B0029904B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background -debug";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D255ACB0486D3F9007BF209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACC0486D3F9007BF209 /* LifeCityView.m in Sources */,
+				CE18ABE50BBDEFFC0029904B /* LifeCityOpenGLView.m in Sources */,
+				CE18AD410BBDF50B0029904B /* GLDebug.m in Sources */,
+				CE18AF150BBDF9B90029904B /* Rectangle.m in Sources */,
+				CE18B0CA0BBE0C900029904B /* Photo.m in Sources */,
+				CE18B8240BBE53B50029904B /* Person.m in Sources */,
+				CE18B8320BBE54290029904B /* Color+Random.m in Sources */,
+				CE18BB6C0BBE6E390029904B /* Building.m in Sources */,
+				CEC015C40BBF3DB800F4B5BC /* PhotoEnumerator.m in Sources */,
+				CE5AA6170BBFD32A00CAE0B9 /* ApplicationIconEnumerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE18AC500BBDF2050029904B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE18AC510BBDF2050029904B /* LifeCityView.m in Sources */,
+				CE18AC520BBDF2050029904B /* LifeCityOpenGLView.m in Sources */,
+				CE18AD3F0BBDF50B0029904B /* GLDebug.m in Sources */,
+				CE18AF130BBDF9B90029904B /* Rectangle.m in Sources */,
+				CE18B0C80BBE0C900029904B /* Photo.m in Sources */,
+				CE18B8220BBE53B50029904B /* Person.m in Sources */,
+				CE18B8300BBE54290029904B /* Color+Random.m in Sources */,
+				CE18BB6E0BBE6E390029904B /* Building.m in Sources */,
+				CEC015C60BBF3DB800F4B5BC /* PhotoEnumerator.m in Sources */,
+				CE5AA6190BBFD32A00CAE0B9 /* ApplicationIconEnumerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE18AC580BBDF2050029904B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LifeCity_Prefix.pch;
+				INFOPLIST_FILE = "/Users/scanfield/LifeCity/Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = LifeCity;
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		CE18AC590BBDF2050029904B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LifeCity_Prefix.pch;
+				INFOPLIST_FILE = "/Users/scanfield/LifeCity/Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = LifeCity;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		EF7AD72E08BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = stabs;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LifeCity_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = LifeCity;
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		EF7AD72F08BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LifeCity_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "City Life";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		EF7AD73208BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		EF7AD73308BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE18AC570BBDF2050029904B /* Build configuration list for PBXNativeTarget "LifeCity Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE18AC580BBDF2050029904B /* Debug */,
+				CE18AC590BBDF2050029904B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "LifeCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD72E08BB986600CE4634 /* Debug */,
+				EF7AD72F08BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "LifeCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD73208BB986600CE4634 /* Debug */,
+				EF7AD73308BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

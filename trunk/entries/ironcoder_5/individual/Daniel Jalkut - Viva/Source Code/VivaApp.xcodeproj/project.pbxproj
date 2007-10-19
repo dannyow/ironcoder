@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45FC53AE08FBFB490091ABDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45FC53A608FBFB490091ABDF /* InfoPlist.strings */; };
+		45FC53AF08FBFB490091ABDF /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 45FC53A808FBFB490091ABDF /* MainMenu.nib */; };
+		45FC53B108FBFB490091ABDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FC53AC08FBFB490091ABDF /* main.m */; };
+		45FC53B508FBFB5B0091ABDF /* VivaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FC53B408FBFB5B0091ABDF /* VivaAppDelegate.m */; };
+		65464FC10A9A486600F418E3 /* AppleScriptInfo.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 65464FC00A9A486600F418E3 /* AppleScriptInfo.sdef */; };
+		658FC7B10BBEE2D000BF58A9 /* VivaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 658FC7AA0BBEE2D000BF58A9 /* VivaView.m */; };
+		658FC7B20BBEE2D000BF58A9 /* NSColor+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 658FC7AB0BBEE2D000BF58A9 /* NSColor+Utilities.m */; };
+		658FC7BD0BBEE39000BF58A9 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658FC7BC0BBEE39000BF58A9 /* ScreenSaver.framework */; };
+		658FC9410BBEEF4B00BF58A9 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658FC9400BBEEF4B00BF58A9 /* Quartz.framework */; };
+		658FCA430BBEFFD200BF58A9 /* VivaWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 658FCA410BBEFFD200BF58A9 /* VivaWindow.m */; };
+		658FCE2A0BBF26A600BF58A9 /* ScreenSaverModules+Viva.m in Sources */ = {isa = PBXBuildFile; fileRef = 658FCE280BBF26A600BF58A9 /* ScreenSaverModules+Viva.m */; };
+		658FD25B0BBF50AB00BF58A9 /* MenuIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 658FD25A0BBF50AB00BF58A9 /* MenuIcon.tif */; };
+		658FD29D0BBF587C00BF58A9 /* WhipAss.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 658FD29C0BBF587C00BF58A9 /* WhipAss.m4a */; };
+		658FD3910BBF7F2B00BF58A9 /* Viva.icns in Resources */ = {isa = PBXBuildFile; fileRef = 658FD3900BBF7F2A00BF58A9 /* Viva.icns */; };
+		658FD41E0BC01B3300BF58A9 /* VivaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 658FC7AA0BBEE2D000BF58A9 /* VivaView.m */; };
+		658FD41F0BC01B3700BF58A9 /* ScreenSaverModules+Viva.m in Sources */ = {isa = PBXBuildFile; fileRef = 658FCE280BBF26A600BF58A9 /* ScreenSaverModules+Viva.m */; };
+		658FD4420BC01B5900BF58A9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		658FD4430BC01B5A00BF58A9 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658FC7BC0BBEE39000BF58A9 /* ScreenSaver.framework */; };
+		658FD4440BC01B5B00BF58A9 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658FC9400BBEEF4B00BF58A9 /* Quartz.framework */; };
+		658FD4D60BC0225800BF58A9 /* ShowPreferencesCommand.h in Install App Frameworks */ = {isa = PBXBuildFile; fileRef = 658FD4D40BC0225800BF58A9 /* ShowPreferencesCommand.h */; };
+		658FD4D70BC0225800BF58A9 /* ShowPreferencesCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 658FD4D50BC0225800BF58A9 /* ShowPreferencesCommand.m */; };
+		658FD5100BC023FF00BF58A9 /* OpenPrefs.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 658FD50B0BC023E900BF58A9 /* OpenPrefs.scpt */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		654657990A9A7A6300F418E3 /* Install App Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				658FD4D60BC0225800BF58A9 /* ShowPreferencesCommand.h in Install App Frameworks */,
+			);
+			name = "Install App Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		45FC53A708FBFB490091ABDF /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45FC53A908FBFB490091ABDF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		45FC53AA08FBFB490091ABDF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FC53AC08FBFB490091ABDF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45FC53B308FBFB5B0091ABDF /* VivaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VivaAppDelegate.h; sourceTree = "<group>"; };
+		45FC53B408FBFB5B0091ABDF /* VivaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VivaAppDelegate.m; sourceTree = "<group>"; };
+		45FC53EA08FBFD0E0091ABDF /* VivaApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VivaApp_Prefix.pch; sourceTree = "<group>"; };
+		65464FC00A9A486600F418E3 /* AppleScriptInfo.sdef */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 4; path = AppleScriptInfo.sdef; sourceTree = "<group>"; };
+		658FC7A90BBEE2D000BF58A9 /* VivaView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = VivaView.h; path = Source/VivaView.h; sourceTree = "<group>"; };
+		658FC7AA0BBEE2D000BF58A9 /* VivaView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = VivaView.m; path = Source/VivaView.m; sourceTree = "<group>"; };
+		658FC7AB0BBEE2D000BF58A9 /* NSColor+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSColor+Utilities.m"; path = "Source/NSColor+Utilities.m"; sourceTree = "<group>"; };
+		658FC7AC0BBEE2D000BF58A9 /* NSColor+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSColor+Utilities.h"; path = "Source/NSColor+Utilities.h"; sourceTree = "<group>"; };
+		658FC7AD0BBEE2D000BF58A9 /* ScreenSaverHack.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ScreenSaverHack.h; path = Source/ScreenSaverHack.h; sourceTree = "<group>"; };
+		658FC7BC0BBEE39000BF58A9 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		658FC9400BBEEF4B00BF58A9 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		658FC9BA0BBEF58800BF58A9 /* TODO */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		658FCA400BBEFFD200BF58A9 /* VivaWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VivaWindow.h; path = Source/VivaWindow.h; sourceTree = "<group>"; };
+		658FCA410BBEFFD200BF58A9 /* VivaWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VivaWindow.m; path = Source/VivaWindow.m; sourceTree = "<group>"; };
+		658FCE270BBF26A600BF58A9 /* ScreenSaverModules+Viva.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ScreenSaverModules+Viva.h"; sourceTree = "<group>"; };
+		658FCE280BBF26A600BF58A9 /* ScreenSaverModules+Viva.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ScreenSaverModules+Viva.m"; sourceTree = "<group>"; };
+		658FD25A0BBF50AB00BF58A9 /* MenuIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MenuIcon.tif; sourceTree = "<group>"; };
+		658FD29C0BBF587C00BF58A9 /* WhipAss.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhipAss.m4a; sourceTree = "<group>"; };
+		658FD3900BBF7F2A00BF58A9 /* Viva.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Viva.icns; sourceTree = "<group>"; };
+		658FD4170BC01A8100BF58A9 /* Viva.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Viva.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		658FD4180BC01A8200BF58A9 /* VivaSaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "VivaSaver-Info.plist"; sourceTree = "<group>"; };
+		658FD4D40BC0225800BF58A9 /* ShowPreferencesCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPreferencesCommand.h; sourceTree = "<group>"; };
+		658FD4D50BC0225800BF58A9 /* ShowPreferencesCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPreferencesCommand.m; sourceTree = "<group>"; };
+		658FD50B0BC023E900BF58A9 /* OpenPrefs.scpt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.scpt; path = OpenPrefs.scpt; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Viva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		658FD4150BC01A8100BF58A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658FD4420BC01B5900BF58A9 /* Cocoa.framework in Frameworks */,
+				658FD4430BC01B5A00BF58A9 /* ScreenSaver.framework in Frameworks */,
+				658FD4440BC01B5B00BF58A9 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				658FC7BD0BBEE39000BF58A9 /* ScreenSaver.framework in Frameworks */,
+				658FC9410BBEEF4B00BF58A9 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				658FC7BC0BBEE39000BF58A9 /* ScreenSaver.framework */,
+				658FC9400BBEEF4B00BF58A9 /* Quartz.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Viva.app */,
+				658FD4170BC01A8100BF58A9 /* Viva.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				658FC9BA0BBEF58800BF58A9 /* TODO */,
+				658FC7B90BBEE2D400BF58A9 /* VivaView */,
+				45FC53AB08FBFB490091ABDF /* VivaApp */,
+				45FC53A508FBFB490091ABDF /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				658FD4180BC01A8200BF58A9 /* VivaSaver-Info.plist */,
+			);
+			name = Sample;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45FC53A508FBFB490091ABDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				658FD50B0BC023E900BF58A9 /* OpenPrefs.scpt */,
+				658FD3900BBF7F2A00BF58A9 /* Viva.icns */,
+				658FD29C0BBF587C00BF58A9 /* WhipAss.m4a */,
+				658FD25A0BBF50AB00BF58A9 /* MenuIcon.tif */,
+				65464FC00A9A486600F418E3 /* AppleScriptInfo.sdef */,
+				45FC53A608FBFB490091ABDF /* InfoPlist.strings */,
+				45FC53A808FBFB490091ABDF /* MainMenu.nib */,
+				45FC53AA08FBFB490091ABDF /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45FC53AB08FBFB490091ABDF /* VivaApp */ = {
+			isa = PBXGroup;
+			children = (
+				45FC53EA08FBFD0E0091ABDF /* VivaApp_Prefix.pch */,
+				45FC53AC08FBFB490091ABDF /* main.m */,
+				45FC53B308FBFB5B0091ABDF /* VivaAppDelegate.h */,
+				45FC53B408FBFB5B0091ABDF /* VivaAppDelegate.m */,
+				658FCE270BBF26A600BF58A9 /* ScreenSaverModules+Viva.h */,
+				658FCE280BBF26A600BF58A9 /* ScreenSaverModules+Viva.m */,
+				658FD4D40BC0225800BF58A9 /* ShowPreferencesCommand.h */,
+				658FD4D50BC0225800BF58A9 /* ShowPreferencesCommand.m */,
+			);
+			name = VivaApp;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		658FC7B90BBEE2D400BF58A9 /* VivaView */ = {
+			isa = PBXGroup;
+			children = (
+				658FC7AD0BBEE2D000BF58A9 /* ScreenSaverHack.h */,
+				658FC7A90BBEE2D000BF58A9 /* VivaView.h */,
+				658FC7AA0BBEE2D000BF58A9 /* VivaView.m */,
+				658FCA400BBEFFD200BF58A9 /* VivaWindow.h */,
+				658FCA410BBEFFD200BF58A9 /* VivaWindow.m */,
+				658FC7AB0BBEE2D000BF58A9 /* NSColor+Utilities.m */,
+				658FC7AC0BBEE2D000BF58A9 /* NSColor+Utilities.h */,
+			);
+			name = VivaView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		658FD4160BC01A8100BF58A9 /* VivaSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658FD4190BC01A8400BF58A9 /* Build configuration list for PBXNativeTarget "VivaSaver" */;
+			buildPhases = (
+				658FD4130BC01A8100BF58A9 /* Resources */,
+				658FD4140BC01A8100BF58A9 /* Sources */,
+				658FD4150BC01A8100BF58A9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VivaSaver;
+			productName = VivaSaver;
+			productReference = 658FD4170BC01A8100BF58A9 /* Viva.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D1107260486CEB800E47090 /* Viva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FC538208FBF91C0091ABDF /* Build configuration list for PBXNativeTarget "Viva" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				654657990A9A7A6300F418E3 /* Install App Frameworks */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				45D4CC380A828FF500804A18 /* Set Version */,
+				45D4CC230A828F9E00804A18 /* Remove Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Viva;
+			productInstallPath = "$(HOME)/Applications";
+			productName = VivaApp;
+			productReference = 8D1107320486CEB800E47090 /* Viva.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 45FC538608FBF91C0091ABDF /* Build configuration list for PBXProject "VivaApp" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Sample */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Viva */,
+				658FD4160BC01A8100BF58A9 /* VivaSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		658FD4130BC01A8100BF58A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658FD5100BC023FF00BF58A9 /* OpenPrefs.scpt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FC53AE08FBFB490091ABDF /* InfoPlist.strings in Resources */,
+				45FC53AF08FBFB490091ABDF /* MainMenu.nib in Resources */,
+				65464FC10A9A486600F418E3 /* AppleScriptInfo.sdef in Resources */,
+				658FD25B0BBF50AB00BF58A9 /* MenuIcon.tif in Resources */,
+				658FD29D0BBF587C00BF58A9 /* WhipAss.m4a in Resources */,
+				658FD3910BBF7F2B00BF58A9 /* Viva.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45D4CC230A828F9E00804A18 /* Remove Headers */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Remove Headers";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n### We only run on \"Release\" builds...\nif [[ $BUILD_STYLE != 'Release' ]] ; then\n\texit 0\nfi\n\nfind \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" -path '*/Headers/*' -delete\n\nfind \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" -name 'Headers' -type d -delete\n\nfind \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" -name 'Headers' -type l -delete";
+		};
+		45D4CC380A828FF500804A18 /* Set Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Set Version";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/bin/perl -w";
+			shellScript = "# Xcode auto-versioning script for Subversion\n# by Axel Andersson, modified by Daniel Jalkut to add\n# \"--revision HEAD\" to the svn info line, which allows\n# the latest revision to always be used.\n        \nuse strict;\n        \ndie \"$0: Must be run from Xcode\" unless $ENV{\"BUILT_PRODUCTS_DIR\"};\n        \n# Get the current subversion revision number and use it to set the CFBundleVersion value\nmy $REV = `/usr/local/bin/svnversion -n ./`;\nmy $INFO = \"$ENV{BUILT_PRODUCTS_DIR}/$ENV{WRAPPER_NAME}/Contents/Info.plist\";\n        \nmy $version = $REV;\n$version =~ s/([\\d]*:)(\\d+[M|S]*).*/$2/;\ndie \"$0: No Subversion revision found\" unless $version;\n        \nopen(FH, \"$INFO\") or die \"$0: $INFO: $!\";\nmy $info = join(\"\", <FH>);\nclose(FH);\n        \n$info =~ s/([\\t ]+<key>CFBundleVersion<\\/key>\\n[\\t ]+<string>).*?(<\\/string>)/$1$version$2/;\n        \nopen(FH, \">$INFO\") or die \"$0: $INFO: $!\";\nprint FH $info;\nclose(FH);\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		658FD4140BC01A8100BF58A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658FD41F0BC01B3700BF58A9 /* ScreenSaverModules+Viva.m in Sources */,
+				658FD41E0BC01B3300BF58A9 /* VivaView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FC53B108FBFB490091ABDF /* main.m in Sources */,
+				45FC53B508FBFB5B0091ABDF /* VivaAppDelegate.m in Sources */,
+				658FC7B10BBEE2D000BF58A9 /* VivaView.m in Sources */,
+				658FC7B20BBEE2D000BF58A9 /* NSColor+Utilities.m in Sources */,
+				658FCA430BBEFFD200BF58A9 /* VivaWindow.m in Sources */,
+				658FCE2A0BBF26A600BF58A9 /* ScreenSaverModules+Viva.m in Sources */,
+				658FD4D70BC0225800BF58A9 /* ShowPreferencesCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45FC53A608FBFB490091ABDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FC53A708FBFB490091ABDF /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45FC53A808FBFB490091ABDF /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FC53A908FBFB490091ABDF /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45FC538308FBF91C0091ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/VivaApp_Prefix.pch;
+				GCC_USE_GCC3_PFE_SUPPORT = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				PREBINDING = NO;
+				PRODUCT_NAME = Viva;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		45FC538408FBF91C0091ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/VivaApp_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_USE_GCC3_PFE_SUPPORT = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				PRODUCT_NAME = Viva;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		45FC538708FBF91C0091ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_VERSION = 1.0;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		45FC538808FBF91C0091ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_VERSION = 1.0;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		658FD41A0BC01A8400BF58A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "VivaSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Viva;
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		658FD41B0BC01A8400BF58A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "VivaSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Viva;
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45FC538208FBF91C0091ABDF /* Build configuration list for PBXNativeTarget "Viva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FC538308FBF91C0091ABDF /* Debug */,
+				45FC538408FBF91C0091ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45FC538608FBF91C0091ABDF /* Build configuration list for PBXProject "VivaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FC538708FBF91C0091ABDF /* Debug */,
+				45FC538808FBF91C0091ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		658FD4190BC01A8400BF58A9 /* Build configuration list for PBXNativeTarget "VivaSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658FD41A0BC01A8400BF58A9 /* Debug */,
+				658FD41B0BC01A8400BF58A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

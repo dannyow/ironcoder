@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'MyLife' target in the 'MyLife' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <AppKit/AppKit.h>
+#endif

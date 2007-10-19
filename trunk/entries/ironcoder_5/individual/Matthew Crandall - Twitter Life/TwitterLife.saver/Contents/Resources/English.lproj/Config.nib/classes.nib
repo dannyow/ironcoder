@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {cancelClick = id; }; 
+            CLASS = ConfigPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_dataset" = NSPopUpButton; 
+                "_panel" = NSPanel; 
+                "_password" = NSSecureTextField; 
+                "_updates" = NSPopUpButton; 
+                "_username" = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,56 @@
+{
+    IBClasses = (
+        {
+            CLASS = CGLCController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {view = CGLCView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                newSinglePlayerGame = id; 
+                openPattern = id; 
+                savePattern = id; 
+                setBornRule = id; 
+                setContinueRule = id; 
+                setFlavor = id; 
+                setWrap = id; 
+                startGame = id; 
+                updateSlider = id; 
+            }; 
+            CLASS = CGLCView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                born1 = NSButton; 
+                born2 = NSButton; 
+                born3 = NSButton; 
+                born4 = NSButton; 
+                born5 = NSButton; 
+                born6 = NSButton; 
+                born7 = NSButton; 
+                born8 = NSButton; 
+                continue1 = NSButton; 
+                continue2 = NSButton; 
+                continue3 = NSButton; 
+                continue4 = NSButton; 
+                continue5 = NSButton; 
+                continue6 = NSButton; 
+                continue7 = NSButton; 
+                continue8 = NSButton; 
+                flavorPreference = NSPopUpButton; 
+                generationField = NSTextField; 
+                p1CountField = NSTextField; 
+                preferencesMessage = NSTextField; 
+                slider = NSSlider; 
+                speedField = NSTextField; 
+                startButton = NSButton; 
+                window = NSWindow; 
+                wrapPreference = NSButton; 
+            }; 
+            SUPERCLASS = ScreenSaverView; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ScreenSaverView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

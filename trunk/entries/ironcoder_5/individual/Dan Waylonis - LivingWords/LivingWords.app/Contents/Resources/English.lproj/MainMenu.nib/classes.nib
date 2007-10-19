@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"view_" = LivingWordsView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = LivingWordsView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

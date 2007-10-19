@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9D83470BBFFAAC00C1C652 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9D83460BBFFAAC00C1C652 /* OpenGL.framework */; };
+		3C9D85390BBFFB3F00C1C652 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D85380BBFFB3F00C1C652 /* Controller.m */; };
+		3C9D853D0BBFFBDA00C1C652 /* NSColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D853C0BBFFBDA00C1C652 /* NSColor+Random.m */; };
+		3C9D854C0BBFFD3F00C1C652 /* RectUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D854B0BBFFD3F00C1C652 /* RectUtilities.m */; };
+		3C9D854F0BBFFD6C00C1C652 /* GLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D854E0BBFFD6C00C1C652 /* GLUtilities.m */; };
+		3C9D85520BBFFDC300C1C652 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D85510BBFFDC300C1C652 /* Utilities.m */; };
+		3C9D85910BBFFF6300C1C652 /* NSBezierPath+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D85900BBFFF6300C1C652 /* NSBezierPath+String.m */; };
+		3C9D85A60BC0012F00C1C652 /* LivingWordsEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D85A50BC0012F00C1C652 /* LivingWordsEngine.m */; };
+		3C9D85A90BC0014000C1C652 /* LivingWordsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D85A80BC0014000C1C652 /* LivingWordsView.m */; };
+		3C9D85AC0BC0014F00C1C652 /* LivingWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D85AB0BC0014F00C1C652 /* LivingWord.m */; };
+		3C9D85AF0BC001F400C1C652 /* LifeMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D85AE0BC001F400C1C652 /* LifeMachine.m */; };
+		3CD4D4800BC05DEA008FE088 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD4D47F0BC05DEA008FE088 /* ScreenSaver.framework */; };
+		3CD4D4900BC05E56008FE088 /* LivingViewSSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4D48F0BC05E56008FE088 /* LivingViewSSView.m */; };
+		3CD4D5050BC0610D008FE088 /* LifeMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D85AE0BC001F400C1C652 /* LifeMachine.m */; };
+		3CD4D5060BC0610E008FE088 /* LivingWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D85AB0BC0014F00C1C652 /* LivingWord.m */; };
+		3CD4D5070BC0610F008FE088 /* LivingWordsEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D85A50BC0012F00C1C652 /* LivingWordsEngine.m */; };
+		3CD4D5080BC06110008FE088 /* LivingWordsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D85A80BC0014000C1C652 /* LivingWordsView.m */; };
+		3CD4D5090BC06110008FE088 /* LivingViewSSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4D48F0BC05E56008FE088 /* LivingViewSSView.m */; };
+		3CD4D50A0BC06112008FE088 /* NSColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D853C0BBFFBDA00C1C652 /* NSColor+Random.m */; };
+		3CD4D50B0BC06112008FE088 /* RectUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D854B0BBFFD3F00C1C652 /* RectUtilities.m */; };
+		3CD4D50C0BC06113008FE088 /* GLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D854E0BBFFD6C00C1C652 /* GLUtilities.m */; };
+		3CD4D50D0BC06114008FE088 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D85510BBFFDC300C1C652 /* Utilities.m */; };
+		3CD4D50E0BC06114008FE088 /* NSBezierPath+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D85900BBFFF6300C1C652 /* NSBezierPath+String.m */; };
+		3CD4D50F0BC06118008FE088 /* ScreenSaver-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4D4890BC05DFD008FE088 /* ScreenSaver-Info.plist */; };
+		3CD4D52C0BC0615E008FE088 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9D83460BBFFAAC00C1C652 /* OpenGL.framework */; };
+		3CD4D5770BC06160008FE088 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD4D47F0BC05DEA008FE088 /* ScreenSaver.framework */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		3C9D83460BBFFAAC00C1C652 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		3C9D85370BBFFB3F00C1C652 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		3C9D85380BBFFB3F00C1C652 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		3C9D853B0BBFFBDA00C1C652 /* NSColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Random.h"; sourceTree = "<group>"; };
+		3C9D853C0BBFFBDA00C1C652 /* NSColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Random.m"; sourceTree = "<group>"; };
+		3C9D854A0BBFFD3F00C1C652 /* RectUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectUtilities.h; sourceTree = "<group>"; };
+		3C9D854B0BBFFD3F00C1C652 /* RectUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectUtilities.m; sourceTree = "<group>"; };
+		3C9D854D0BBFFD6C00C1C652 /* GLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUtilities.h; sourceTree = "<group>"; };
+		3C9D854E0BBFFD6C00C1C652 /* GLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLUtilities.m; sourceTree = "<group>"; };
+		3C9D85500BBFFDC300C1C652 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		3C9D85510BBFFDC300C1C652 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		3C9D858F0BBFFF6300C1C652 /* NSBezierPath+String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+String.h"; sourceTree = "<group>"; };
+		3C9D85900BBFFF6300C1C652 /* NSBezierPath+String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+String.m"; sourceTree = "<group>"; };
+		3C9D85A40BC0012F00C1C652 /* LivingWordsEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingWordsEngine.h; sourceTree = "<group>"; };
+		3C9D85A50BC0012F00C1C652 /* LivingWordsEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivingWordsEngine.m; sourceTree = "<group>"; };
+		3C9D85A70BC0014000C1C652 /* LivingWordsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingWordsView.h; sourceTree = "<group>"; };
+		3C9D85A80BC0014000C1C652 /* LivingWordsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivingWordsView.m; sourceTree = "<group>"; };
+		3C9D85AA0BC0014F00C1C652 /* LivingWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingWord.h; sourceTree = "<group>"; };
+		3C9D85AB0BC0014F00C1C652 /* LivingWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivingWord.m; sourceTree = "<group>"; };
+		3C9D85AD0BC001F400C1C652 /* LifeMachine.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LifeMachine.h; sourceTree = "<group>"; };
+		3C9D85AE0BC001F400C1C652 /* LifeMachine.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = LifeMachine.m; sourceTree = "<group>"; };
+		3CD4D47F0BC05DEA008FE088 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		3CD4D4880BC05DFD008FE088 /* LivingWords.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivingWords.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD4D4890BC05DFD008FE088 /* ScreenSaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ScreenSaver-Info.plist"; sourceTree = "<group>"; };
+		3CD4D48E0BC05E56008FE088 /* LivingViewSSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingViewSSView.h; sourceTree = "<group>"; };
+		3CD4D48F0BC05E56008FE088 /* LivingViewSSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivingViewSSView.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* LivingWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CD4D4860BC05DFD008FE088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD4D52C0BC0615E008FE088 /* OpenGL.framework in Frameworks */,
+				3CD4D5770BC06160008FE088 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				3C9D83470BBFFAAC00C1C652 /* OpenGL.framework in Frameworks */,
+				3CD4D4800BC05DEA008FE088 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				3C9D85370BBFFB3F00C1C652 /* Controller.h */,
+				3C9D85380BBFFB3F00C1C652 /* Controller.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* LivingWords.app */,
+				3CD4D4880BC05DFD008FE088 /* LivingWords.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* LivingWords */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Application */,
+				3C9D85A30BC0011500C1C652 /* Engine */,
+				29B97315FDCFA39411CA2CEA /* View */,
+				3C9D853A0BBFFB4800C1C652 /* Utilities */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = LivingWords;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C9D85A70BC0014000C1C652 /* LivingWordsView.h */,
+				3C9D85A80BC0014000C1C652 /* LivingWordsView.m */,
+				3CD4D48E0BC05E56008FE088 /* LivingViewSSView.h */,
+				3CD4D48F0BC05E56008FE088 /* LivingViewSSView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3CD4D4890BC05DFD008FE088 /* ScreenSaver-Info.plist */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CD4D47F0BC05DEA008FE088 /* ScreenSaver.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				3C9D83460BBFFAAC00C1C652 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C9D853A0BBFFB4800C1C652 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3C9D853B0BBFFBDA00C1C652 /* NSColor+Random.h */,
+				3C9D853C0BBFFBDA00C1C652 /* NSColor+Random.m */,
+				3C9D854A0BBFFD3F00C1C652 /* RectUtilities.h */,
+				3C9D854B0BBFFD3F00C1C652 /* RectUtilities.m */,
+				3C9D854D0BBFFD6C00C1C652 /* GLUtilities.h */,
+				3C9D854E0BBFFD6C00C1C652 /* GLUtilities.m */,
+				3C9D85500BBFFDC300C1C652 /* Utilities.h */,
+				3C9D85510BBFFDC300C1C652 /* Utilities.m */,
+				3C9D858F0BBFFF6300C1C652 /* NSBezierPath+String.h */,
+				3C9D85900BBFFF6300C1C652 /* NSBezierPath+String.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		3C9D85A30BC0011500C1C652 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				3C9D85AD0BC001F400C1C652 /* LifeMachine.h */,
+				3C9D85AE0BC001F400C1C652 /* LifeMachine.m */,
+				3C9D85AA0BC0014F00C1C652 /* LivingWord.h */,
+				3C9D85AB0BC0014F00C1C652 /* LivingWord.m */,
+				3C9D85A40BC0012F00C1C652 /* LivingWordsEngine.h */,
+				3C9D85A50BC0012F00C1C652 /* LivingWordsEngine.m */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CD4D4870BC05DFD008FE088 /* ScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD4D48A0BC05DFE008FE088 /* Build configuration list for PBXNativeTarget "ScreenSaver" */;
+			buildPhases = (
+				3CD4D4840BC05DFD008FE088 /* Resources */,
+				3CD4D4850BC05DFD008FE088 /* Sources */,
+				3CD4D4860BC05DFD008FE088 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenSaver;
+			productName = ScreenSaver;
+			productReference = 3CD4D4880BC05DFD008FE088 /* LivingWords.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D1107260486CEB800E47090 /* LivingWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LivingWords" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivingWords;
+			productInstallPath = "$(HOME)/Applications";
+			productName = LivingWords;
+			productReference = 8D1107320486CEB800E47090 /* LivingWords.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LivingWords" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* LivingWords */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* LivingWords */,
+				3CD4D4870BC05DFD008FE088 /* ScreenSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CD4D4840BC05DFD008FE088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD4D50F0BC06118008FE088 /* ScreenSaver-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CD4D4850BC05DFD008FE088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD4D5050BC0610D008FE088 /* LifeMachine.m in Sources */,
+				3CD4D5060BC0610E008FE088 /* LivingWord.m in Sources */,
+				3CD4D5070BC0610F008FE088 /* LivingWordsEngine.m in Sources */,
+				3CD4D5080BC06110008FE088 /* LivingWordsView.m in Sources */,
+				3CD4D5090BC06110008FE088 /* LivingViewSSView.m in Sources */,
+				3CD4D50A0BC06112008FE088 /* NSColor+Random.m in Sources */,
+				3CD4D50B0BC06112008FE088 /* RectUtilities.m in Sources */,
+				3CD4D50C0BC06113008FE088 /* GLUtilities.m in Sources */,
+				3CD4D50D0BC06114008FE088 /* Utilities.m in Sources */,
+				3CD4D50E0BC06114008FE088 /* NSBezierPath+String.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				3C9D85390BBFFB3F00C1C652 /* Controller.m in Sources */,
+				3C9D853D0BBFFBDA00C1C652 /* NSColor+Random.m in Sources */,
+				3C9D854C0BBFFD3F00C1C652 /* RectUtilities.m in Sources */,
+				3C9D854F0BBFFD6C00C1C652 /* GLUtilities.m in Sources */,
+				3C9D85520BBFFDC300C1C652 /* Utilities.m in Sources */,
+				3C9D85910BBFFF6300C1C652 /* NSBezierPath+String.m in Sources */,
+				3C9D85A60BC0012F00C1C652 /* LivingWordsEngine.m in Sources */,
+				3C9D85A90BC0014000C1C652 /* LivingWordsView.m in Sources */,
+				3C9D85AC0BC0014F00C1C652 /* LivingWord.m in Sources */,
+				3C9D85AF0BC001F400C1C652 /* LifeMachine.m in Sources */,
+				3CD4D4900BC05E56008FE088 /* LivingViewSSView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CD4D48B0BC05DFE008FE088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "ScreenSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LivingWords;
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		3CD4D48C0BC05DFE008FE088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "ScreenSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LivingWords;
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = LivingWords;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = LivingWords;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CD4D48A0BC05DFE008FE088 /* Build configuration list for PBXNativeTarget "ScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD4D48B0BC05DFE008FE088 /* Debug */,
+				3CD4D48C0BC05DFE008FE088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "LivingWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LivingWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
