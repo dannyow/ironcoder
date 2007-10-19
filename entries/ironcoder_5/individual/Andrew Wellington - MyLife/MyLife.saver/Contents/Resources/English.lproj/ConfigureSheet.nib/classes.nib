@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {configCancel = id; configOK = id; prepareImages = id; }; 
+            CLASS = MyLifeView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {album = NSPopUpButton; configSheet = NSWindow; }; 
+            SUPERCLASS = ScreenSaverView; 
+        }, 
+        {CLASS = ScreenSaverView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

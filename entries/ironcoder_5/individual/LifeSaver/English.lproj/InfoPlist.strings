@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "Life Saver";
+CFBundleShortVersionString = "Life Saver version 1.0";
+CFBundleGetInfoString = "Life Saver version 1.0, Copyright 2007, SuperMegaUltraGroovy.";
+NSHumanReadableCopyright = "Copyright 2007, SuperMegaUltraGroovy.";

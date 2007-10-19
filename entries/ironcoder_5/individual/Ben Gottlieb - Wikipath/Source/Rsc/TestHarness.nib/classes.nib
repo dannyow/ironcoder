@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {configure = id; }; 
+            CLASS = HarnessController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {view = ScreenSaverView; window = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = MyScreenSaverView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                configSheet = NSWindow; 
+                drawBothOption = NSButton; 
+                drawFilledShapesOption = NSButton; 
+                drawOutlinesShapesOption = NSButton; 
+            }; 
+            SUPERCLASS = ScreenSaverView; 
+        }, 
+        {CLASS = ScreenSaverView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,66 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf420
+{\fonttbl\f0\fswiss\fcharset77 Helvetica-Bold;\f1\fswiss\fcharset77 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10340\viewh13360\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\b\fs32 \cf0 What is this?\
+
+\f1\b0\fs24 \
+PixureSaver is a screensaver that shows the power of genetic algorithms to accomplish trivial tasks.  In particular, PixureSaver will show an approximation of the real appearance of an image, and will gradually over time produce better and better approximations of that image.  \
+\
+This is done via a simple genetic algorithm that involves an artificial organism called a Pixure (
+\f0\b \ul Pix
+\f1\b0 \ulnone el Creat
+\f0\b \ul ure
+\f1\b0 \ulnone ). A pixel creature is an organism that can reproduce, can compete with its neighbors, and can display a color.  Pixures also have an ability called accuracy, which is a measure of how close the pixure's color is to the actual color of its pixel in the source image. The algorithms goes something like this:\
+\
+1) first, seed an 2 dimentsional array with Pixures with a random or predetermined color\
+2) repeat this loop:\
+	a) randomly choose a pixure\
+	b) if there are empty spaces next to the pixure, then let the pixure reproduce by creating an offspring in one of those spaces (optionally mutated to show a slightly different color)\
+	c) if there were no free spaces, then compete with neighbors:\
+		compare the pixures accuracy to the accuracy of its neighbors\
+		any neighbors that have a lower accuracy die, leaving an empty space for other pixures to fill with offspring\
+		if no neighbors died, then the selected pixure was the least accurate, so it dies\
+\
+3) repeat this process several thousand times a second for several minutes, and suddenly what at first looked like random static begins to look like a real picture, albeit painted by a poor impressionist.\
+\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\ql\qnatural\pardirnatural
+
+\f0\b\fs28 \cf0 How this meets the theme:\
+
+\f1\b0\fs24 First, the screensaver uses the nature-based images from /Library/Desktop Pictures, those that show living things\
+Second, PixureSaver uses a genetic  algorithm to determine the color of each individual pixel in its displayed image, meaning that the way it does its work was inspired by the way simple life forms do theirs.\
+\
+
+\f0\b Known bugs:\
+
+\f1\b0 * a small leak that occurs when switching pictures\
+* an occasional crash that I didn't have time to track down\
+* when the screen saver first loads, it shows a thumbnail/name for a random image that will not be drawn.  Within a few seconds the correct image gets displayed when the actual evolution/display finally loads\
+* not really a bug, but annoying - loading an image takes prohibitively long - up to 15 seconds\
+\
+
+\f0\b Not finished: (things I started but ran out of time before I could get working)\
+
+\f1\b0 * user-selectable folder for images to use as sources - I use the images from /Library/Desktop Pictures and from the installed screen savers, but user-definable folders would be cooler\
+* using [NSColor clearColor] as the color for initial seeding of the population:\
+	it looked pretty cool, but crashed on me once near the end of Sunday, so I ran out of time and removed it.  Really cool when it worked.\
+* user-selectable probability of mutation and degree of mutation - see [Pixure mutatedColorFromColor] for an explanation of these values\
+\
+
+\f0\b Next Steps - if there were more time:\
+
+\f1\b0 * threaded loading of images and setup of populations - for easier/smoother transitions to next image, and hopefully quicker loading\
+* a more helpful preview image - it didn't make sense to show the evolving image, as most users won't watch a preview for 2-3 minutes, but perhaps a precanned pdf explaining the algorithm or showing a timelapse of the results of the transition.\
+* iphoto browsing, of course\
+* all kind of niceties from leopard - oh well\
+\
+Any questions, please contact me at josephwardell@oldjewelsoftware.com.  I've included my plan.txt, which includes early planning (a completely different algorithm was planned Friday night) as well as some of the code from that algorithm laying around in the source.\
+\
+I'm also including a test application that I used to develop the genetic algorithm before placing it in a screen saver.  In fact, the two projects are tightly tied together, and you cannot build one or the other unless the directory tree remains intact.\
+\
+Thanks for looking at my code.  I wish I could say more, but my time is running out...\
+\
+}

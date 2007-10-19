@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {getTwitterInfo = id; }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_selector" = NSPopUpButton; "_view" = TwitterView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MCTwitter; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {animate = id; fadeAll = id; }; 
+            CLASS = TwitterView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

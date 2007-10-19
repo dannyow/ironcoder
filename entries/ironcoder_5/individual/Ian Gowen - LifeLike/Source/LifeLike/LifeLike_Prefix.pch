@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'LifeLike' target in the 'LifeLike' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <AppKit/AppKit.h>
+#endif

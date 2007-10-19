@@ -1,0 +1,13 @@
+//==============================================================================
+// File:      Prefix.pch
+// Date:      4/1/07
+// Author:		Dan Waylonis
+// Copyright:	(C) 2007 nekotech SOFTWARE
+//
+// Prefix header for all source files of the 'LivingWords' target
+// in the 'LivingWords' project
+//==============================================================================
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#define MethodLog(msg, ...)   NSLog(@"%s " # msg, __PRETTY_FUNCTION__, ##__VA_ARGS__)
+#endif

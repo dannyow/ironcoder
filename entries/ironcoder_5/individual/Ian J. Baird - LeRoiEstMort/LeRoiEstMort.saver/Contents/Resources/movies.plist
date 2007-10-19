@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>movieArray</key>
+	<array>
+		<dict>
+			<key>movieDuration</key>
+			<string>90</string>
+			<key>movieFN</key>
+			<string>movie00</string>
+		</dict>
+		<dict>
+			<key>movieDuration</key>
+			<string>260</string>
+			<key>movieFN</key>
+			<string>movie01</string>
+		</dict>
+		<dict>
+			<key>movieDuration</key>
+			<string>70</string>
+			<key>movieFN</key>
+			<string>movie02</string>
+		</dict>
+		<dict>
+			<key>movieDuration</key>
+			<string>185</string>
+			<key>movieFN</key>
+			<string>movie03</string>
+		</dict>
+	</array>
+</dict>
+</plist>

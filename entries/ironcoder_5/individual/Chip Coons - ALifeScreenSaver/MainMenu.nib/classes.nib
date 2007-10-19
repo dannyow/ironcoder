@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {CLASS = ALifeScreenSaverView; LANGUAGE = ObjC; SUPERCLASS = ScreenSaverView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ScreenSaverView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {forceBreeding = id; seedPopulation = id; skipEntity = id; startButton = id; }; 
+            CLASS = alifeAppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                breedButton = NSButton; 
+                controlButton = NSButton; 
+                screenView = NSView; 
+                seedButton = NSButton; 
+                skipButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

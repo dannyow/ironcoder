@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                advanceGenerations = id; 
+                chooseSourceImage = id; 
+                showPreferencesWindow = id; 
+                startEvolving = id; 
+                stopEvolving = id; 
+            }; 
+            CLASS = PixureTestController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {pixureImageView = PixureTestView; sourceImageView = NSImageView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = PixureTestView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,37 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancelClick = id; okClick = id; }; 
+            CLASS = LifeLikeView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                birth0 = NSButton; 
+                birth1 = NSButton; 
+                birth2 = NSButton; 
+                birth3 = NSButton; 
+                birth4 = NSButton; 
+                birth5 = NSButton; 
+                birth6 = NSButton; 
+                birth7 = NSButton; 
+                birth8 = NSButton; 
+                configSheet = id; 
+                pixelSizeSlider = NSSlider; 
+                randomness = NSStepper; 
+                randomnessField = NSTextField; 
+                survival0 = NSButton; 
+                survival1 = NSButton; 
+                survival2 = NSButton; 
+                survival3 = NSButton; 
+                survival4 = NSButton; 
+                survival5 = NSButton; 
+                survival6 = NSButton; 
+                survival7 = NSButton; 
+                survival8 = NSButton; 
+            }; 
+            SUPERCLASS = ScreenSaverView; 
+        }, 
+        {CLASS = ScreenSaverView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

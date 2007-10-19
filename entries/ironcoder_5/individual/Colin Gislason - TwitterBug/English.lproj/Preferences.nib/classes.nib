@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ScreenSaverView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {cancelClick = id; okClick = id; }; 
+            CLASS = TwitterBugView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                configSheet = id; 
+                fontColorOption = id; 
+                fontSizeOption = id; 
+                messageDelayOption = id; 
+                messageFontOption = id; 
+                messageSizeHeightOption = id; 
+                messageSizeWidthOption = id; 
+                passwordOption = id; 
+                showFriendsTimelineOption = id; 
+                userNameOption = id; 
+            }; 
+            SUPERCLASS = ScreenSaverView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0365DC500BBE8EA20005ADBB /* CrepuscularLife_GLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365DC4E0BBE8EA20005ADBB /* CrepuscularLife_GLView.h */; };
+		0365DC510BBE8EA20005ADBB /* CrepuscularLife_GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365DC4F0BBE8EA20005ADBB /* CrepuscularLife_GLView.m */; };
+		0365DC940BBE91690005ADBB /* CrepuscularLife_Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0365DC920BBE91690005ADBB /* CrepuscularLife_Generator.h */; };
+		0365DC950BBE91690005ADBB /* CrepuscularLife_Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0365DC930BBE91690005ADBB /* CrepuscularLife_Generator.m */; };
+		0365DCE90BBE9F640005ADBB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0365DCE80BBE9F640005ADBB /* OpenGL.framework */; };
+		03A8A8E40BBEB87100537D46 /* CrepuscularLife_Options.nib in Resources */ = {isa = PBXBuildFile; fileRef = 03A8A8E30BBEB87100537D46 /* CrepuscularLife_Options.nib */; };
+		03A8A8EB0BBEB94700537D46 /* CrepuscularLife_OptionsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A8A8E90BBEB94700537D46 /* CrepuscularLife_OptionsController.h */; };
+		03A8A8EC0BBEB94700537D46 /* CrepuscularLife_OptionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A8A8EA0BBEB94700537D46 /* CrepuscularLife_OptionsController.m */; };
+		03A8A9900BBEC44100537D46 /* CrepuscularLife_UserPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A8A98F0BBEC44100537D46 /* CrepuscularLife_UserPrefs.h */; };
+		8D255AC70486D3F9007BF209 /* Crepuscular Life_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA80370C50100C91783 /* Crepuscular Life_Prefix.pch */; };
+		8D255AC80486D3F9007BF209 /* CrepuscularLife_View.h in Headers */ = {isa = PBXBuildFile; fileRef = F50079790118B23001CA0E54 /* CrepuscularLife_View.h */; };
+		8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D255ACC0486D3F9007BF209 /* CrepuscularLife_View.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* CrepuscularLife_View.m */; };
+		8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0365DC4E0BBE8EA20005ADBB /* CrepuscularLife_GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrepuscularLife_GLView.h; sourceTree = "<group>"; };
+		0365DC4F0BBE8EA20005ADBB /* CrepuscularLife_GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrepuscularLife_GLView.m; sourceTree = "<group>"; };
+		0365DC920BBE91690005ADBB /* CrepuscularLife_Generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrepuscularLife_Generator.h; sourceTree = "<group>"; };
+		0365DC930BBE91690005ADBB /* CrepuscularLife_Generator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrepuscularLife_Generator.m; sourceTree = "<group>"; };
+		0365DCE80BBE9F640005ADBB /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		03A8A8E30BBEB87100537D46 /* CrepuscularLife_Options.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = CrepuscularLife_Options.nib; sourceTree = "<group>"; };
+		03A8A8E90BBEB94700537D46 /* CrepuscularLife_OptionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrepuscularLife_OptionsController.h; sourceTree = "<group>"; };
+		03A8A8EA0BBEB94700537D46 /* CrepuscularLife_OptionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrepuscularLife_OptionsController.m; sourceTree = "<group>"; };
+		03A8A98F0BBEC44100537D46 /* CrepuscularLife_UserPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrepuscularLife_UserPrefs.h; sourceTree = "<group>"; };
+		06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCFA80370C50100C91783 /* Crepuscular Life_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Crepuscular Life_Prefix.pch"; sourceTree = "<group>"; };
+		8D255AD20486D3F9007BF209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D255AD30486D3F9007BF209 /* Crepuscular Life.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crepuscular Life.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50079790118B23001CA0E54 /* CrepuscularLife_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrepuscularLife_View.h; sourceTree = "<group>"; };
+		F500797A0118B23001CA0E54 /* CrepuscularLife_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrepuscularLife_View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D255ACD0486D3F9007BF209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */,
+				8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */,
+				0365DCE90BBE9F640005ADBB /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Crepuscular Life */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA70370C4F300C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "Crepuscular Life";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03A8A8E30BBEB87100537D46 /* CrepuscularLife_Options.nib */,
+				8D255AD20486D3F9007BF209 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F50079790118B23001CA0E54 /* CrepuscularLife_View.h */,
+				F500797A0118B23001CA0E54 /* CrepuscularLife_View.m */,
+				0365DC920BBE91690005ADBB /* CrepuscularLife_Generator.h */,
+				0365DC930BBE91690005ADBB /* CrepuscularLife_Generator.m */,
+				03A8A8E90BBEB94700537D46 /* CrepuscularLife_OptionsController.h */,
+				03A8A8EA0BBEB94700537D46 /* CrepuscularLife_OptionsController.m */,
+				0365DC4E0BBE8EA20005ADBB /* CrepuscularLife_GLView.h */,
+				0365DC4F0BBE8EA20005ADBB /* CrepuscularLife_GLView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0365DCE80BBE9F640005ADBB /* OpenGL.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D255AD30486D3F9007BF209 /* Crepuscular Life.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA70370C4F300C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				03A8A98F0BBEC44100537D46 /* CrepuscularLife_UserPrefs.h */,
+				32DBCFA80370C50100C91783 /* Crepuscular Life_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D255AC60486D3F9007BF209 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255AC70486D3F9007BF209 /* Crepuscular Life_Prefix.pch in Headers */,
+				8D255AC80486D3F9007BF209 /* CrepuscularLife_View.h in Headers */,
+				0365DC500BBE8EA20005ADBB /* CrepuscularLife_GLView.h in Headers */,
+				0365DC940BBE91690005ADBB /* CrepuscularLife_Generator.h in Headers */,
+				03A8A8EB0BBEB94700537D46 /* CrepuscularLife_OptionsController.h in Headers */,
+				03A8A9900BBEC44100537D46 /* CrepuscularLife_UserPrefs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D255AC50486D3F9007BF209 /* Crepuscular Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "Crepuscular Life" */;
+			buildPhases = (
+				8D255AC60486D3F9007BF209 /* Headers */,
+				8D255AC90486D3F9007BF209 /* Resources */,
+				8D255ACB0486D3F9007BF209 /* Sources */,
+				8D255ACD0486D3F9007BF209 /* Frameworks */,
+				8D255AD00486D3F9007BF209 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crepuscular Life";
+			productInstallPath = "$(HOME)/Library/Screen Savers";
+			productName = "Crepuscular Life";
+			productReference = 8D255AD30486D3F9007BF209 /* Crepuscular Life.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "Crepuscular Life" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* Crepuscular Life */;
+			projectDirPath = "";
+			targets = (
+				8D255AC50486D3F9007BF209 /* Crepuscular Life */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D255AC90486D3F9007BF209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */,
+				03A8A8E40BBEB87100537D46 /* CrepuscularLife_Options.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D255AD00486D3F9007BF209 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D255ACB0486D3F9007BF209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACC0486D3F9007BF209 /* CrepuscularLife_View.m in Sources */,
+				0365DC510BBE8EA20005ADBB /* CrepuscularLife_GLView.m in Sources */,
+				0365DC950BBE91690005ADBB /* CrepuscularLife_Generator.m in Sources */,
+				03A8A8EC0BBEB94700537D46 /* CrepuscularLife_OptionsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7AD72E08BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crepuscular Life_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "Crepuscular Life";
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		EF7AD72F08BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crepuscular Life_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "Crepuscular Life";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		EF7AD73208BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		EF7AD73308BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "Crepuscular Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD72E08BB986600CE4634 /* Debug */,
+				EF7AD72F08BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "Crepuscular Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD73208BB986600CE4634 /* Debug */,
+				EF7AD73308BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C6A88D20BBF691900300053 /* NSImage (ThumbnailCreation).h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A88D00BBF691900300053 /* NSImage (ThumbnailCreation).h */; };
+		7C6A88D30BBF691900300053 /* NSImage (ThumbnailCreation).m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A88D10BBF691900300053 /* NSImage (ThumbnailCreation).m */; };
+		7C6A88D70BBF696E00300053 /* NSImage_CenteredDrawingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A88D50BBF696E00300053 /* NSImage_CenteredDrawingAdditions.h */; };
+		7C6A88D80BBF696E00300053 /* NSImage_CenteredDrawingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A88D60BBF696E00300053 /* NSImage_CenteredDrawingAdditions.m */; };
+		7C6A88F20BBF6A3900300053 /* Pixure.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A88E60BBF6A3900300053 /* Pixure.h */; };
+		7C6A88F30BBF6A3900300053 /* Pixure.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A88E70BBF6A3900300053 /* Pixure.m */; };
+		7C6A88F40BBF6A3900300053 /* PixelCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A88E80BBF6A3900300053 /* PixelCoordinate.h */; };
+		7C6A88F50BBF6A3900300053 /* PixelCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A88E90BBF6A3900300053 /* PixelCoordinate.m */; };
+		7C6A88F60BBF6A3900300053 /* PixurePopulation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A88EA0BBF6A3900300053 /* PixurePopulation.h */; };
+		7C6A88F70BBF6A3900300053 /* PixurePopulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A88EB0BBF6A3900300053 /* PixurePopulation.m */; };
+		7C6A88F80BBF6A3900300053 /* PixureImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A88EC0BBF6A3900300053 /* PixureImage.h */; };
+		7C6A88F90BBF6A3900300053 /* PixureImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A88ED0BBF6A3900300053 /* PixureImage.m */; };
+		7C6A88FA0BBF6A3900300053 /* PopulationmGeneratedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A88EE0BBF6A3900300053 /* PopulationmGeneratedImage.h */; };
+		7C6A88FB0BBF6A3900300053 /* PopulationmGeneratedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A88EF0BBF6A3900300053 /* PopulationmGeneratedImage.m */; };
+		7C6A88FC0BBF6A3900300053 /* PixureSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A88F00BBF6A3900300053 /* PixureSystem.h */; };
+		7C6A88FD0BBF6A3900300053 /* PixureSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A88F10BBF6A3900300053 /* PixureSystem.m */; };
+		7C6A89380BBF6CB900300053 /* NSColor (PixureAdditions).h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A89360BBF6CB900300053 /* NSColor (PixureAdditions).h */; };
+		7C6A89390BBF6CB900300053 /* NSColor (PixureAdditions).m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A89370BBF6CB900300053 /* NSColor (PixureAdditions).m */; };
+		7C6A89A40BBFCFE500300053 /* PixureController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A89A20BBFCFE500300053 /* PixureController.h */; };
+		7C6A89A50BBFCFE500300053 /* PixureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A89A30BBFCFE500300053 /* PixureController.m */; };
+		7C6A8C110BC0197300300053 /* OJW_PixureSaverDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A8C0E0BC0197300300053 /* OJW_PixureSaverDefaults.h */; };
+		7C6A8C120BC0197300300053 /* OJW_PixureSaverDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A8C0F0BC0197300300053 /* OJW_PixureSaverDefaults.m */; };
+		7C6A8C130BC0197300300053 /* Pixure Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 7C6A8C100BC0197300300053 /* Pixure Preferences.nib */; };
+		7C6A8C330BC01AF800300053 /* logo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6A8C320BC01AF800300053 /* logo4.png */; };
+		7C6A8DC80BC03B9E00300053 /* ImageFileThumbnailCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6A8DC60BC03B9E00300053 /* ImageFileThumbnailCache.h */; };
+		7C6A8DC90BC03B9E00300053 /* ImageFileThumbnailCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6A8DC70BC03B9E00300053 /* ImageFileThumbnailCache.m */; };
+		7C97CA510BC059A7000E679B /* Plan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C97CA4F0BC059A7000E679B /* Plan.txt */; };
+		7C97CA520BC059A7000E679B /* About the Pixure in Resources */ = {isa = PBXBuildFile; fileRef = 7C97CA500BC059A7000E679B /* About the Pixure */; };
+		7C97CA560BC05F8F000E679B /* Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7C97CA550BC05F8F000E679B /* Readme.rtf */; };
+		8D255AC70486D3F9007BF209 /* PixureSaver_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA80370C50100C91783 /* PixureSaver_Prefix.pch */; };
+		8D255AC80486D3F9007BF209 /* PixureSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = F50079790118B23001CA0E54 /* PixureSaverView.h */; };
+		8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D255ACC0486D3F9007BF209 /* PixureSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* PixureSaverView.m */; };
+		8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCFA80370C50100C91783 /* PixureSaver_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixureSaver_Prefix.pch; sourceTree = "<group>"; };
+		7C6A88D00BBF691900300053 /* NSImage (ThumbnailCreation).h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSImage (ThumbnailCreation).h"; path = "../../PixureTest/PixureTest/NSImage (ThumbnailCreation).h"; sourceTree = SOURCE_ROOT; };
+		7C6A88D10BBF691900300053 /* NSImage (ThumbnailCreation).m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSImage (ThumbnailCreation).m"; path = "../../PixureTest/PixureTest/NSImage (ThumbnailCreation).m"; sourceTree = SOURCE_ROOT; };
+		7C6A88D50BBF696E00300053 /* NSImage_CenteredDrawingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = NSImage_CenteredDrawingAdditions.h; path = ../../PixureTest/PixureTest/NSImage_CenteredDrawingAdditions.h; sourceTree = SOURCE_ROOT; };
+		7C6A88D60BBF696E00300053 /* NSImage_CenteredDrawingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = NSImage_CenteredDrawingAdditions.m; path = ../../PixureTest/PixureTest/NSImage_CenteredDrawingAdditions.m; sourceTree = SOURCE_ROOT; };
+		7C6A88E60BBF6A3900300053 /* Pixure.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Pixure.h; path = ../../PixureTest/PixureTest/Pixure.h; sourceTree = SOURCE_ROOT; };
+		7C6A88E70BBF6A3900300053 /* Pixure.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = Pixure.m; path = ../../PixureTest/PixureTest/Pixure.m; sourceTree = SOURCE_ROOT; };
+		7C6A88E80BBF6A3900300053 /* PixelCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PixelCoordinate.h; path = ../../PixureTest/PixureTest/PixelCoordinate.h; sourceTree = SOURCE_ROOT; };
+		7C6A88E90BBF6A3900300053 /* PixelCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PixelCoordinate.m; path = ../../PixureTest/PixureTest/PixelCoordinate.m; sourceTree = SOURCE_ROOT; };
+		7C6A88EA0BBF6A3900300053 /* PixurePopulation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PixurePopulation.h; path = ../../PixureTest/PixureTest/PixurePopulation.h; sourceTree = SOURCE_ROOT; };
+		7C6A88EB0BBF6A3900300053 /* PixurePopulation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PixurePopulation.m; path = ../../PixureTest/PixureTest/PixurePopulation.m; sourceTree = SOURCE_ROOT; };
+		7C6A88EC0BBF6A3900300053 /* PixureImage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PixureImage.h; path = ../../PixureTest/PixureTest/PixureImage.h; sourceTree = SOURCE_ROOT; };
+		7C6A88ED0BBF6A3900300053 /* PixureImage.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PixureImage.m; path = ../../PixureTest/PixureTest/PixureImage.m; sourceTree = SOURCE_ROOT; };
+		7C6A88EE0BBF6A3900300053 /* PopulationmGeneratedImage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PopulationmGeneratedImage.h; path = ../../PixureTest/PixureTest/PopulationmGeneratedImage.h; sourceTree = SOURCE_ROOT; };
+		7C6A88EF0BBF6A3900300053 /* PopulationmGeneratedImage.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PopulationmGeneratedImage.m; path = ../../PixureTest/PixureTest/PopulationmGeneratedImage.m; sourceTree = SOURCE_ROOT; };
+		7C6A88F00BBF6A3900300053 /* PixureSystem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PixureSystem.h; path = ../../PixureTest/PixureTest/PixureSystem.h; sourceTree = SOURCE_ROOT; };
+		7C6A88F10BBF6A3900300053 /* PixureSystem.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PixureSystem.m; path = ../../PixureTest/PixureTest/PixureSystem.m; sourceTree = SOURCE_ROOT; };
+		7C6A89360BBF6CB900300053 /* NSColor (PixureAdditions).h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSColor (PixureAdditions).h"; path = "../../PixureTest/PixureTest/NSColor (PixureAdditions).h"; sourceTree = SOURCE_ROOT; };
+		7C6A89370BBF6CB900300053 /* NSColor (PixureAdditions).m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSColor (PixureAdditions).m"; path = "../../PixureTest/PixureTest/NSColor (PixureAdditions).m"; sourceTree = SOURCE_ROOT; };
+		7C6A89A20BBFCFE500300053 /* PixureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixureController.h; sourceTree = "<group>"; };
+		7C6A89A30BBFCFE500300053 /* PixureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixureController.m; sourceTree = "<group>"; };
+		7C6A8C0E0BC0197300300053 /* OJW_PixureSaverDefaults.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = OJW_PixureSaverDefaults.h; path = ../../PixureTest/PixureTest/OJW_PixureSaverDefaults.h; sourceTree = SOURCE_ROOT; };
+		7C6A8C0F0BC0197300300053 /* OJW_PixureSaverDefaults.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = OJW_PixureSaverDefaults.m; path = ../../PixureTest/PixureTest/OJW_PixureSaverDefaults.m; sourceTree = SOURCE_ROOT; };
+		7C6A8C100BC0197300300053 /* Pixure Preferences.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = "Pixure Preferences.nib"; path = "../../PixureTest/PixureTest/Pixure Preferences.nib"; sourceTree = SOURCE_ROOT; };
+		7C6A8C320BC01AF800300053 /* logo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo4.png; path = "../../Pixure Logo/logo4.png"; sourceTree = SOURCE_ROOT; };
+		7C6A8DC60BC03B9E00300053 /* ImageFileThumbnailCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFileThumbnailCache.h; sourceTree = "<group>"; };
+		7C6A8DC70BC03B9E00300053 /* ImageFileThumbnailCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFileThumbnailCache.m; sourceTree = "<group>"; };
+		7C97CA4F0BC059A7000E679B /* Plan.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = Plan.txt; path = ../../Plan.txt; sourceTree = SOURCE_ROOT; };
+		7C97CA500BC059A7000E679B /* About the Pixure */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = "About the Pixure"; path = "../../PixureTest/PixureTest/About the Pixure"; sourceTree = SOURCE_ROOT; };
+		7C97CA550BC05F8F000E679B /* Readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
+		8D255AD20486D3F9007BF209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D255AD30486D3F9007BF209 /* PixureSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixureSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50079790118B23001CA0E54 /* PixureSaverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixureSaverView.h; sourceTree = "<group>"; };
+		F500797A0118B23001CA0E54 /* PixureSaverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixureSaverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D255ACD0486D3F9007BF209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */,
+				8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* PixureSaver */ = {
+			isa = PBXGroup;
+			children = (
+				7C97CA550BC05F8F000E679B /* Readme.rtf */,
+				7C97CA4F0BC059A7000E679B /* Plan.txt */,
+				7C97CA500BC059A7000E679B /* About the Pixure */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA70370C4F300C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = PixureSaver;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C6A8C320BC01AF800300053 /* logo4.png */,
+				7C6A8C100BC0197300300053 /* Pixure Preferences.nib */,
+				8D255AD20486D3F9007BF209 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F50079790118B23001CA0E54 /* PixureSaverView.h */,
+				F500797A0118B23001CA0E54 /* PixureSaverView.m */,
+				7C6A89A20BBFCFE500300053 /* PixureController.h */,
+				7C6A89A30BBFCFE500300053 /* PixureController.m */,
+				7C6A8C0E0BC0197300300053 /* OJW_PixureSaverDefaults.h */,
+				7C6A8C0F0BC0197300300053 /* OJW_PixureSaverDefaults.m */,
+				7C6A88FE0BBF6A3E00300053 /* Pixure */,
+				7C6A88FF0BBF6A4500300053 /* cocoa additions */,
+				7C6A8DC60BC03B9E00300053 /* ImageFileThumbnailCache.h */,
+				7C6A8DC70BC03B9E00300053 /* ImageFileThumbnailCache.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D255AD30486D3F9007BF209 /* PixureSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA70370C4F300C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCFA80370C50100C91783 /* PixureSaver_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		7C6A88FE0BBF6A3E00300053 /* Pixure */ = {
+			isa = PBXGroup;
+			children = (
+				7C6A88E60BBF6A3900300053 /* Pixure.h */,
+				7C6A88E70BBF6A3900300053 /* Pixure.m */,
+				7C6A88E80BBF6A3900300053 /* PixelCoordinate.h */,
+				7C6A88E90BBF6A3900300053 /* PixelCoordinate.m */,
+				7C6A88EA0BBF6A3900300053 /* PixurePopulation.h */,
+				7C6A88EB0BBF6A3900300053 /* PixurePopulation.m */,
+				7C6A88EC0BBF6A3900300053 /* PixureImage.h */,
+				7C6A88ED0BBF6A3900300053 /* PixureImage.m */,
+				7C6A88EE0BBF6A3900300053 /* PopulationmGeneratedImage.h */,
+				7C6A88EF0BBF6A3900300053 /* PopulationmGeneratedImage.m */,
+				7C6A88F00BBF6A3900300053 /* PixureSystem.h */,
+				7C6A88F10BBF6A3900300053 /* PixureSystem.m */,
+			);
+			name = Pixure;
+			sourceTree = "<group>";
+		};
+		7C6A88FF0BBF6A4500300053 /* cocoa additions */ = {
+			isa = PBXGroup;
+			children = (
+				7C6A89360BBF6CB900300053 /* NSColor (PixureAdditions).h */,
+				7C6A89370BBF6CB900300053 /* NSColor (PixureAdditions).m */,
+				7C6A88D00BBF691900300053 /* NSImage (ThumbnailCreation).h */,
+				7C6A88D10BBF691900300053 /* NSImage (ThumbnailCreation).m */,
+				7C6A88D50BBF696E00300053 /* NSImage_CenteredDrawingAdditions.h */,
+				7C6A88D60BBF696E00300053 /* NSImage_CenteredDrawingAdditions.m */,
+			);
+			name = "cocoa additions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D255AC60486D3F9007BF209 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255AC70486D3F9007BF209 /* PixureSaver_Prefix.pch in Headers */,
+				8D255AC80486D3F9007BF209 /* PixureSaverView.h in Headers */,
+				7C6A88D20BBF691900300053 /* NSImage (ThumbnailCreation).h in Headers */,
+				7C6A88D70BBF696E00300053 /* NSImage_CenteredDrawingAdditions.h in Headers */,
+				7C6A88F20BBF6A3900300053 /* Pixure.h in Headers */,
+				7C6A88F40BBF6A3900300053 /* PixelCoordinate.h in Headers */,
+				7C6A88F60BBF6A3900300053 /* PixurePopulation.h in Headers */,
+				7C6A88F80BBF6A3900300053 /* PixureImage.h in Headers */,
+				7C6A88FA0BBF6A3900300053 /* PopulationmGeneratedImage.h in Headers */,
+				7C6A88FC0BBF6A3900300053 /* PixureSystem.h in Headers */,
+				7C6A89380BBF6CB900300053 /* NSColor (PixureAdditions).h in Headers */,
+				7C6A89A40BBFCFE500300053 /* PixureController.h in Headers */,
+				7C6A8C110BC0197300300053 /* OJW_PixureSaverDefaults.h in Headers */,
+				7C6A8DC80BC03B9E00300053 /* ImageFileThumbnailCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D255AC50486D3F9007BF209 /* PixureSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "PixureSaver" */;
+			buildPhases = (
+				8D255AC60486D3F9007BF209 /* Headers */,
+				8D255AC90486D3F9007BF209 /* Resources */,
+				8D255ACB0486D3F9007BF209 /* Sources */,
+				8D255ACD0486D3F9007BF209 /* Frameworks */,
+				8D255AD00486D3F9007BF209 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixureSaver;
+			productInstallPath = "$(HOME)/Library/Screen Savers";
+			productName = PixureSaver;
+			productReference = 8D255AD30486D3F9007BF209 /* PixureSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "PixureSaver" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* PixureSaver */;
+			projectDirPath = "";
+			targets = (
+				8D255AC50486D3F9007BF209 /* PixureSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D255AC90486D3F9007BF209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */,
+				7C6A8C130BC0197300300053 /* Pixure Preferences.nib in Resources */,
+				7C6A8C330BC01AF800300053 /* logo4.png in Resources */,
+				7C97CA510BC059A7000E679B /* Plan.txt in Resources */,
+				7C97CA520BC059A7000E679B /* About the Pixure in Resources */,
+				7C97CA560BC05F8F000E679B /* Readme.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D255AD00486D3F9007BF209 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D255ACB0486D3F9007BF209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACC0486D3F9007BF209 /* PixureSaverView.m in Sources */,
+				7C6A88D30BBF691900300053 /* NSImage (ThumbnailCreation).m in Sources */,
+				7C6A88D80BBF696E00300053 /* NSImage_CenteredDrawingAdditions.m in Sources */,
+				7C6A88F30BBF6A3900300053 /* Pixure.m in Sources */,
+				7C6A88F50BBF6A3900300053 /* PixelCoordinate.m in Sources */,
+				7C6A88F70BBF6A3900300053 /* PixurePopulation.m in Sources */,
+				7C6A88F90BBF6A3900300053 /* PixureImage.m in Sources */,
+				7C6A88FB0BBF6A3900300053 /* PopulationmGeneratedImage.m in Sources */,
+				7C6A88FD0BBF6A3900300053 /* PixureSystem.m in Sources */,
+				7C6A89390BBF6CB900300053 /* NSColor (PixureAdditions).m in Sources */,
+				7C6A89A50BBFCFE500300053 /* PixureController.m in Sources */,
+				7C6A8C120BC0197300300053 /* OJW_PixureSaverDefaults.m in Sources */,
+				7C6A8DC90BC03B9E00300053 /* ImageFileThumbnailCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7AD72E08BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PixureSaver_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = PixureSaver;
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		EF7AD72F08BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PixureSaver_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = PixureSaver;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		EF7AD73208BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		EF7AD73308BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "PixureSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD72E08BB986600CE4634 /* Debug */,
+				EF7AD72F08BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "PixureSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD73208BB986600CE4634 /* Debug */,
+				EF7AD73308BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
