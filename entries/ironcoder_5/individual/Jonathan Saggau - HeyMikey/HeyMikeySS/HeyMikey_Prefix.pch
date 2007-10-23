@@ -1,0 +1,36 @@
+//
+// Prefix header for all source files of the 'HeyMikey' target in the 'HeyMikey' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <AppKit/AppKit.h>
+#endif
+
+#define MODULE_NAME @"com.jonathansaggau.HeyMikey"
+
+//From Aaron Hillegass
+#define LogMethod() NSLog(@"-[%@ %s]", self, _cmd)
+
+
+//glGetError convenience fn
+#define glReportError()\
+{\
+	GLenum error=glGetError();\
+        if(GL_NO_ERROR!=error)\
+        {\
+            printf("GL error at %s:%d: %s\n",__FILE__,__LINE__,(char*)gluErrorString(error));\
+        }\
+}\
+
+//Thanks Wil
+//http://wilshipley.com/blog/2005/10/pimp-my-code-interlude-free-code.html
+
+static inline BOOL IsEmpty(id thing) {
+    return thing == nil
+    || ([thing isEqual:[NSNull null]]) //JS addition for coredata
+    || ([thing respondsToSelector:@selector(length)]
+        && [(NSData *)thing length] == 0)
+    || ([thing respondsToSelector:@selector(count)]
+        && [(NSArray *)thing count] == 0);
+}

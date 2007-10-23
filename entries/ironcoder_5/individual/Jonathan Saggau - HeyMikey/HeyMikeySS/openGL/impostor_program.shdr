@@ -1,0 +1,52 @@
+!!ARBvp1.0
+
+# Billboard creation using a vertex program
+#
+# Normal contains the value which is multiplied by the right and up
+# vectors
+# Example: For a 3x3 bilboard, render a quad with normals containing:
+#                       { -3.0, -3.0, 0.0 }
+#                       {  3.0, -3.0, 0.0 }
+#                       {  3.0,  3.0, 0.0 }
+#                       { -3.0,  3.0, 0.0 }
+#
+#                       And zeroed out vertex coordinates.
+#
+#                       Also, color is multiplied with the local parameter 0, allowing
+#                       mass modification of color values (good for alpha blending an
+#                       entire system).
+#
+
+ATTRIB vertexPosition = vertex.position;
+ATTRIB vertexColor = vertex.color;
+ATTRIB vertexTexcoord = vertex.texcoord;
+ATTRIB vertexNormal = vertex.normal;
+
+OUTPUT outputPosition = result.position;
+OUTPUT outputColor = result.color;
+OUTPUT outputTexcoord = result.texcoord;
+
+TEMP right_mod, up_mod, n;
+
+# Create the right and up vextors from the modelview matrix
+MUL right_mod, vertexNormal.xxxw, state.matrix.modelview.row[0];
+MUL up_mod, vertexNormal.yyyw, state.matrix.modelview.row[1];
+
+MOV right_mod.w, 0.0;
+MOV up_mod.w, 0.0;
+
+# Create the coordinate position for this vertex
+ADD n, right_mod, up_mod;
+ADD n, vertexPosition, n;
+
+# Transform the vertex by the modelview/projection matrix
+DP4 outputPosition.x, state.matrix.mvp.row[0], n;
+DP4 outputPosition.y, state.matrix.mvp.row[1], n;
+DP4 outputPosition.z, state.matrix.mvp.row[2], n;
+DP4 outputPosition.w, state.matrix.mvp.row[3], n;
+
+# Pass the color and texture coordinate through
+MUL outputColor, vertex.color, program.local[0];
+MOV outputTexcoord, vertex.texcoord;
+
+END

@@ -1,0 +1,15 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {createPoop = id; }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {theView = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = JTView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = JTWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}
