@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancelPrefs = id; savePrefs = id; }; 
+            CLASS = HeyMikeyView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                allScreensCheckbox = id; 
+                allSoundsCheckbox = id; 
+                configureSheet = id; 
+                initialSoundCheckbox = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
