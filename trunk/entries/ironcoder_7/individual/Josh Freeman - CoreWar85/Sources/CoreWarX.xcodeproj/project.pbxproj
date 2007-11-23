@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0320EFDF0CE9B16B00E95D77 /* CWX_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 0320EFDE0CE9B16B00E95D77 /* CWX_Controller.m */; };
+		03404B850CEEFB5600FC47B5 /* blue_instruction_hi.tif in Resources */ = {isa = PBXBuildFile; fileRef = 03404B7C0CEEFB5600FC47B5 /* blue_instruction_hi.tif */; };
+		03404B860CEEFB5600FC47B5 /* red_instruction_hi.tif in Resources */ = {isa = PBXBuildFile; fileRef = 03404B7D0CEEFB5600FC47B5 /* red_instruction_hi.tif */; };
+		03404B870CEEFB5600FC47B5 /* blue_dat_hi.tif in Resources */ = {isa = PBXBuildFile; fileRef = 03404B7E0CEEFB5600FC47B5 /* blue_dat_hi.tif */; };
+		03404B880CEEFB5600FC47B5 /* red_dat_hi.tif in Resources */ = {isa = PBXBuildFile; fileRef = 03404B7F0CEEFB5600FC47B5 /* red_dat_hi.tif */; };
+		03404B890CEEFB5600FC47B5 /* red_dat.tif in Resources */ = {isa = PBXBuildFile; fileRef = 03404B800CEEFB5600FC47B5 /* red_dat.tif */; };
+		03404B8A0CEEFB5600FC47B5 /* blue_dat.tif in Resources */ = {isa = PBXBuildFile; fileRef = 03404B810CEEFB5600FC47B5 /* blue_dat.tif */; };
+		03404B8B0CEEFB5600FC47B5 /* red_instruction.tif in Resources */ = {isa = PBXBuildFile; fileRef = 03404B820CEEFB5600FC47B5 /* red_instruction.tif */; };
+		03404B8C0CEEFB5600FC47B5 /* emptycell.tif in Resources */ = {isa = PBXBuildFile; fileRef = 03404B830CEEFB5600FC47B5 /* emptycell.tif */; };
+		03404B8D0CEEFB5600FC47B5 /* blue_instruction.tif in Resources */ = {isa = PBXBuildFile; fileRef = 03404B840CEEFB5600FC47B5 /* blue_instruction.tif */; };
+		03404B900CEEFB8300FC47B5 /* blue_execution.tif in Resources */ = {isa = PBXBuildFile; fileRef = 03404B8E0CEEFB8300FC47B5 /* blue_execution.tif */; };
+		03404B910CEEFB8300FC47B5 /* blue_die.tif in Resources */ = {isa = PBXBuildFile; fileRef = 03404B8F0CEEFB8300FC47B5 /* blue_die.tif */; };
+		03404B930CEEFBBC00FC47B5 /* red_execution.tif in Resources */ = {isa = PBXBuildFile; fileRef = 03404B920CEEFBBC00FC47B5 /* red_execution.tif */; };
+		03404B950CEEFBC200FC47B5 /* red_die.tif in Resources */ = {isa = PBXBuildFile; fileRef = 03404B940CEEFBC200FC47B5 /* red_die.tif */; };
+		035788340CE80A8100168AA2 /* CWX_Simulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 035788330CE80A8100168AA2 /* CWX_Simulator.m */; };
+		035788400CE8292D00168AA2 /* CWX_RedcodeProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 0357883F0CE8292D00168AA2 /* CWX_RedcodeProgram.m */; };
+		03578A740CE8371A00168AA2 /* CWX_RedcodeAssembler.m in Sources */ = {isa = PBXBuildFile; fileRef = 03578A730CE8371A00168AA2 /* CWX_RedcodeAssembler.m */; };
+		03578AC50CE850A400168AA2 /* CWX_RedcodeExecuter.m in Sources */ = {isa = PBXBuildFile; fileRef = 03578AC40CE850A400168AA2 /* CWX_RedcodeExecuter.m */; };
+		03B0297E0CEB0B6C008A76E7 /* CWX_MemoryArrayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B0297D0CEB0B6C008A76E7 /* CWX_MemoryArrayView.m */; };
+		03BAE61D0CF05DB600D8AE89 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 03BAE61C0CF05DB600D8AE89 /* icon.icns */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0320EFDD0CE9B16B00E95D77 /* CWX_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWX_Controller.h; sourceTree = "<group>"; };
+		0320EFDE0CE9B16B00E95D77 /* CWX_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWX_Controller.m; sourceTree = "<group>"; };
+		03404B7C0CEEFB5600FC47B5 /* blue_instruction_hi.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = blue_instruction_hi.tif; sourceTree = "<group>"; };
+		03404B7D0CEEFB5600FC47B5 /* red_instruction_hi.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = red_instruction_hi.tif; sourceTree = "<group>"; };
+		03404B7E0CEEFB5600FC47B5 /* blue_dat_hi.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = blue_dat_hi.tif; sourceTree = "<group>"; };
+		03404B7F0CEEFB5600FC47B5 /* red_dat_hi.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = red_dat_hi.tif; sourceTree = "<group>"; };
+		03404B800CEEFB5600FC47B5 /* red_dat.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = red_dat.tif; sourceTree = "<group>"; };
+		03404B810CEEFB5600FC47B5 /* blue_dat.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = blue_dat.tif; sourceTree = "<group>"; };
+		03404B820CEEFB5600FC47B5 /* red_instruction.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = red_instruction.tif; sourceTree = "<group>"; };
+		03404B830CEEFB5600FC47B5 /* emptycell.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = emptycell.tif; sourceTree = "<group>"; };
+		03404B840CEEFB5600FC47B5 /* blue_instruction.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = blue_instruction.tif; sourceTree = "<group>"; };
+		03404B8E0CEEFB8300FC47B5 /* blue_execution.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = blue_execution.tif; sourceTree = "<group>"; };
+		03404B8F0CEEFB8300FC47B5 /* blue_die.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = blue_die.tif; sourceTree = "<group>"; };
+		03404B920CEEFBBC00FC47B5 /* red_execution.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = red_execution.tif; sourceTree = "<group>"; };
+		03404B940CEEFBC200FC47B5 /* red_die.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = red_die.tif; sourceTree = "<group>"; };
+		035788320CE80A8100168AA2 /* CWX_Simulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWX_Simulator.h; sourceTree = "<group>"; };
+		035788330CE80A8100168AA2 /* CWX_Simulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWX_Simulator.m; sourceTree = "<group>"; };
+		035788370CE80AA400168AA2 /* CWX_Redcode_Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWX_Redcode_Defines.h; sourceTree = "<group>"; };
+		0357883E0CE8292D00168AA2 /* CWX_RedcodeProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWX_RedcodeProgram.h; sourceTree = "<group>"; };
+		0357883F0CE8292D00168AA2 /* CWX_RedcodeProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWX_RedcodeProgram.m; sourceTree = "<group>"; };
+		035788450CE82DEB00168AA2 /* CWX_String_Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWX_String_Defines.h; sourceTree = "<group>"; };
+		03578A720CE8371A00168AA2 /* CWX_RedcodeAssembler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWX_RedcodeAssembler.h; sourceTree = "<group>"; };
+		03578A730CE8371A00168AA2 /* CWX_RedcodeAssembler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWX_RedcodeAssembler.m; sourceTree = "<group>"; };
+		03578AC30CE850A400168AA2 /* CWX_RedcodeExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWX_RedcodeExecuter.h; sourceTree = "<group>"; };
+		03578AC40CE850A400168AA2 /* CWX_RedcodeExecuter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWX_RedcodeExecuter.m; sourceTree = "<group>"; };
+		0390E1C40CF086AF00A59D1D /* CWX_Defines.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CWX_Defines.h; sourceTree = "<group>"; };
+		03B0297C0CEB0B6C008A76E7 /* CWX_MemoryArrayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWX_MemoryArrayView.h; sourceTree = "<group>"; };
+		03B0297D0CEB0B6C008A76E7 /* CWX_MemoryArrayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWX_MemoryArrayView.m; sourceTree = "<group>"; };
+		03BAE61C0CF05DB600D8AE89 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* CoreWarX_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreWarX_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Core War 85.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Core War 85.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0390E1B10CF085D700A59D1D /* Controller & UI */ = {
+			isa = PBXGroup;
+			children = (
+				0320EFDD0CE9B16B00E95D77 /* CWX_Controller.h */,
+				0320EFDE0CE9B16B00E95D77 /* CWX_Controller.m */,
+				03B0297C0CEB0B6C008A76E7 /* CWX_MemoryArrayView.h */,
+				03B0297D0CEB0B6C008A76E7 /* CWX_MemoryArrayView.m */,
+			);
+			name = "Controller & UI";
+			sourceTree = "<group>";
+		};
+		0390E1B60CF0861C00A59D1D /* Redcode Assembler & Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				0357883E0CE8292D00168AA2 /* CWX_RedcodeProgram.h */,
+				0357883F0CE8292D00168AA2 /* CWX_RedcodeProgram.m */,
+				03578A720CE8371A00168AA2 /* CWX_RedcodeAssembler.h */,
+				03578A730CE8371A00168AA2 /* CWX_RedcodeAssembler.m */,
+				035788320CE80A8100168AA2 /* CWX_Simulator.h */,
+				035788330CE80A8100168AA2 /* CWX_Simulator.m */,
+				03578AC30CE850A400168AA2 /* CWX_RedcodeExecuter.h */,
+				03578AC40CE850A400168AA2 /* CWX_RedcodeExecuter.m */,
+			);
+			name = "Redcode Assembler & Simulator";
+			sourceTree = "<group>";
+		};
+		03B02C4F0CEBC497008A76E7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				03404B8E0CEEFB8300FC47B5 /* blue_execution.tif */,
+				03404B8F0CEEFB8300FC47B5 /* blue_die.tif */,
+				03404B840CEEFB5600FC47B5 /* blue_instruction.tif */,
+				03404B7C0CEEFB5600FC47B5 /* blue_instruction_hi.tif */,
+				03404B810CEEFB5600FC47B5 /* blue_dat.tif */,
+				03404B7E0CEEFB5600FC47B5 /* blue_dat_hi.tif */,
+				03404B920CEEFBBC00FC47B5 /* red_execution.tif */,
+				03404B940CEEFBC200FC47B5 /* red_die.tif */,
+				03404B820CEEFB5600FC47B5 /* red_instruction.tif */,
+				03404B7D0CEEFB5600FC47B5 /* red_instruction_hi.tif */,
+				03404B800CEEFB5600FC47B5 /* red_dat.tif */,
+				03404B7F0CEEFB5600FC47B5 /* red_dat_hi.tif */,
+				03404B830CEEFB5600FC47B5 /* emptycell.tif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0390E1B10CF085D700A59D1D /* Controller & UI */,
+				0390E1B60CF0861C00A59D1D /* Redcode Assembler & Simulator */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Core War 85.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CoreWarX */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CoreWarX;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0390E1C40CF086AF00A59D1D /* CWX_Defines.h */,
+				035788370CE80AA400168AA2 /* CWX_Redcode_Defines.h */,
+				035788450CE82DEB00168AA2 /* CWX_String_Defines.h */,
+				32CA4F630368D1EE00C91783 /* CoreWarX_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03B02C4F0CEBC497008A76E7 /* Images */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				03BAE61C0CF05DB600D8AE89 /* icon.icns */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Core War 85 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Core War 85" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Core War 85";
+			productInstallPath = "$(HOME)/Applications";
+			productName = CoreWarX;
+			productReference = 8D1107320486CEB800E47090 /* Core War 85.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CoreWarX" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CoreWarX */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Core War 85 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				03404B850CEEFB5600FC47B5 /* blue_instruction_hi.tif in Resources */,
+				03404B860CEEFB5600FC47B5 /* red_instruction_hi.tif in Resources */,
+				03404B870CEEFB5600FC47B5 /* blue_dat_hi.tif in Resources */,
+				03404B880CEEFB5600FC47B5 /* red_dat_hi.tif in Resources */,
+				03404B890CEEFB5600FC47B5 /* red_dat.tif in Resources */,
+				03404B8A0CEEFB5600FC47B5 /* blue_dat.tif in Resources */,
+				03404B8B0CEEFB5600FC47B5 /* red_instruction.tif in Resources */,
+				03404B8C0CEEFB5600FC47B5 /* emptycell.tif in Resources */,
+				03404B8D0CEEFB5600FC47B5 /* blue_instruction.tif in Resources */,
+				03404B900CEEFB8300FC47B5 /* blue_execution.tif in Resources */,
+				03404B910CEEFB8300FC47B5 /* blue_die.tif in Resources */,
+				03404B930CEEFBBC00FC47B5 /* red_execution.tif in Resources */,
+				03404B950CEEFBC200FC47B5 /* red_die.tif in Resources */,
+				03BAE61D0CF05DB600D8AE89 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				035788340CE80A8100168AA2 /* CWX_Simulator.m in Sources */,
+				035788400CE8292D00168AA2 /* CWX_RedcodeProgram.m in Sources */,
+				03578A740CE8371A00168AA2 /* CWX_RedcodeAssembler.m in Sources */,
+				03578AC50CE850A400168AA2 /* CWX_RedcodeExecuter.m in Sources */,
+				0320EFDF0CE9B16B00E95D77 /* CWX_Controller.m in Sources */,
+				03B0297E0CEB0B6C008A76E7 /* CWX_MemoryArrayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Core War 85";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Core War 85";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-bind_at_load",
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-bind_at_load",
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Core War 85" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CoreWarX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

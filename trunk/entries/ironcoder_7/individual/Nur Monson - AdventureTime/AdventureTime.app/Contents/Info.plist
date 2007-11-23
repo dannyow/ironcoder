@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AdventureTime</string>
+	<key>CFBundleGetInfoString</key>
+	<string>AdventureTime 1.0a1, ©2007 theidiotproject</string>
+	<key>CFBundleIconFile</key>
+	<string>AdventureTime</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.YourCompanyHere.AdventureTime</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0a1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>exported</string>
+	<key>LSEnvironment</key>
+	<dict>
+		<key>MinimumSystemVersion</key>
+		<string>10.4.0</string>
+	</dict>
+	<key>NSAppleScriptEnabled</key>
+	<string>YES</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>OSAScriptingDefinition</key>
+	<string>AppleScriptInfo.sdef</string>
+</dict>
+</plist>

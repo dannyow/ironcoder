@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E15D01C0CE56097002CD9F0 /* AdventureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15D01B0CE56097002CD9F0 /* AdventureView.m */; };
+		3E15D0250CE5613F002CD9F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E15D0240CE5613F002CD9F0 /* QuartzCore.framework */; };
+		3E15D02D0CE564A9002CD9F0 /* ATLandscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15D02C0CE564A9002CD9F0 /* ATLandscape.m */; };
+		3E15D06B0CE5B5CC002CD9F0 /* AdventureEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15D06A0CE5B5CC002CD9F0 /* AdventureEvent.m */; };
+		3E15D0730CE638DE002CD9F0 /* AdventureScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15D0720CE638DE002CD9F0 /* AdventureScene.m */; };
+		3E15D0890CE64DC1002CD9F0 /* MenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15D0880CE64DC1002CD9F0 /* MenuLayer.m */; };
+		3E15D1920CE6DF4E002CD9F0 /* ChoiceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15D1910CE6DF4E002CD9F0 /* ChoiceLayer.m */; };
+		3E15D2140CE6FC4A002CD9F0 /* TextBoxLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15D2130CE6FC4A002CD9F0 /* TextBoxLayer.m */; };
+		3E15D2E00CE83120002CD9F0 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E15D2DF0CE83120002CD9F0 /* QTKit.framework */; };
+		3E15D46A0CE90132002CD9F0 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15D4690CE90131002CD9F0 /* Util.m */; };
+		3E15D46E0CE9018F002CD9F0 /* CursorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15D46D0CE9018F002CD9F0 /* CursorLayer.m */; };
+		3E15D7410CEA457A002CD9F0 /* game.adventure in Resources */ = {isa = PBXBuildFile; fileRef = 3E15D7350CEA457A002CD9F0 /* game.adventure */; };
+		3E584C200C7150990093CD10 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3E584C1E0C7150990093CD10 /* Credits.rtf */; };
+		45FC53AE08FBFB490091ABDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45FC53A608FBFB490091ABDF /* InfoPlist.strings */; };
+		45FC53AF08FBFB490091ABDF /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 45FC53A808FBFB490091ABDF /* MainMenu.nib */; };
+		45FC53B108FBFB490091ABDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FC53AC08FBFB490091ABDF /* main.m */; };
+		45FC53B508FBFB5B0091ABDF /* AdventureTimeDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FC53B408FBFB5B0091ABDF /* AdventureTimeDelegate.m */; };
+		65464FC10A9A486600F418E3 /* AppleScriptInfo.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 65464FC00A9A486600F418E3 /* AppleScriptInfo.sdef */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3E15D01A0CE56097002CD9F0 /* AdventureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdventureView.h; sourceTree = "<group>"; };
+		3E15D01B0CE56097002CD9F0 /* AdventureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdventureView.m; sourceTree = "<group>"; };
+		3E15D0240CE5613F002CD9F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		3E15D02B0CE564A9002CD9F0 /* ATLandscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLandscape.h; sourceTree = "<group>"; };
+		3E15D02C0CE564A9002CD9F0 /* ATLandscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLandscape.m; sourceTree = "<group>"; };
+		3E15D0690CE5B5CC002CD9F0 /* AdventureEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdventureEvent.h; sourceTree = "<group>"; };
+		3E15D06A0CE5B5CC002CD9F0 /* AdventureEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdventureEvent.m; sourceTree = "<group>"; };
+		3E15D0710CE638DE002CD9F0 /* AdventureScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdventureScene.h; sourceTree = "<group>"; };
+		3E15D0720CE638DE002CD9F0 /* AdventureScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdventureScene.m; sourceTree = "<group>"; };
+		3E15D0870CE64DC1002CD9F0 /* MenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuLayer.h; sourceTree = "<group>"; };
+		3E15D0880CE64DC1002CD9F0 /* MenuLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuLayer.m; sourceTree = "<group>"; };
+		3E15D1900CE6DF4E002CD9F0 /* ChoiceLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceLayer.h; sourceTree = "<group>"; };
+		3E15D1910CE6DF4E002CD9F0 /* ChoiceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceLayer.m; sourceTree = "<group>"; };
+		3E15D2120CE6FC4A002CD9F0 /* TextBoxLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextBoxLayer.h; sourceTree = "<group>"; };
+		3E15D2130CE6FC4A002CD9F0 /* TextBoxLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextBoxLayer.m; sourceTree = "<group>"; };
+		3E15D2DF0CE83120002CD9F0 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		3E15D4680CE90131002CD9F0 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		3E15D4690CE90131002CD9F0 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		3E15D46C0CE9018F002CD9F0 /* CursorLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CursorLayer.h; sourceTree = "<group>"; };
+		3E15D46D0CE9018F002CD9F0 /* CursorLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CursorLayer.m; sourceTree = "<group>"; };
+		3E15D7350CEA457A002CD9F0 /* game.adventure */ = {isa = PBXFileReference; lastKnownFileType = folder; path = game.adventure; sourceTree = "<group>"; };
+		3E584C1F0C7150990093CD10 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		45FC53A708FBFB490091ABDF /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45FC53A908FBFB490091ABDF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		45FC53AA08FBFB490091ABDF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FC53AC08FBFB490091ABDF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45FC53B308FBFB5B0091ABDF /* AdventureTimeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdventureTimeDelegate.h; sourceTree = "<group>"; };
+		45FC53B408FBFB5B0091ABDF /* AdventureTimeDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdventureTimeDelegate.m; sourceTree = "<group>"; };
+		45FC53EA08FBFD0E0091ABDF /* AdventureTime_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdventureTime_Prefix.pch; sourceTree = "<group>"; };
+		65464FC00A9A486600F418E3 /* AppleScriptInfo.sdef */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 4; path = AppleScriptInfo.sdef; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* AdventureTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventureTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				3E15D0250CE5613F002CD9F0 /* QuartzCore.framework in Frameworks */,
+				3E15D2E00CE83120002CD9F0 /* QTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E15D2DF0CE83120002CD9F0 /* QTKit.framework */,
+				3E15D0240CE5613F002CD9F0 /* QuartzCore.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* AdventureTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				45FC53AB08FBFB490091ABDF /* Source */,
+				45FC53A508FBFB490091ABDF /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Sample;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E15D0850CE64D8E002CD9F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E15D0690CE5B5CC002CD9F0 /* AdventureEvent.h */,
+				3E15D06A0CE5B5CC002CD9F0 /* AdventureEvent.m */,
+				3E15D0710CE638DE002CD9F0 /* AdventureScene.h */,
+				3E15D0720CE638DE002CD9F0 /* AdventureScene.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3E15D0860CE64D99002CD9F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E15D01A0CE56097002CD9F0 /* AdventureView.h */,
+				3E15D01B0CE56097002CD9F0 /* AdventureView.m */,
+				3E15D02B0CE564A9002CD9F0 /* ATLandscape.h */,
+				3E15D02C0CE564A9002CD9F0 /* ATLandscape.m */,
+				3E15D0870CE64DC1002CD9F0 /* MenuLayer.h */,
+				3E15D0880CE64DC1002CD9F0 /* MenuLayer.m */,
+				3E15D1900CE6DF4E002CD9F0 /* ChoiceLayer.h */,
+				3E15D1910CE6DF4E002CD9F0 /* ChoiceLayer.m */,
+				3E15D2120CE6FC4A002CD9F0 /* TextBoxLayer.h */,
+				3E15D2130CE6FC4A002CD9F0 /* TextBoxLayer.m */,
+				3E15D46C0CE9018F002CD9F0 /* CursorLayer.h */,
+				3E15D46D0CE9018F002CD9F0 /* CursorLayer.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		45FC53A508FBFB490091ABDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E15D7350CEA457A002CD9F0 /* game.adventure */,
+				3E584C1E0C7150990093CD10 /* Credits.rtf */,
+				65464FC00A9A486600F418E3 /* AppleScriptInfo.sdef */,
+				45FC53A608FBFB490091ABDF /* InfoPlist.strings */,
+				45FC53A808FBFB490091ABDF /* MainMenu.nib */,
+				45FC53AA08FBFB490091ABDF /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45FC53AB08FBFB490091ABDF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3E15D0860CE64D99002CD9F0 /* View */,
+				3E15D0850CE64D8E002CD9F0 /* Model */,
+				3E15D4680CE90131002CD9F0 /* Util.h */,
+				3E15D4690CE90131002CD9F0 /* Util.m */,
+				45FC53EA08FBFD0E0091ABDF /* AdventureTime_Prefix.pch */,
+				45FC53AC08FBFB490091ABDF /* main.m */,
+				45FC53B308FBFB5B0091ABDF /* AdventureTimeDelegate.h */,
+				45FC53B408FBFB5B0091ABDF /* AdventureTimeDelegate.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* AdventureTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FC538208FBF91C0091ABDF /* Build configuration list for PBXNativeTarget "AdventureTime" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				45D4CC230A828F9E00804A18 /* Remove Headers */,
+				3E903CD00BC588C7009B6F93 /* Strip Symbols */,
+				3EFF82790B55914B0049AD7D /* Set Revision Number */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventureTime;
+			productInstallPath = "$(HOME)/Applications";
+			productName = AdventureTime;
+			productReference = 8D1107320486CEB800E47090 /* AdventureTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 45FC538608FBF91C0091ABDF /* Build configuration list for PBXProject "AdventureTime" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Sample */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* AdventureTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FC53AE08FBFB490091ABDF /* InfoPlist.strings in Resources */,
+				45FC53AF08FBFB490091ABDF /* MainMenu.nib in Resources */,
+				65464FC10A9A486600F418E3 /* AppleScriptInfo.sdef in Resources */,
+				3E584C200C7150990093CD10 /* Credits.rtf in Resources */,
+				3E15D7410CEA457A002CD9F0 /* game.adventure in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E903CD00BC588C7009B6F93 /* Strip Symbols */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Strip Symbols";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/bin/perl -w";
+			shellScript = "#\n# Last updated: 21MAR06, Andy O'Meara and Rob Barris\n#\n# This is an Xcode post-build phase script for devs who sleep better at night knowing\n#    that their deployment binaries are as stripped as possible.  This makes life more difficult\n#    for a hacker/cracker to locate sensitive code to trace, study, and/or extract.\n#\n# This script will execute only if the Xcode \"Deployment Postprocessing\" setting\n#    is set (aka DEPLOYMENT_POSTPROCESSING).\n#\n# The downside to shipping a stripped binary is that your user's crash reports\n#    will be useless unless you have a link map to convert code offsets (from a stack trace)\n#    into proc names.  To address this, this script moves your pre-stripped executable\n#    to the build dir, appending \"_full\" to the filename, allowing you to retain it for\n#    the day you need it in order to decipher a stack trace.  You do this by using 'atos'\n#    with the original generated binary (type 'man atos' for info).\n#\n# Recommended Xcode build settings:\n#    Dead Code Stripping                  YES\n#    Only Link In Essential Symbols       NO\n#    Deployment Postprocessing            YES (this activates this script)\n#    Strip Linked Product                 NO\n#    Use Separate Strip                   NO\n#    Strip Style                          All Symbols\n#    Strip Debug Symbols During Copy      NO\n#    Preserve Private External Symbols    NO\n#    Separate PCH Symbols                 YES\n#    Symbols Hidden By Default            YES (Critical!)\n#    Inline Functions Hidden              YES\n#\n# Note that if you're building a dynamic library, you'll need to explicitly\n#    declare any symbols that you want to be exported.  See the following:\n#    file:///Developer/ADC%20Reference%20Library/documentation/DeveloperTools/Conceptual/CppRuntimeEnv/Articles/SymbolVisibility.html\n#\n#exit 0;\nuse strict;\n\ndie \"$0: Must be run from Xcode\" unless $ENV{\"BUILT_PRODUCTS_DIR\"};\n\n# This script is activated via an Xcode env flag.\nif ( $ENV{DEPLOYMENT_POSTPROCESSING} ne \"YES\" ) {\n   exit 0;\n}\n\nprint \"\\n\\n==================== Commencing external stripping phase...\\n\";\n        \nmy $BINARY       = \"$ENV{BUILT_PRODUCTS_DIR}/$ENV{WRAPPER_NAME}/Contents/MacOS/$ENV{EXECUTABLE_NAME}\";\nmy $BINARY_FULL  = \"$ENV{BUILT_PRODUCTS_DIR}/$ENV{EXECUTABLE_NAME}_full\";\nmy $BINARY_i386  = \"${BINARY}_i386\";\nmy $BINARY_ppc   = \"${BINARY}_ppc\";\n\nmy $architectureList = `lipo -info $BINARY`;\nchomp $architectureList;\nmy @architectures = split(/are: /, $architectureList);\nmy @arches = split(/\\s+/, $architectures[1]);\n\n# Extract each arch into a \"thin\" binary for stripping\n#`lipo \"$BINARY\" -thin  ppc -output \"$BINARY_ppc\" `;\n#`lipo \"$BINARY\" -thin i386 -output \"$BINARY_i386\"`;\nmy $arch;\nforeach $arch (@arches) {\n\t`lipo \"$BINARY\" -thin  $arch -output \"${BINARY}_${arch}\" `;\n\t`strip -S -x -o \"${BINARY}_${arch}_tmp\"  -r \"${BINARY}_${arch}\" `;\n\t`rm -f \\\"${BINARY}_${arch}\\\"`;\n}\n\n# Retain the orignal binary for QA and use with the util 'atos'\n`mv -f \"$BINARY\" \"$BINARY_FULL\"`;\n\n# Perform desired stripping on each thin binary.  \n#`strip -S -x -o \"${BINARY_ppc}_tmp\"  -r \"$BINARY_ppc\" `;\n#`strip -S -x -o \"${BINARY_i386}_tmp\" -r \"$BINARY_i386\"`;\n\n# We're now done with the original thin binaries, so chuck them.\n#`rm -f \"$BINARY_ppc\" `;\n#`rm -f \"$BINARY_i386\"`;\n\n# Make the new universal binary from our stripped thin pieces.\n#`lipo -arch i386 \"${BINARY_i386}_tmp\" -arch ppc \"${BINARY_ppc}_tmp\" -create -output \"$BINARY\"`;\nmy $lipoArgs;\nforeach $arch (@arches) {\n\t$lipoArgs .= \"-arch $arch ${BINARY}_${arch}_tmp \";\n}\n`lipo $lipoArgs -create -output \"$BINARY\"`;\n\n# We're now done with the temp thin binaries, so chuck them.\n#`rm -f \"${BINARY_ppc}_tmp\" `;\n#`rm -f \"${BINARY_i386}_tmp\"`;\nforeach $arch (@arches) {\n\t`rm -f \\\"${BINARY}_${arch}_tmp`;\n}\n\n\nprint \"\\n==================== External strip phase complete\\n\";\n\n\n#EOF";
+		};
+		3EFF82790B55914B0049AD7D /* Set Revision Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Set Revision Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/bin/perl -w";
+			shellScript = "# Xcode auto-versioning script for Subversion\n# by Axel Andersson, modified by Daniel Jalkut to add\n# \"--revision HEAD\" to the svn info line, which allows\n# the latest revision to always be used.\n\nuse strict;\n\ndie \"$0: Must be run from Xcode\" unless $ENV{\"BUILT_PRODUCTS_DIR\"};\n\n# Get the current subversion revision number and use it to set the CFBundleVersion value\nmy $REV = `/usr/local/bin/svnversion -n ./`;\nmy $INFO = \"$ENV{BUILT_PRODUCTS_DIR}/$ENV{WRAPPER_NAME}/Contents/Info.plist\";\n\nmy $version = $REV;\n\n# (Match the last group of digits and optional letter M/S):\n\n# ugly yet functional (barely) regex by Daniel Jalkut:\n#$version =~ s/([\\d]*:)(\\d+[M|S]*).*/$2/;\n\n# better yet still functional regex via Kevin \"Regex Nerd\" Ballard\n($version =~ m/\\d+[MS]*$/) && ($version = $&);\n\nmy $gitlog = `~/bin/git log --pretty=format:%h`;\nif( $gitlog ) {\n\t$version = `echo \\\"$gitlog\\\" | wc -l`;\n\tchomp $version;\n\t$version =~ s/^\\s+//;\n\t$version -= 1;\n\t$version .= 'M' unless(`~/bin/git status | tail -n 1` =~ /^nothing to commit/);\n}\n\n#die \"$0: No Subversion revision found\" unless $version;\n$version = 'exported' unless $version;\n\nopen(FH, \"$INFO\") or die \"$0: $INFO: $!\";\nmy $info = join(\"\", <FH>);\nclose(FH);\n\n$info =~ s/([\\t ]+<key>CFBundleVersion<\\/key>\\n[\\t ]+<string>).*?(<\\/string>)/$1$version$2/;\n\nopen(FH, \">$INFO\") or die \"$0: $INFO: $!\";\nprint FH $info;\nclose(FH);";
+		};
+		45D4CC230A828F9E00804A18 /* Remove Headers */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Remove Headers";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n### We only run on \"Release\" builds...\nif [[ $BUILD_STYLE != 'Release' ]] ; then\n\texit 0\nfi\n\nfind \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" -path '*/Headers/*' -delete\n\nfind \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" -name 'Headers' -type d -delete\n\nfind \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" -name 'Headers' -type l -delete";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FC53B108FBFB490091ABDF /* main.m in Sources */,
+				45FC53B508FBFB5B0091ABDF /* AdventureTimeDelegate.m in Sources */,
+				3E15D01C0CE56097002CD9F0 /* AdventureView.m in Sources */,
+				3E15D02D0CE564A9002CD9F0 /* ATLandscape.m in Sources */,
+				3E15D06B0CE5B5CC002CD9F0 /* AdventureEvent.m in Sources */,
+				3E15D0730CE638DE002CD9F0 /* AdventureScene.m in Sources */,
+				3E15D0890CE64DC1002CD9F0 /* MenuLayer.m in Sources */,
+				3E15D1920CE6DF4E002CD9F0 /* ChoiceLayer.m in Sources */,
+				3E15D2140CE6FC4A002CD9F0 /* TextBoxLayer.m in Sources */,
+				3E15D46A0CE90132002CD9F0 /* Util.m in Sources */,
+				3E15D46E0CE9018F002CD9F0 /* CursorLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E584C1E0C7150990093CD10 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E584C1F0C7150990093CD10 /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		45FC53A608FBFB490091ABDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FC53A708FBFB490091ABDF /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45FC53A808FBFB490091ABDF /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FC53A908FBFB490091ABDF /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45FC538308FBF91C0091ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/AdventureTime_Prefix.pch;
+				GCC_USE_GCC3_PFE_SUPPORT = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				PREBINDING = NO;
+				PRODUCT_NAME = AdventureTime;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		45FC538408FBF91C0091ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/AdventureTime_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_USE_GCC3_PFE_SUPPORT = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				PREBINDING = NO;
+				PRODUCT_NAME = AdventureTime;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		45FC538708FBF91C0091ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_VERSION = 1.0a1;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Debug;
+		};
+		45FC538808FBF91C0091ABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_VERSION = 1.0a1;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45FC538208FBF91C0091ABDF /* Build configuration list for PBXNativeTarget "AdventureTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FC538308FBF91C0091ABDF /* Debug */,
+				45FC538408FBF91C0091ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45FC538608FBF91C0091ABDF /* Build configuration list for PBXProject "AdventureTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FC538708FBF91C0091ABDF /* Debug */,
+				45FC538808FBF91C0091ABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

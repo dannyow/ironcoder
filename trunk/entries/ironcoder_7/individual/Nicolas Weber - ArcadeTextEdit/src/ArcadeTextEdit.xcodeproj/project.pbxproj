@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03893FE90CECA43800F668D4 /* TransparentTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03893FE80CECA43800F668D4 /* TransparentTextView.m */; };
+		03AA11110CE755A40063CE2B /* ArcadeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AA11100CE755A40063CE2B /* ArcadeController.m */; };
+		03AA12A90CE789F00063CE2B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AA12A80CE789F00063CE2B /* QuartzCore.framework */; };
+		03AA12E40CE826A40063CE2B /* AnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AA12E30CE826A40063CE2B /* AnimationLayer.m */; };
+		03AA14840CE9EC000063CE2B /* TextEffectAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AA14830CE9EC000063CE2B /* TextEffectAnimation.m */; };
+		03AA16E50CEC6ED70063CE2B /* sound0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03AA16E40CEC6ED70063CE2B /* sound0.wav */; };
+		03AA16F50CEC6F480063CE2B /* sound1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03AA16F40CEC6F480063CE2B /* sound1.wav */; };
+		03AA16F70CEC6F640063CE2B /* sound2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03AA16F60CEC6F640063CE2B /* sound2.wav */; };
+		03AA16FA0CEC6F850063CE2B /* sound3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03AA16F80CEC6F850063CE2B /* sound3.wav */; };
+		03AA16FB0CEC6F850063CE2B /* sound4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03AA16F90CEC6F850063CE2B /* sound4.wav */; };
+		03AA17110CEC79440063CE2B /* bg.mid in Resources */ = {isa = PBXBuildFile; fileRef = 03AA17100CEC79440063CE2B /* bg.mid */; };
+		03AA17B40CEC88600063CE2B /* cloud0.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AA17B20CEC88600063CE2B /* cloud0.png */; };
+		03AA17B50CEC88600063CE2B /* cloud1.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AA17B30CEC88600063CE2B /* cloud1.png */; };
+		03B6AC880CF1E1DD0004DEDE /* hill.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B6AC860CF1E1DD0004DEDE /* hill.png */; };
+		03B6AC890CF1E1DD0004DEDE /* bush.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B6AC870CF1E1DD0004DEDE /* bush.png */; };
+		03F96DDA0CEEBB4B00674533 /* bg0.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 03F96DD90CEEBB4B00674533 /* bg0.qtz */; };
+		03F96DE20CEEBC1600674533 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F96DE10CEEBC1600674533 /* Quartz.framework */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03893FE70CECA43800F668D4 /* TransparentTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentTextView.h; sourceTree = "<group>"; };
+		03893FE80CECA43800F668D4 /* TransparentTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentTextView.m; sourceTree = "<group>"; };
+		03AA110F0CE755A40063CE2B /* ArcadeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcadeController.h; sourceTree = "<group>"; };
+		03AA11100CE755A40063CE2B /* ArcadeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcadeController.m; sourceTree = "<group>"; };
+		03AA11D60CE767D70063CE2B /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		03AA11DA0CE767E50063CE2B /* ArcadeControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcadeControllerTest.h; sourceTree = "<group>"; };
+		03AA11DB0CE767E50063CE2B /* ArcadeControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcadeControllerTest.m; sourceTree = "<group>"; };
+		03AA12150CE76A720063CE2B /* UnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTest-Info.plist"; sourceTree = "<group>"; };
+		03AA12A80CE789F00063CE2B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		03AA12E20CE826A40063CE2B /* AnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationLayer.h; sourceTree = "<group>"; };
+		03AA12E30CE826A40063CE2B /* AnimationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationLayer.m; sourceTree = "<group>"; };
+		03AA14820CE9EC000063CE2B /* TextEffectAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEffectAnimation.h; sourceTree = "<group>"; };
+		03AA14830CE9EC000063CE2B /* TextEffectAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextEffectAnimation.m; sourceTree = "<group>"; };
+		03AA16E40CEC6ED70063CE2B /* sound0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound0.wav; sourceTree = "<group>"; };
+		03AA16F40CEC6F480063CE2B /* sound1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound1.wav; sourceTree = "<group>"; };
+		03AA16F60CEC6F640063CE2B /* sound2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound2.wav; sourceTree = "<group>"; };
+		03AA16F80CEC6F850063CE2B /* sound3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound3.wav; sourceTree = "<group>"; };
+		03AA16F90CEC6F850063CE2B /* sound4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound4.wav; sourceTree = "<group>"; };
+		03AA17100CEC79440063CE2B /* bg.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = bg.mid; sourceTree = "<group>"; };
+		03AA17B20CEC88600063CE2B /* cloud0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud0.png; sourceTree = "<group>"; };
+		03AA17B30CEC88600063CE2B /* cloud1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud1.png; sourceTree = "<group>"; };
+		03B6AC860CF1E1DD0004DEDE /* hill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hill.png; sourceTree = "<group>"; };
+		03B6AC870CF1E1DD0004DEDE /* bush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bush.png; sourceTree = "<group>"; };
+		03F96DD90CEEBB4B00674533 /* bg0.qtz */ = {isa = PBXFileReference; lastKnownFileType = file; path = bg0.qtz; sourceTree = "<group>"; };
+		03F96DE10CEEBC1600674533 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* ArcadeTextEdit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcadeTextEdit_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ArcadeTextEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcadeTextEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				03AA12A90CE789F00063CE2B /* QuartzCore.framework in Frameworks */,
+				03F96DE20CEEBC1600674533 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AA11360CE75FC20063CE2B /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				03AA11DA0CE767E50063CE2B /* ArcadeControllerTest.h */,
+				03AA11DB0CE767E50063CE2B /* ArcadeControllerTest.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03893FE70CECA43800F668D4 /* TransparentTextView.h */,
+				03893FE80CECA43800F668D4 /* TransparentTextView.m */,
+				03AA14820CE9EC000063CE2B /* TextEffectAnimation.h */,
+				03AA14830CE9EC000063CE2B /* TextEffectAnimation.m */,
+				03AA12E20CE826A40063CE2B /* AnimationLayer.h */,
+				03AA12E30CE826A40063CE2B /* AnimationLayer.m */,
+				03AA110F0CE755A40063CE2B /* ArcadeController.h */,
+				03AA11100CE755A40063CE2B /* ArcadeController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03F96DE10CEEBC1600674533 /* Quartz.framework */,
+				03AA12A80CE789F00063CE2B /* QuartzCore.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ArcadeTextEdit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ArcadeTextEdit */ = {
+			isa = PBXGroup;
+			children = (
+				03AA11360CE75FC20063CE2B /* Tests */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				03AA11D60CE767D70063CE2B /* Test-Info.plist */,
+				03AA12150CE76A720063CE2B /* UnitTest-Info.plist */,
+			);
+			name = ArcadeTextEdit;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* ArcadeTextEdit_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03B6AC860CF1E1DD0004DEDE /* hill.png */,
+				03B6AC870CF1E1DD0004DEDE /* bush.png */,
+				03F96DD90CEEBB4B00674533 /* bg0.qtz */,
+				03AA17B20CEC88600063CE2B /* cloud0.png */,
+				03AA17B30CEC88600063CE2B /* cloud1.png */,
+				03AA17100CEC79440063CE2B /* bg.mid */,
+				03AA16F80CEC6F850063CE2B /* sound3.wav */,
+				03AA16F90CEC6F850063CE2B /* sound4.wav */,
+				03AA16F60CEC6F640063CE2B /* sound2.wav */,
+				03AA16F40CEC6F480063CE2B /* sound1.wav */,
+				03AA16E40CEC6ED70063CE2B /* sound0.wav */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ArcadeTextEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ArcadeTextEdit" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcadeTextEdit;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ArcadeTextEdit;
+			productReference = 8D1107320486CEB800E47090 /* ArcadeTextEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ArcadeTextEdit" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ArcadeTextEdit */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ArcadeTextEdit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				03AA16E50CEC6ED70063CE2B /* sound0.wav in Resources */,
+				03AA16F50CEC6F480063CE2B /* sound1.wav in Resources */,
+				03AA16F70CEC6F640063CE2B /* sound2.wav in Resources */,
+				03AA16FA0CEC6F850063CE2B /* sound3.wav in Resources */,
+				03AA16FB0CEC6F850063CE2B /* sound4.wav in Resources */,
+				03AA17110CEC79440063CE2B /* bg.mid in Resources */,
+				03AA17B40CEC88600063CE2B /* cloud0.png in Resources */,
+				03AA17B50CEC88600063CE2B /* cloud1.png in Resources */,
+				03F96DDA0CEEBB4B00674533 /* bg0.qtz in Resources */,
+				03B6AC880CF1E1DD0004DEDE /* hill.png in Resources */,
+				03B6AC890CF1E1DD0004DEDE /* bush.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				03AA11110CE755A40063CE2B /* ArcadeController.m in Sources */,
+				03AA12E40CE826A40063CE2B /* AnimationLayer.m in Sources */,
+				03AA14840CE9EC000063CE2B /* TextEffectAnimation.m in Sources */,
+				03893FE90CECA43800F668D4 /* TransparentTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ArcadeTextEdit_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ArcadeTextEdit;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ArcadeTextEdit_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ArcadeTextEdit;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ArcadeTextEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ArcadeTextEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,161 @@
+Brainstorming
+=============
+
+Retro
+-----
+
+Computer:
+
+- Old Mac OS window themes
+- Old Mac OS programs
+
+- NES/SNES emulation
+- Doom/Quake ("3d on a layer")
+- Pong
+- Something "gamey"
+
+Seventies:
+
+- Hippies etc
+
+
+Core Animation
+--------------
+
+- Something CoverFlow-y (probably what everyone does)
+
+
+Total
+-----
+
+- Build a town-like 2.5d building with old nes/snes screenshots (like the
+  itunes commercial that was redone in coreanim)
+- Get images from eboy and try to 3dify them, display as 2.5d (too hard I guess)
+
+- Something audio-related? (blow the mic to move layers?) video-capture related?
+  (EyeToy like)
+
+- wolfenstein - retro, and layers good enough. sounds great :-)
+
+- Text editor with "unboss" button that fades in a hidden zsnes instance
+- Text editor that gives you points for certain words ("for", "int", whatever)
+  and makes writing programs even more fun (for a short time, that is :-P).
+  Stretch goals: Detect more than just keywords ("Refactored function, +100"),
+  offer some kind of reward for certain scores
+
+
+So what?
+--------
+
+I'll go with the arcade text editor.
+
+Stuff that can trigger animations:
+
+- Keywords ("for", "ironcoder", "int", "NS*", "gruber" "ArcardeTextEdit rocks",
+  ...) (these can come in language packs ... half-stretch goal)
+
+- Combos ("for" followed by "(int" or similar)
+
+- Words written, lines written ("100 lines! +10")
+
+- Long and complex words or sentences (...negative points for those?)
+
+- Stretch goal: Language-dependent parsers (markdown, objc (clang)). Very
+  stretch :-P
+
+- Another stretch: Machine-learn writing syles for several popular apple blogs
+  and see if the writer's style is similar to one of those
+
+- Negative points for repetitions?
+
+- Comments (in c at least)
+
+- Interruption-free typing for x seconds
+
+- Backspace-free typing for x seconds
+
+- High characters per minute
+
+
+Animation properties:
+
+- text upscale factor (varies)
+- anim duration (varies, too much fun to have this constant. but needs changes
+  to queue. don't matter.)
+- text color
+- text texture (filter or quartz composition or whatever)
+- rotation?
+
+
+Data file contents
+
+- effects
+  - on written text
+  - on notification area
+  - on scoreboard
+  - sound
+- effect groups
+  - sorted by frequency?
+- triggers (see above)
+  - keywords/-phrases (case insensitive)
+  - combos
+  - long sentences
+  - typing speed
+  - typing correctness
+- trigger/effect (group?) mapping
+
+
+If a keyword is written, a layer is inserted that looks just like the keyword
+and animates to a ~500% sized, colorful, slightly transparent version)
+
+Writing might be even more fun if it was time-limited ("get as many points as
+you can in 5 minutes!"). Challenge: keywords mustn't give too many points,
+stuff like writing lots of short, structured sentences without pausing should
+give more points (this kind of writing encourages writing rants i guess :-P).
+
+Focussing on making writing blog posts fun is main objective, that's easier
+than parsing C. Regexens (or even string matches) are Good Enough for that
+(hopefully).
+
+Perhaps I'll play arcade-like sounds for some or all of the events. That's
+likely annoying, but I guess the whole editor is annoying if you use it for
+more than five minutes.
+
+For starters, set up the text editing system and use a "keyword->points"
+dictionary. Animate the keywords when they are typed, and figure out where to
+place the score. Let's go!
+
+... Done. Took only a little longer than expected. Apple's documentation
+blow, much worse than MSDN was back in the days.
+
+Now get sound and a score display working...
+
+
+
+Fun CA bug
+==========
+
+Suppose you want a semitransparent text view with a core animation image
+behind the text view. Two ways to attack this, neither works.
+
+In any case, subclass the textview to return `YES` in `isOpaque` and tell the
+scrollview to not draw its background.
+
+1. Create a custom view behind the text view, let it draw the background via
+   CA. Doesn't always work (sometimes the layer is drawn on top of the text
+   control), and isn't officially supported (interface builder complains about
+   overlapping siblings).
+2. No problem, let the text view be a child of the background view. But then
+   the text view uses a backing layer as well (I guess if a parent does this,
+   all children have to), and this doesn't work well with text views at all:
+   For once, the text in the view disappears during resizing, and (much worse)
+   stray spell checking marks are drawn on the text view while you're typing.
+
+Another fun fact: When you set 'wants layer' on the content view of a window
+containing a text view, you can no longer change its text in interface
+builder.
+
+And another one: A layer backed text view doesn't do nice antialiasing (turns
+out this happens if you call `setBackgroundColor:` on a text view).
+
+ vim:set ft=markdown tw=78:

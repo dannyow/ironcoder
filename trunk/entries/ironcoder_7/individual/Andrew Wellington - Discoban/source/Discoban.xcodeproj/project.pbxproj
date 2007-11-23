@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4934A4520CEEBEB800D3CB99 /* Graphics in Resources */ = {isa = PBXBuildFile; fileRef = 4934A44F0CEEBEB800D3CB99 /* Graphics */; };
+		4980D8620CEED26200421802 /* DiscobanWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4980D8610CEED26200421802 /* DiscobanWindow.m */; };
+		4980D9080CEEDDD100421802 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4980D9070CEEDDD100421802 /* QuartzCore.framework */; };
+		4980DD1B0CEFE89E00421802 /* MusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4980DD1A0CEFE89E00421802 /* MusicPlayer.m */; };
+		4980DD220CEFE94500421802 /* Music in Resources */ = {isa = PBXBuildFile; fileRef = 4980DD1C0CEFE94500421802 /* Music */; };
+		4980DE4D0CF0317D00421802 /* SplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4980DE4C0CF0317D00421802 /* SplashView.m */; };
+		4980DE500CF0318B00421802 /* LevelDoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4980DE4F0CF0318B00421802 /* LevelDoneView.m */; };
+		49ED005A0CEEAEA9006B73B9 /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED00590CEEAEA9006B73B9 /* TileView.m */; };
+		49ED005D0CEEAEB9006B73B9 /* WallTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED005C0CEEAEB9006B73B9 /* WallTileView.m */; };
+		49ED00600CEEAEC2006B73B9 /* TargetTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED005F0CEEAEC2006B73B9 /* TargetTileView.m */; };
+		49ED00630CEEAECC006B73B9 /* FloorTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED00620CEEAECC006B73B9 /* FloorTileView.m */; };
+		49ED00670CEEAF17006B73B9 /* CharacterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED00660CEEAF17006B73B9 /* CharacterView.m */; };
+		49ED006A0CEEAF22006B73B9 /* PlayerCharacterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED00690CEEAF22006B73B9 /* PlayerCharacterView.m */; };
+		49ED006D0CEEAF2E006B73B9 /* CrateCharacterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED006C0CEEAF2E006B73B9 /* CrateCharacterView.m */; };
+		49ED00B20CEEAFC8006B73B9 /* Levels in Resources */ = {isa = PBXBuildFile; fileRef = 49ED00AF0CEEAFC8006B73B9 /* Levels */; };
+		49EDFE650CED8AD1006B73B9 /* GameBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EDFE640CED8AD1006B73B9 /* GameBoardView.m */; };
+		49EDFE690CED8CBF006B73B9 /* GameBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EDFE680CED8CBF006B73B9 /* GameBoard.m */; };
+		49EDFE6C0CED8F0D006B73B9 /* ApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EDFE6B0CED8F0D006B73B9 /* ApplicationController.m */; };
+		49EDFE850CEDA0E5006B73B9 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EDFE840CEDA0E5006B73B9 /* Tile.m */; };
+		49EDFEFB0CEDA3E3006B73B9 /* WallTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EDFEFA0CEDA3E3006B73B9 /* WallTile.m */; };
+		49EDFEFE0CEDA3F0006B73B9 /* TargetTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EDFEFD0CEDA3F0006B73B9 /* TargetTile.m */; };
+		49EDFF010CEDA418006B73B9 /* FloorTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EDFF000CEDA418006B73B9 /* FloorTile.m */; };
+		49EDFF220CEDA546006B73B9 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EDFF210CEDA546006B73B9 /* Character.m */; };
+		49EDFF250CEDA57A006B73B9 /* PlayerCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EDFF240CEDA57A006B73B9 /* PlayerCharacter.m */; };
+		49EDFF280CEDA588006B73B9 /* CrateCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EDFF270CEDA588006B73B9 /* CrateCharacter.m */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Discoban_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Discoban_Prefix.pch; sourceTree = "<group>"; };
+		4934A44F0CEEBEB800D3CB99 /* Graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Graphics; sourceTree = "<group>"; };
+		4980D8600CEED26200421802 /* DiscobanWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscobanWindow.h; sourceTree = "<group>"; };
+		4980D8610CEED26200421802 /* DiscobanWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscobanWindow.m; sourceTree = "<group>"; };
+		4980D9070CEEDDD100421802 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		4980DD190CEFE89E00421802 /* MusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayer.h; sourceTree = "<group>"; };
+		4980DD1A0CEFE89E00421802 /* MusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayer.m; sourceTree = "<group>"; };
+		4980DD1C0CEFE94500421802 /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Music; sourceTree = "<group>"; };
+		4980DE4B0CF0317D00421802 /* SplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashView.h; sourceTree = "<group>"; };
+		4980DE4C0CF0317D00421802 /* SplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashView.m; sourceTree = "<group>"; };
+		4980DE4E0CF0318B00421802 /* LevelDoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelDoneView.h; sourceTree = "<group>"; };
+		4980DE4F0CF0318B00421802 /* LevelDoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelDoneView.m; sourceTree = "<group>"; };
+		49ED00580CEEAEA9006B73B9 /* TileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileView.h; sourceTree = "<group>"; };
+		49ED00590CEEAEA9006B73B9 /* TileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
+		49ED005B0CEEAEB9006B73B9 /* WallTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallTileView.h; sourceTree = "<group>"; };
+		49ED005C0CEEAEB9006B73B9 /* WallTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallTileView.m; sourceTree = "<group>"; };
+		49ED005E0CEEAEC2006B73B9 /* TargetTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetTileView.h; sourceTree = "<group>"; };
+		49ED005F0CEEAEC2006B73B9 /* TargetTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetTileView.m; sourceTree = "<group>"; };
+		49ED00610CEEAECC006B73B9 /* FloorTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorTileView.h; sourceTree = "<group>"; };
+		49ED00620CEEAECC006B73B9 /* FloorTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorTileView.m; sourceTree = "<group>"; };
+		49ED00650CEEAF17006B73B9 /* CharacterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterView.h; sourceTree = "<group>"; };
+		49ED00660CEEAF17006B73B9 /* CharacterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterView.m; sourceTree = "<group>"; };
+		49ED00680CEEAF22006B73B9 /* PlayerCharacterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCharacterView.h; sourceTree = "<group>"; };
+		49ED00690CEEAF22006B73B9 /* PlayerCharacterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCharacterView.m; sourceTree = "<group>"; };
+		49ED006B0CEEAF2E006B73B9 /* CrateCharacterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrateCharacterView.h; sourceTree = "<group>"; };
+		49ED006C0CEEAF2E006B73B9 /* CrateCharacterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrateCharacterView.m; sourceTree = "<group>"; };
+		49ED00AF0CEEAFC8006B73B9 /* Levels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Levels; sourceTree = "<group>"; };
+		49EDFE630CED8AD1006B73B9 /* GameBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoardView.h; sourceTree = "<group>"; };
+		49EDFE640CED8AD1006B73B9 /* GameBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoardView.m; sourceTree = "<group>"; };
+		49EDFE670CED8CBF006B73B9 /* GameBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoard.h; sourceTree = "<group>"; };
+		49EDFE680CED8CBF006B73B9 /* GameBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoard.m; sourceTree = "<group>"; };
+		49EDFE6A0CED8F0D006B73B9 /* ApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationController.h; sourceTree = "<group>"; };
+		49EDFE6B0CED8F0D006B73B9 /* ApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationController.m; sourceTree = "<group>"; };
+		49EDFE830CEDA0E5006B73B9 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		49EDFE840CEDA0E5006B73B9 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		49EDFEF90CEDA3E3006B73B9 /* WallTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallTile.h; sourceTree = "<group>"; };
+		49EDFEFA0CEDA3E3006B73B9 /* WallTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallTile.m; sourceTree = "<group>"; };
+		49EDFEFC0CEDA3F0006B73B9 /* TargetTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetTile.h; sourceTree = "<group>"; };
+		49EDFEFD0CEDA3F0006B73B9 /* TargetTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetTile.m; sourceTree = "<group>"; };
+		49EDFEFF0CEDA418006B73B9 /* FloorTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorTile.h; sourceTree = "<group>"; };
+		49EDFF000CEDA418006B73B9 /* FloorTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorTile.m; sourceTree = "<group>"; };
+		49EDFF200CEDA546006B73B9 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		49EDFF210CEDA546006B73B9 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		49EDFF230CEDA57A006B73B9 /* PlayerCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCharacter.h; sourceTree = "<group>"; };
+		49EDFF240CEDA57A006B73B9 /* PlayerCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCharacter.m; sourceTree = "<group>"; };
+		49EDFF260CEDA588006B73B9 /* CrateCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrateCharacter.h; sourceTree = "<group>"; };
+		49EDFF270CEDA588006B73B9 /* CrateCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrateCharacter.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Discoban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Discoban.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				4980D9080CEEDDD100421802 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				49EDFE6A0CED8F0D006B73B9 /* ApplicationController.h */,
+				49EDFE6B0CED8F0D006B73B9 /* ApplicationController.m */,
+				4980D8600CEED26200421802 /* DiscobanWindow.h */,
+				4980D8610CEED26200421802 /* DiscobanWindow.m */,
+				49EDFE670CED8CBF006B73B9 /* GameBoard.h */,
+				49EDFE680CED8CBF006B73B9 /* GameBoard.m */,
+				49EDFE630CED8AD1006B73B9 /* GameBoardView.h */,
+				49EDFE640CED8AD1006B73B9 /* GameBoardView.m */,
+				4980DD190CEFE89E00421802 /* MusicPlayer.h */,
+				4980DD1A0CEFE89E00421802 /* MusicPlayer.m */,
+				49EDFF020CEDA425006B73B9 /* Tiles */,
+				49EDFF290CEDA591006B73B9 /* Characters */,
+				4980DE4B0CF0317D00421802 /* SplashView.h */,
+				4980DE4C0CF0317D00421802 /* SplashView.m */,
+				4980DE4E0CF0318B00421802 /* LevelDoneView.h */,
+				4980DE4F0CF0318B00421802 /* LevelDoneView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4980D9070CEEDDD100421802 /* QuartzCore.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Discoban.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Discoban */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Discoban;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Discoban_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4934A44F0CEEBEB800D3CB99 /* Graphics */,
+				49ED00AF0CEEAFC8006B73B9 /* Levels */,
+				4980DD1C0CEFE94500421802 /* Music */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49ED00640CEEAED5006B73B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49ED00580CEEAEA9006B73B9 /* TileView.h */,
+				49ED00590CEEAEA9006B73B9 /* TileView.m */,
+				49ED005B0CEEAEB9006B73B9 /* WallTileView.h */,
+				49ED005C0CEEAEB9006B73B9 /* WallTileView.m */,
+				49ED005E0CEEAEC2006B73B9 /* TargetTileView.h */,
+				49ED005F0CEEAEC2006B73B9 /* TargetTileView.m */,
+				49ED00610CEEAECC006B73B9 /* FloorTileView.h */,
+				49ED00620CEEAECC006B73B9 /* FloorTileView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		49ED006E0CEEAF35006B73B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49ED00650CEEAF17006B73B9 /* CharacterView.h */,
+				49ED00660CEEAF17006B73B9 /* CharacterView.m */,
+				49ED00680CEEAF22006B73B9 /* PlayerCharacterView.h */,
+				49ED00690CEEAF22006B73B9 /* PlayerCharacterView.m */,
+				49ED006B0CEEAF2E006B73B9 /* CrateCharacterView.h */,
+				49ED006C0CEEAF2E006B73B9 /* CrateCharacterView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		49EDFF020CEDA425006B73B9 /* Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				49EDFE830CEDA0E5006B73B9 /* Tile.h */,
+				49EDFE840CEDA0E5006B73B9 /* Tile.m */,
+				49EDFEF90CEDA3E3006B73B9 /* WallTile.h */,
+				49EDFEFA0CEDA3E3006B73B9 /* WallTile.m */,
+				49EDFEFC0CEDA3F0006B73B9 /* TargetTile.h */,
+				49EDFEFD0CEDA3F0006B73B9 /* TargetTile.m */,
+				49EDFEFF0CEDA418006B73B9 /* FloorTile.h */,
+				49EDFF000CEDA418006B73B9 /* FloorTile.m */,
+				49ED00640CEEAED5006B73B9 /* Views */,
+			);
+			name = Tiles;
+			sourceTree = "<group>";
+		};
+		49EDFF290CEDA591006B73B9 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				49EDFF200CEDA546006B73B9 /* Character.h */,
+				49EDFF210CEDA546006B73B9 /* Character.m */,
+				49EDFF230CEDA57A006B73B9 /* PlayerCharacter.h */,
+				49EDFF240CEDA57A006B73B9 /* PlayerCharacter.m */,
+				49EDFF260CEDA588006B73B9 /* CrateCharacter.h */,
+				49EDFF270CEDA588006B73B9 /* CrateCharacter.m */,
+				49ED006E0CEEAF35006B73B9 /* Views */,
+			);
+			name = Characters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Discoban */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Discoban" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Discoban;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Discoban;
+			productReference = 8D1107320486CEB800E47090 /* Discoban.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Discoban" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Discoban */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Discoban */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				49ED00B20CEEAFC8006B73B9 /* Levels in Resources */,
+				4934A4520CEEBEB800D3CB99 /* Graphics in Resources */,
+				4980DD220CEFE94500421802 /* Music in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				49EDFE650CED8AD1006B73B9 /* GameBoardView.m in Sources */,
+				49EDFE690CED8CBF006B73B9 /* GameBoard.m in Sources */,
+				49EDFE6C0CED8F0D006B73B9 /* ApplicationController.m in Sources */,
+				49EDFE850CEDA0E5006B73B9 /* Tile.m in Sources */,
+				49EDFEFB0CEDA3E3006B73B9 /* WallTile.m in Sources */,
+				49EDFEFE0CEDA3F0006B73B9 /* TargetTile.m in Sources */,
+				49EDFF010CEDA418006B73B9 /* FloorTile.m in Sources */,
+				49EDFF220CEDA546006B73B9 /* Character.m in Sources */,
+				49EDFF250CEDA57A006B73B9 /* PlayerCharacter.m in Sources */,
+				49EDFF280CEDA588006B73B9 /* CrateCharacter.m in Sources */,
+				49ED005A0CEEAEA9006B73B9 /* TileView.m in Sources */,
+				49ED005D0CEEAEB9006B73B9 /* WallTileView.m in Sources */,
+				49ED00600CEEAEC2006B73B9 /* TargetTileView.m in Sources */,
+				49ED00630CEEAECC006B73B9 /* FloorTileView.m in Sources */,
+				49ED00670CEEAF17006B73B9 /* CharacterView.m in Sources */,
+				49ED006A0CEEAF22006B73B9 /* PlayerCharacterView.m in Sources */,
+				49ED006D0CEEAF2E006B73B9 /* CrateCharacterView.m in Sources */,
+				4980D8620CEED26200421802 /* DiscobanWindow.m in Sources */,
+				4980DD1B0CEFE89E00421802 /* MusicPlayer.m in Sources */,
+				4980DE4D0CF0317D00421802 /* SplashView.m in Sources */,
+				4980DE500CF0318B00421802 /* LevelDoneView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Discoban_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Discoban;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Discoban_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Discoban;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Discoban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Discoban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
