@@ -1,0 +1,19 @@
+dat 19
+dat 1000
+sub #1 -2
+sub #1 -2
+mov @-4 @-3
+cmp #12 -5
+jmp 2
+jmp -5
+spl @-7
+mov #19 -9
+add #1000 -9
+jmp -9 
+mov #0, @5
+mov #0, @5
+sub #4, 3
+add #4, 3
+jmp -4
+dat -6
+dat 1

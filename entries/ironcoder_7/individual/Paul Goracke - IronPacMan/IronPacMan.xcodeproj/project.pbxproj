@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B10543EB0CECA6C400E85779 /* PacMan.m in Sources */ = {isa = PBXBuildFile; fileRef = B10543EA0CECA6C400E85779 /* PacMan.m */; };
+		DA13EDF90CEA91CE00EB06DD /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = DA13EDF80CEA91CE00EB06DD /* Character.m */; };
+		DA13EE190CEA94E000EB06DD /* GhostLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA13EE180CEA94E000EB06DD /* GhostLayer.m */; };
+		DA524B3B0CE7D09200AA409E /* PacMap.m in Sources */ = {isa = PBXBuildFile; fileRef = DA524B3A0CE7D09200AA409E /* PacMap.m */; };
+		DA6771460CE688CC0062C9B3 /* PacView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6771450CE688CC0062C9B3 /* PacView.m */; };
+		DA6772D20CE77D550062C9B3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6772D10CE77D550062C9B3 /* QuartzCore.framework */; };
+		DA7CD4BE0CF17F06009D44CF /* PacView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA6771440CE688CC0062C9B3 /* PacView.h */; };
+		DA7CD4BF0CF17F06009D44CF /* PacView.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA6771450CE688CC0062C9B3 /* PacView.m */; };
+		DA7CD4C00CF17F06009D44CF /* AnimLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DADA75F60CE989060062089C /* AnimLayer.h */; };
+		DA7CD4C10CF17F06009D44CF /* AnimLayer.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = DADA75F70CE989060062089C /* AnimLayer.m */; };
+		DA7CD4C20CF17F06009D44CF /* GhostLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA13EE170CEA94E000EB06DD /* GhostLayer.h */; };
+		DA7CD4C30CF17F06009D44CF /* GhostLayer.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA13EE180CEA94E000EB06DD /* GhostLayer.m */; };
+		DA7CD4C40CF17F06009D44CF /* Character.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA13EDF70CEA91CE00EB06DD /* Character.h */; };
+		DA7CD4C50CF17F06009D44CF /* Character.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA13EDF80CEA91CE00EB06DD /* Character.m */; };
+		DA7CD4C60CF17F06009D44CF /* Ghost.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DADA761E0CE989DD0062089C /* Ghost.h */; };
+		DA7CD4C70CF17F06009D44CF /* Ghost.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = DADA761F0CE989DD0062089C /* Ghost.m */; };
+		DA7CD4C80CF17F06009D44CF /* PacMan.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA524B9B0CE7E88F00AA409E /* PacMan.h */; };
+		DA7CD4C90CF17F06009D44CF /* PacMan.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = B10543EA0CECA6C400E85779 /* PacMan.m */; };
+		DA7CD4CA0CF17F06009D44CF /* PacMap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA524B390CE7D09200AA409E /* PacMap.h */; };
+		DA7CD4CB0CF17F06009D44CF /* PacMap.m in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA524B3A0CE7D09200AA409E /* PacMap.m */; };
+		DADA75F80CE989060062089C /* AnimLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA75F70CE989060062089C /* AnimLayer.m */; };
+		DADA76200CE989DD0062089C /* Ghost.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA761F0CE989DD0062089C /* Ghost.m */; };
+		DAFE7AA60CF18C0A000AFBFC /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAFE7AA40CF18C0A000AFBFC /* Readme.txt */; };
+		DAFE7AA70CF18C0A000AFBFC /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAFE7AA50CF18C0A000AFBFC /* License.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA7CD4D50CF17F0B009D44CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Source;
+			dstSubfolderSpec = 1;
+			files = (
+				DA7CD4BE0CF17F06009D44CF /* PacView.h in CopyFiles */,
+				DA7CD4BF0CF17F06009D44CF /* PacView.m in CopyFiles */,
+				DA7CD4C00CF17F06009D44CF /* AnimLayer.h in CopyFiles */,
+				DA7CD4C10CF17F06009D44CF /* AnimLayer.m in CopyFiles */,
+				DA7CD4C20CF17F06009D44CF /* GhostLayer.h in CopyFiles */,
+				DA7CD4C30CF17F06009D44CF /* GhostLayer.m in CopyFiles */,
+				DA7CD4C40CF17F06009D44CF /* Character.h in CopyFiles */,
+				DA7CD4C50CF17F06009D44CF /* Character.m in CopyFiles */,
+				DA7CD4C60CF17F06009D44CF /* Ghost.h in CopyFiles */,
+				DA7CD4C70CF17F06009D44CF /* Ghost.m in CopyFiles */,
+				DA7CD4C80CF17F06009D44CF /* PacMan.h in CopyFiles */,
+				DA7CD4C90CF17F06009D44CF /* PacMan.m in CopyFiles */,
+				DA7CD4CA0CF17F06009D44CF /* PacMap.h in CopyFiles */,
+				DA7CD4CB0CF17F06009D44CF /* PacMap.m in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* IronPacMan_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IronPacMan_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* IronPacMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronPacMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10543EA0CECA6C400E85779 /* PacMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacMan.m; sourceTree = "<group>"; };
+		DA13EDF70CEA91CE00EB06DD /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		DA13EDF80CEA91CE00EB06DD /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		DA13EE170CEA94E000EB06DD /* GhostLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GhostLayer.h; sourceTree = "<group>"; };
+		DA13EE180CEA94E000EB06DD /* GhostLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GhostLayer.m; sourceTree = "<group>"; };
+		DA524B390CE7D09200AA409E /* PacMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacMap.h; sourceTree = "<group>"; };
+		DA524B3A0CE7D09200AA409E /* PacMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacMap.m; sourceTree = "<group>"; };
+		DA524B9B0CE7E88F00AA409E /* PacMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacMan.h; sourceTree = "<group>"; };
+		DA6771440CE688CC0062C9B3 /* PacView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacView.h; sourceTree = "<group>"; };
+		DA6771450CE688CC0062C9B3 /* PacView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PacView.m; sourceTree = "<group>"; };
+		DA6772D10CE77D550062C9B3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		DADA75F60CE989060062089C /* AnimLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimLayer.h; sourceTree = "<group>"; };
+		DADA75F70CE989060062089C /* AnimLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimLayer.m; sourceTree = "<group>"; };
+		DADA761E0CE989DD0062089C /* Ghost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ghost.h; sourceTree = "<group>"; };
+		DADA761F0CE989DD0062089C /* Ghost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ghost.m; sourceTree = "<group>"; };
+		DAFE7AA40CF18C0A000AFBFC /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		DAFE7AA50CF18C0A000AFBFC /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				DA6772D20CE77D550062C9B3 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA6771440CE688CC0062C9B3 /* PacView.h */,
+				DA6771450CE688CC0062C9B3 /* PacView.m */,
+				DADA75F60CE989060062089C /* AnimLayer.h */,
+				DADA75F70CE989060062089C /* AnimLayer.m */,
+				DA13EE170CEA94E000EB06DD /* GhostLayer.h */,
+				DA13EE180CEA94E000EB06DD /* GhostLayer.m */,
+				DA13EDF70CEA91CE00EB06DD /* Character.h */,
+				DA13EDF80CEA91CE00EB06DD /* Character.m */,
+				DADA761E0CE989DD0062089C /* Ghost.h */,
+				DADA761F0CE989DD0062089C /* Ghost.m */,
+				DA524B9B0CE7E88F00AA409E /* PacMan.h */,
+				B10543EA0CECA6C400E85779 /* PacMan.m */,
+				DA524B390CE7D09200AA409E /* PacMap.h */,
+				DA524B3A0CE7D09200AA409E /* PacMap.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA6772D10CE77D550062C9B3 /* QuartzCore.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* IronPacMan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* IronPacMan */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = IronPacMan;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* IronPacMan_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAFE7AA40CF18C0A000AFBFC /* Readme.txt */,
+				DAFE7AA50CF18C0A000AFBFC /* License.txt */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* IronPacMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "IronPacMan" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				DA7CD4D50CF17F0B009D44CF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronPacMan;
+			productInstallPath = "$(HOME)/Applications";
+			productName = IronPacMan;
+			productReference = 8D1107320486CEB800E47090 /* IronPacMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IronPacMan" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* IronPacMan */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* IronPacMan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				DAFE7AA60CF18C0A000AFBFC /* Readme.txt in Resources */,
+				DAFE7AA70CF18C0A000AFBFC /* License.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				DA6771460CE688CC0062C9B3 /* PacView.m in Sources */,
+				DA524B3B0CE7D09200AA409E /* PacMap.m in Sources */,
+				DADA75F80CE989060062089C /* AnimLayer.m in Sources */,
+				DADA76200CE989DD0062089C /* Ghost.m in Sources */,
+				DA13EDF90CEA91CE00EB06DD /* Character.m in Sources */,
+				DA13EE190CEA94E000EB06DD /* GhostLayer.m in Sources */,
+				B10543EB0CECA6C400E85779 /* PacMan.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IronPacMan_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = IronPacMan;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IronPacMan_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = IronPacMan;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = stabs;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "IronPacMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IronPacMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

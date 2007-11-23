@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scenes</key>
+	<array>
+		<dict>
+			<key>branches</key>
+			<dict>
+				<key>Go back to sleep</key>
+				<integer>11</integer>
+				<key>Help Wil Shipley</key>
+				<integer>1</integer>
+				<key>Save John Gruber</key>
+				<integer>9</integer>
+			</dict>
+			<key>events</key>
+			<array>
+				<dict>
+					<key>background</key>
+					<string>titlescreen.jpg</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>bedside.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Another normal morning. I awoke slowly as the morning light reflected off my magical, framed Steve Jobs photo at my bedside and into my tired eyes.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>bedside.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>This photo wasn't a normal picture. It was given to me by Steve Jobs himself the day I graduated from Reality Distortion Field Training School. I went there to hone my powers given after I noticed them awakened within me on the day my parents were brutally murdered by a rampaging unicorn, much in the same way that Steve's own parents were killed.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>bedside.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Because he saw some of himself in me, he decided to train me himself and I excelled above all  the other students. Because of this, when I graduated he gave me the framed and autographed (certified) picture of himself that smiled and winked at me every day as well as told me what girls had crushes on me, helped me pick a place to eat lunch every day and held one thousand songs.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>jobsclose.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Today though, the picture was not smiling (but it still winked, go figure) so I knew something was wrong.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>df.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>I was shocked when woke my Mac to I hit my usual morning sites. This was not good. Something was wrong. John Gruber, the Valiant Defender of the Mac has turned his back and gone over to the Dark Side. Something, or someone, sinister was up and I had to find out.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>tv.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>I switched on the news to get more info, only to find that the Delicious Monster was on a rampage, destroying downtown Seattle. Something was definitely up and I knew I was the only one who could help.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>split.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>I knew Wil Shipley was probably trying to rein in the monster, but he couldn't do it on his own. But I also had to deal with John before his power-limiters broke and his type-lasers would spew from his eyes engulfing the west coast in flames of a thousand five thousand-word essays on the merits of ligatures.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>split.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>But I must act fast. Do I save John first or go help Wil? Or maybe my own powers are growing too fast a rate and this is all a dream. Maybe I should just go back to sleep.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>branches</key>
+			<dict>
+				<key>Check coffee shop</key>
+				<integer>4</integer>
+				<key>Check fancy resturant</key>
+				<integer>3</integer>
+				<key>Check upscale clothing store</key>
+				<integer>2</integer>
+			</dict>
+			<key>events</key>
+			<array>
+				<dict>
+					<key>background</key>
+					<string>split.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Ok! I'll go help Wil with the monster first. That's the more immediate danger since it is already destroying the city.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>seattle.jpg</string>
+					<key>name</key>
+					<string>you</string>
+					<key>text</key>
+					<string>Wow, that was fast. I'm finally here and things do not look good. I need to find Wil, and fast!</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>branches</key>
+			<dict>
+				<key>Check coffee shop</key>
+				<integer>4</integer>
+				<key>Check fancy resturant</key>
+				<integer>3</integer>
+			</dict>
+			<key>events</key>
+			<array>
+				<dict>
+					<key>background</key>
+					<string>clothesshop.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Looks like it's closed.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>branches</key>
+			<dict>
+				<key>Check coffee shop</key>
+				<integer>4</integer>
+				<key>Check upscale clothing store</key>
+				<integer>2</integer>
+			</dict>
+			<key>events</key>
+			<array>
+				<dict>
+					<key>background</key>
+					<string>mcdonalds.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Looks like he's not here.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>branches</key>
+			<dict>
+				<key>Not without help</key>
+				<integer>5</integer>
+				<key>You bet</key>
+				<integer>6</integer>
+			</dict>
+			<key>events</key>
+			<array>
+				<dict>
+					<key>background</key>
+					<string>coffeeshop.jpg</string>
+					<key>left</key>
+					<string>wilworking.gif</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>He's here and furiously coding.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>coffeeshop.jpg</string>
+					<key>left</key>
+					<string>wilworking.gif</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Hey Wil, what's up  with the monster and why are you here coding?</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>coffeeshop.jpg</string>
+					<key>left</key>
+					<string>wilhappy.gif</string>
+					<key>name</key>
+					<string>Wil Shipley</string>
+					<key>text</key>
+					<string>Oh hey... guy... good to see you again.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>coffeeshop.jpg</string>
+					<key>left</key>
+					<string>wilunhappy.gif</string>
+					<key>name</key>
+					<string>Wil Shipley</string>
+					<key>text</key>
+					<string>Actually the delicious monster is a bit of code I hacked together in Objective C before I started the company. He's gotten pretty huge and unruly since then and it looks like someone sinister got to him while I wasn't looking and released him one too many times. Now he's broken out of the autorelease pool I keep him in and now he's destroying the city.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>coffeeshop.jpg</string>
+					<key>left</key>
+					<string>wilunhappy.gif</string>
+					<key>name</key>
+					<string>Wil Shipley</string>
+					<key>text</key>
+					<string>I'm busy trying to find the bug and fix it. In the meantime, can you use your powers to try and contain the monster and minimize the damage it's causing?</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>branches</key>
+			<dict>
+				<key>Do Nothing</key>
+				<integer>6</integer>
+			</dict>
+			<key>events</key>
+			<array>
+				<dict>
+					<key>background</key>
+					<string>coffeeshop.jpg</string>
+					<key>left</key>
+					<string>wilworking.gif</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>I can do it but it will be more effective if I have someone else to make a blog post about it that can make the whole world believe in my own reality. The credibility will help. I know just the person to summon!</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>coffeeshop.jpg</string>
+					<key>left</key>
+					<string>wilworking.gif</string>
+					<key>name</key>
+					<string>Cabel</string>
+					<key>right</key>
+					<string>cabel.gif</string>
+					<key>text</key>
+					<string>You called?</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>coffeeshop.jpg</string>
+					<key>left</key>
+					<string>wilworking.gif</string>
+					<key>name</key>
+					<string>You</string>
+					<key>right</key>
+					<string>cabel.gif</string>
+					<key>text</key>
+					<string>I'm glad you could get here so fast. I need you to make a blog post about my alternate reality. If you could make a song or a witty video about it that would help a lot to reinforce my distorted reality.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>coffeeshop.jpg</string>
+					<key>left</key>
+					<string>wilworking.gif</string>
+					<key>name</key>
+					<string>Cabel</string>
+					<key>right</key>
+					<string>cabel.gif</string>
+					<key>text</key>
+					<string>Sure thing. It is my special power. I do that stuff in my sleep.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>coffeeshop.jpg</string>
+					<key>left</key>
+					<string>wilworking.gif</string>
+					<key>name</key>
+					<string>Cabel</string>
+					<key>right</key>
+					<string>cabel.gif</string>
+					<key>text</key>
+					<string>So if you'll excuse me, I'm going to go to sleep now.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>branches</key>
+			<dict>
+				<key>Compliment him on his outfit</key>
+				<integer>7</integer>
+				<key>Don't feed his ego</key>
+				<integer>8</integer>
+			</dict>
+			<key>events</key>
+			<array>
+				<dict>
+					<key>background</key>
+					<string>seattle.jpg</string>
+					<key>left</key>
+					<string>wilworking.gif</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Well, here goes nothing.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>seattle.jpg</string>
+					<key>left</key>
+					<string>wilworking.gif</string>
+					<key>text</key>
+					<string>Three hours later, Wil fixes the bug and the monster is back in it's pool.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>monsterpool.jpg</string>
+					<key>left</key>
+					<string>wilhappy.gif</string>
+					<key>name</key>
+					<string>Wil</string>
+					<key>text</key>
+					<string>Thanks for your help. I couldn't have done it without you. Well, actually I could have, but the city would be in worse shape.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>monsterpool.jpg</string>
+					<key>left</key>
+					<string>wilhappy.gif</string>
+					<key>text</key>
+					<string>Now that the crisis here has passed I finally notice Wil's snazzy shirt. It's hypnotic. I'd like to compliment him on his fine taste in clothing but doing so would be admitting that I didn't notice it earlier so maybe I shouldn't.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>branches</key>
+			<dict>
+				<key>Do Nothing</key>
+				<integer>10</integer>
+			</dict>
+			<key>events</key>
+			<array>
+				<dict>
+					<key>background</key>
+					<string>monsterpool.jpg</string>
+					<key>left</key>
+					<string>wilhappy.gif</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Hey Wil, I couldn't help but notice your snazzy shirt. You're a really snappy dresser.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>monsterpool.jpg</string>
+					<key>left</key>
+					<string>wilpose.gif</string>
+					<key>name</key>
+					<string>Wil</string>
+					<key>text</key>
+					<string>Heeeeey! I'm glad you noticed! Actually this shirt was hand-made by Tibeten monks working deep in the mountains of New Jersey with fabric made from thread that was spun from a rare African hairy bread mold. It cost me fifty grand but it's bullet-proof and gives me +5 against Objective C.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>monsterpool.jpg</string>
+					<key>left</key>
+					<string>wilpose.gif</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>That explains a lot.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>monsterpool.jpg</string>
+					<key>left</key>
+					<string>wilhat.gif</string>
+					<key>name</key>
+					<string>Wil</string>
+					<key>text</key>
+					<string>Since you've been such a great help to me and this lovely city I'll give you this aweseome hat! It can transport you instantly to anywhere in the world.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>monsterpool.jpg</string>
+					<key>left</key>
+					<string>wilhat.gif</string>
+					<key>name</key>
+					<string>Wil</string>
+					<key>text</key>
+					<string>Just think of the place you want to go and it will take you there. But after you use it, the hat disintegrates.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>monsterpool.jpg</string>
+					<key>left</key>
+					<string>wilpose.gif</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Wow, awesome! Thanks. Now I'm off to save John Gruber and the east coast.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>events</key>
+			<array>
+				<dict>
+					<key>background</key>
+					<string>monsterpool.jpg</string>
+					<key>left</key>
+					<string>wilhappy.gif</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Well I guess I'll be on my way now. I've got to stop John Gruber before he destroy's the east coast.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>monsterpool.jpg</string>
+					<key>left</key>
+					<string>wilhappy.gif</string>
+					<key>name</key>
+					<string>Wil</string>
+					<key>text</key>
+					<string>Good luck!</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>map.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Man it sure is taking a long time to get there. It doesn't look like I'll make it in time.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>gameover.jpg</string>
+					<key>text</key>
+					<string>When one, converses with The Wil Shipley, one must compliment his clothing.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>gameover.jpg</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>events</key>
+			<array>
+				<dict>
+					<key>background</key>
+					<string>gameover.jpg</string>
+					<key>text</key>
+					<string>GAME OVER, because I didn't have time to develop this story branch.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>events</key>
+			<array>
+				<dict>
+					<key>background</key>
+					<string>philly.jpg</string>
+					<key>left</key>
+					<string>johncrazy.gif</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Oh no! He's in the advanced stages.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>philly.jpg</string>
+					<key>left</key>
+					<string>johncrazy.gif</string>
+					<key>name</key>
+					<string>John</string>
+					<key>text</key>
+					<string>Hey I just wrote five thousand words on why Windows Media Player is so fantastic. I think I nailed it.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>philly.jpg</string>
+					<key>left</key>
+					<string>johncrazy.gif</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>I think I know just the thing to snap you out of it.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>markerfelt.jpg</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>philly.jpg</string>
+					<key>left</key>
+					<string>johnbleed.gif</string>
+					<key>name</key>
+					<string>John</string>
+					<key>text</key>
+					<string>OH GOD NO! MY EYES! THEY'RE MELTING! I THINK MY HEAD WILL EXPLODE!</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>philly.jpg</string>
+					<key>left</key>
+					<string>johnconfused.gif</string>
+					<key>name</key>
+					<string>John</string>
+					<key>text</key>
+					<string>...</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>philly.jpg</string>
+					<key>left</key>
+					<string>johnconfused.gif</string>
+					<key>name</key>
+					<string>John</string>
+					<key>text</key>
+					<string>Wait, I feel better now. What the shit is this PC doing here? Where did my pants go?</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>philly.jpg</string>
+					<key>left</key>
+					<string>johnconfused.gif</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>philly.jpg</string>
+					<key>left</key>
+					<string>johnconfused.gif</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>I punched your pants off. Also, someone evil drugged you and made you buy a PC.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>philly.jpg</string>
+					<key>left</key>
+					<string>johnhappy.gif</string>
+					<key>name</key>
+					<string>John</string>
+					<key>text</key>
+					<string>Wow, thanks so much! To show my thanks I'll make you a Daring Fireball member, free of charge. You get a t-shirt and access to the RSS feed.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>philly.jpg</string>
+					<key>left</key>
+					<string>johnhappy.gif</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>John, everyone gets access to the RSS feed now. Remember?</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>philly.jpg</string>
+					<key>left</key>
+					<string>johnhappy.gif</string>
+					<key>name</key>
+					<string>John</string>
+					<key>text</key>
+					<string>Yes, but now you can access it while wearing your DF t-shirt.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>philly.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>Now with this disaster solved I need to get to the bottom of who caused all this mayhem.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>continued.jpg</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>events</key>
+			<array>
+				<dict>
+					<key>background</key>
+					<string>jobsclose.jpg</string>
+					<key>name</key>
+					<string>You</string>
+					<key>text</key>
+					<string>all of a sudden I've got this overwhelming urge to buy a PC.</string>
+				</dict>
+				<dict>
+					<key>background</key>
+					<string>gameover.jpg</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

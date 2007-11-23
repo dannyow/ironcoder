@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F80EF180CF0F4DD00500495 /* ETDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EEFA0CF0F4DC00500495 /* ETDebug.m */; };
+		5F80EF190CF0F4DD00500495 /* ETAppleEventObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EEFC0CF0F4DC00500495 /* ETAppleEventObject.m */; };
+		5F80EF1A0CF0F4DD00500495 /* ETEyeTunes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EEFE0CF0F4DC00500495 /* ETEyeTunes.m */; };
+		5F80EF1B0CF0F4DD00500495 /* ETPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EF000CF0F4DC00500495 /* ETPlaylist.m */; };
+		5F80EF1C0CF0F4DD00500495 /* ETPlaylistEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EF020CF0F4DC00500495 /* ETPlaylistEnumerator.m */; };
+		5F80EF1D0CF0F4DD00500495 /* ETTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EF040CF0F4DC00500495 /* ETTrack.m */; };
+		5F80EF1E0CF0F4DD00500495 /* ETTrackEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EF060CF0F4DC00500495 /* ETTrackEnumerator.m */; };
+		5F80EF1F0CF0F4DD00500495 /* NSString+LongLongValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EF0B0CF0F4DC00500495 /* NSString+LongLongValue.m */; };
+		5F80EF200CF0F4DD00500495 /* CHRetroflowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EF0D0CF0F4DC00500495 /* CHRetroflowController.m */; };
+		5F80EF210CF0F4DD00500495 /* CHStringExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EF0F0CF0F4DD00500495 /* CHStringExtensions.m */; };
+		5F80EF220CF0F4DD00500495 /* CHRetroflowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EF110CF0F4DD00500495 /* CHRetroflowItem.m */; };
+		5F80EF230CF0F4DD00500495 /* CHHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EF130CF0F4DD00500495 /* CHHUDView.m */; };
+		5F80EF240CF0F4DD00500495 /* CHTrackTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EF150CF0F4DD00500495 /* CHTrackTable.m */; };
+		5F80EF250CF0F4DD00500495 /* CHTransparentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80EF170CF0F4DD00500495 /* CHTransparentTableView.m */; };
+		5F80EF290CF0F4ED00500495 /* happyFlower.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F80EF260CF0F4ED00500495 /* happyFlower.png */; };
+		5F80EF2A0CF0F4ED00500495 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F80EF270CF0F4ED00500495 /* record.png */; };
+		5F80EF2B0CF0F4ED00500495 /* noCover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F80EF280CF0F4ED00500495 /* noCover.jpg */; };
+		5F80EF2E0CF0F55F00500495 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F80EF2D0CF0F55F00500495 /* QuartzCore.framework */; };
+		5F80EF340CF0F75C00500495 /* flower.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5F80EF330CF0F75C00500495 /* flower.icns */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Retroflow_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Retroflow_Prefix.pch; sourceTree = "<group>"; };
+		5F80EEF90CF0F4DC00500495 /* ETDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETDebug.h; sourceTree = "<group>"; };
+		5F80EEFA0CF0F4DC00500495 /* ETDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETDebug.m; sourceTree = "<group>"; };
+		5F80EEFB0CF0F4DC00500495 /* ETAppleEventObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETAppleEventObject.h; sourceTree = "<group>"; };
+		5F80EEFC0CF0F4DC00500495 /* ETAppleEventObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETAppleEventObject.m; sourceTree = "<group>"; };
+		5F80EEFD0CF0F4DC00500495 /* ETEyeTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETEyeTunes.h; sourceTree = "<group>"; };
+		5F80EEFE0CF0F4DC00500495 /* ETEyeTunes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETEyeTunes.m; sourceTree = "<group>"; };
+		5F80EEFF0CF0F4DC00500495 /* ETPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPlaylist.h; sourceTree = "<group>"; };
+		5F80EF000CF0F4DC00500495 /* ETPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETPlaylist.m; sourceTree = "<group>"; };
+		5F80EF010CF0F4DC00500495 /* ETPlaylistEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPlaylistEnumerator.h; sourceTree = "<group>"; };
+		5F80EF020CF0F4DC00500495 /* ETPlaylistEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETPlaylistEnumerator.m; sourceTree = "<group>"; };
+		5F80EF030CF0F4DC00500495 /* ETTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTrack.h; sourceTree = "<group>"; };
+		5F80EF040CF0F4DC00500495 /* ETTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTrack.m; sourceTree = "<group>"; };
+		5F80EF050CF0F4DC00500495 /* ETTrackEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTrackEnumerator.h; sourceTree = "<group>"; };
+		5F80EF060CF0F4DC00500495 /* ETTrackEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTrackEnumerator.m; sourceTree = "<group>"; };
+		5F80EF070CF0F4DC00500495 /* EyeTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeTunes.h; sourceTree = "<group>"; };
+		5F80EF080CF0F4DC00500495 /* EyeTunesEventCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeTunesEventCodes.h; sourceTree = "<group>"; };
+		5F80EF090CF0F4DC00500495 /* EyeTunesVersions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeTunesVersions.h; sourceTree = "<group>"; };
+		5F80EF0A0CF0F4DC00500495 /* NSString+LongLongValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LongLongValue.h"; sourceTree = "<group>"; };
+		5F80EF0B0CF0F4DC00500495 /* NSString+LongLongValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LongLongValue.m"; sourceTree = "<group>"; };
+		5F80EF0C0CF0F4DC00500495 /* CHRetroflowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRetroflowController.h; sourceTree = "<group>"; };
+		5F80EF0D0CF0F4DC00500495 /* CHRetroflowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRetroflowController.m; sourceTree = "<group>"; };
+		5F80EF0E0CF0F4DC00500495 /* CHStringExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHStringExtensions.h; sourceTree = "<group>"; };
+		5F80EF0F0CF0F4DD00500495 /* CHStringExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHStringExtensions.m; sourceTree = "<group>"; };
+		5F80EF100CF0F4DD00500495 /* CHRetroflowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRetroflowItem.h; sourceTree = "<group>"; };
+		5F80EF110CF0F4DD00500495 /* CHRetroflowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRetroflowItem.m; sourceTree = "<group>"; };
+		5F80EF120CF0F4DD00500495 /* CHHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHHUDView.h; sourceTree = "<group>"; };
+		5F80EF130CF0F4DD00500495 /* CHHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHHUDView.m; sourceTree = "<group>"; };
+		5F80EF140CF0F4DD00500495 /* CHTrackTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTrackTable.h; sourceTree = "<group>"; };
+		5F80EF150CF0F4DD00500495 /* CHTrackTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTrackTable.m; sourceTree = "<group>"; };
+		5F80EF160CF0F4DD00500495 /* CHTransparentTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTransparentTableView.h; sourceTree = "<group>"; };
+		5F80EF170CF0F4DD00500495 /* CHTransparentTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTransparentTableView.m; sourceTree = "<group>"; };
+		5F80EF260CF0F4ED00500495 /* happyFlower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happyFlower.png; sourceTree = "<group>"; };
+		5F80EF270CF0F4ED00500495 /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
+		5F80EF280CF0F4ED00500495 /* noCover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noCover.jpg; sourceTree = "<group>"; };
+		5F80EF2D0CF0F55F00500495 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		5F80EF330CF0F75C00500495 /* flower.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = flower.icns; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Retroflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Retroflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				5F80EF2E0CF0F55F00500495 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5F80EF0C0CF0F4DC00500495 /* CHRetroflowController.h */,
+				5F80EF0D0CF0F4DC00500495 /* CHRetroflowController.m */,
+				5F80EF0E0CF0F4DC00500495 /* CHStringExtensions.h */,
+				5F80EF0F0CF0F4DD00500495 /* CHStringExtensions.m */,
+				5F80EF100CF0F4DD00500495 /* CHRetroflowItem.h */,
+				5F80EF110CF0F4DD00500495 /* CHRetroflowItem.m */,
+				5F80EF120CF0F4DD00500495 /* CHHUDView.h */,
+				5F80EF130CF0F4DD00500495 /* CHHUDView.m */,
+				5F80EF140CF0F4DD00500495 /* CHTrackTable.h */,
+				5F80EF150CF0F4DD00500495 /* CHTrackTable.m */,
+				5F80EF160CF0F4DD00500495 /* CHTransparentTableView.h */,
+				5F80EF170CF0F4DD00500495 /* CHTransparentTableView.m */,
+				5F80EEF80CF0F4DC00500495 /* EyeTunes */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Retroflow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Retroflow */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Retroflow;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Retroflow_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F80EF330CF0F75C00500495 /* flower.icns */,
+				5F80EF260CF0F4ED00500495 /* happyFlower.png */,
+				5F80EF270CF0F4ED00500495 /* record.png */,
+				5F80EF280CF0F4ED00500495 /* noCover.jpg */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F80EF2D0CF0F55F00500495 /* QuartzCore.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F80EEF80CF0F4DC00500495 /* EyeTunes */ = {
+			isa = PBXGroup;
+			children = (
+				5F80EEF90CF0F4DC00500495 /* ETDebug.h */,
+				5F80EEFA0CF0F4DC00500495 /* ETDebug.m */,
+				5F80EEFB0CF0F4DC00500495 /* ETAppleEventObject.h */,
+				5F80EEFC0CF0F4DC00500495 /* ETAppleEventObject.m */,
+				5F80EEFD0CF0F4DC00500495 /* ETEyeTunes.h */,
+				5F80EEFE0CF0F4DC00500495 /* ETEyeTunes.m */,
+				5F80EEFF0CF0F4DC00500495 /* ETPlaylist.h */,
+				5F80EF000CF0F4DC00500495 /* ETPlaylist.m */,
+				5F80EF010CF0F4DC00500495 /* ETPlaylistEnumerator.h */,
+				5F80EF020CF0F4DC00500495 /* ETPlaylistEnumerator.m */,
+				5F80EF030CF0F4DC00500495 /* ETTrack.h */,
+				5F80EF040CF0F4DC00500495 /* ETTrack.m */,
+				5F80EF050CF0F4DC00500495 /* ETTrackEnumerator.h */,
+				5F80EF060CF0F4DC00500495 /* ETTrackEnumerator.m */,
+				5F80EF070CF0F4DC00500495 /* EyeTunes.h */,
+				5F80EF080CF0F4DC00500495 /* EyeTunesEventCodes.h */,
+				5F80EF090CF0F4DC00500495 /* EyeTunesVersions.h */,
+				5F80EF0A0CF0F4DC00500495 /* NSString+LongLongValue.h */,
+				5F80EF0B0CF0F4DC00500495 /* NSString+LongLongValue.m */,
+			);
+			name = EyeTunes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Retroflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Retroflow" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Retroflow;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Retroflow;
+			productReference = 8D1107320486CEB800E47090 /* Retroflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Retroflow" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Retroflow */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Retroflow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				5F80EF290CF0F4ED00500495 /* happyFlower.png in Resources */,
+				5F80EF2A0CF0F4ED00500495 /* record.png in Resources */,
+				5F80EF2B0CF0F4ED00500495 /* noCover.jpg in Resources */,
+				5F80EF340CF0F75C00500495 /* flower.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				5F80EF180CF0F4DD00500495 /* ETDebug.m in Sources */,
+				5F80EF190CF0F4DD00500495 /* ETAppleEventObject.m in Sources */,
+				5F80EF1A0CF0F4DD00500495 /* ETEyeTunes.m in Sources */,
+				5F80EF1B0CF0F4DD00500495 /* ETPlaylist.m in Sources */,
+				5F80EF1C0CF0F4DD00500495 /* ETPlaylistEnumerator.m in Sources */,
+				5F80EF1D0CF0F4DD00500495 /* ETTrack.m in Sources */,
+				5F80EF1E0CF0F4DD00500495 /* ETTrackEnumerator.m in Sources */,
+				5F80EF1F0CF0F4DD00500495 /* NSString+LongLongValue.m in Sources */,
+				5F80EF200CF0F4DD00500495 /* CHRetroflowController.m in Sources */,
+				5F80EF210CF0F4DD00500495 /* CHStringExtensions.m in Sources */,
+				5F80EF220CF0F4DD00500495 /* CHRetroflowItem.m in Sources */,
+				5F80EF230CF0F4DD00500495 /* CHHUDView.m in Sources */,
+				5F80EF240CF0F4DD00500495 /* CHTrackTable.m in Sources */,
+				5F80EF250CF0F4DD00500495 /* CHTransparentTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Retroflow_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Retroflow;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Retroflow_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Retroflow;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Retroflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Retroflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,38 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                beginPauseContinueTournmentButtonPressed = id; 
+                loadProgramsButtonPressed = id; 
+                removeProgramsButtonPressed = id; 
+                resetTournamentButtonPressed = id; 
+            }; 
+            CLASS = "CWX_Controller"; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                beginPauseContinueTournamentButton = NSButton; 
+                mainWindow = NSWindow; 
+                matchDataBox = NSBox; 
+                memoryArrayView = "CWX_MemoryArrayView"; 
+                program0LossesTextField = NSTextField; 
+                program0NameTextField = NSTextField; 
+                program0PointsTextField = NSTextField; 
+                program0ProcessesTextField = NSTextField; 
+                program0TiesTextField = NSTextField; 
+                program0WinsTextField = NSTextField; 
+                program1LossesTextField = NSTextField; 
+                program1NameTextField = NSTextField; 
+                program1PointsTextField = NSTextField; 
+                program1ProcessesTextField = NSTextField; 
+                program1TiesTextField = NSTextField; 
+                program1WinsTextField = NSTextField; 
+                resetTournamentButton = NSButton; 
+                tournamentTableView = NSTableView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = "CWX_MemoryArrayView"; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

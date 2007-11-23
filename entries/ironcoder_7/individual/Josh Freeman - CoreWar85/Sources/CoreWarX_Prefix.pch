@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CoreWarX' target in the 'CoreWarX' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

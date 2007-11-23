@@ -1,0 +1,7 @@
+dat -1
+dat 6
+mov #0, @-2
+mov #0, @-2
+sub #4, -4
+add #4, -4
+jmp -4

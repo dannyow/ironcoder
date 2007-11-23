@@ -1,0 +1,30 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww11380\viewh8920\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs36 \cf0 RetroVersion 1.0\
+
+\fs28 IronCoder 7 Entry by Philippe Casgrain, philippe@casgrain.com\
+License: BSD\
+
+\fs24 \
+I wanted to write something that would actually be useful to me in this contest.\
+\
+RetroVersion is a subversion revision browser. It uses "svn log --xml" to gain information about a specific file, and then displays those versions in a resizable NSTextView that is animated in-and-out using Core Animation.\
+\
+Simply enter a URL for a Subversion file to which you have access and click "Fetch". Retroversion will retrieve the information asynchronously and display it to you. Tooltips included!\
+\
+Requires:\
+	- MacOSX 10.5\
+	- Subversion binary in /usr/bin/ (default on 10.5)\
+	- A svn url (svn://, svn+ssh://, http://. https://, file://) to which you have access rights\
+\
+Demonstrates:\
+	- Parsing with NSXML\
+	- Threading\
+	- Ultra-basic animation\
+	- Garbage collection and fast enumeration (Obj-C 2.0)\
+\
+Thanks to my daughter Cynthia for the icon!}

@@ -1,0 +1,11 @@
+cmp 6 -15
+jmp 6
+mov 4 @3
+add #20 2
+jmp -4
+dat 20
+spl 0
+mov #0 @3
+add #1 2
+jmp -2
+dat 1

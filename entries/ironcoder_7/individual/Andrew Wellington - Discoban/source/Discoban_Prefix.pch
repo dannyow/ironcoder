@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Discoban' target in the 'Discoban' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
